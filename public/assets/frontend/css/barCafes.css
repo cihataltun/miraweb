@@ -1,0 +1,453 @@
+body{
+    position: relative;
+}
+
+.barsHero{
+    position: relative;
+    margin-top: 89px;
+}
+.barsHero img{
+    width: 100vw;
+    height: auto;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.barsHero h1{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75%;
+}
+.barCafesHeroText{
+    margin: 80px 32.865vw;
+}
+.barCafesHeroText p{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.barCafesHeroText:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #A1A1A1;
+    margin-top: 80px;
+    opacity: 0.5;
+    left: 0;
+}
+
+.findAlacarte{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 90px;
+    align-items: center;
+}
+
+.findLeftSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: clamp(20px, 1.8vw,35px);
+}
+
+.findLeftSide h2{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: clamp(25px, 1.823vw,35px);
+    line-height: clamp(30px, 2.3vw,45px);
+    color: rgba(35, 48, 56, 0.8);
+    text-transform: uppercase;
+}
+
+.bars{
+    padding: 15px;
+    background: #F8F8F8;
+    
+    position: relative;
+}
+
+.restaurantsGrid{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 52px;
+    grid-auto-rows: minmax(100px, auto);
+    position: relative;
+}
+
+.bars .barCafeImg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 177px;
+}
+
+.bars .restaurantsHeader{
+    display: flex;
+    flex-direction: row;
+    gap: min(20px, 1vw);
+    margin-left: min(40px, 2vw);
+    margin-top: min(30px, 1.563vw);
+    align-items: flex-start;
+}
+
+.bars article{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.bars article p{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(10px, 0.677vw,13px);
+    line-height: clamp(14px, 1vw,20px);
+    color: rgba(35, 48, 56, 0.8);
+    text-align: left;
+    width: 65%;
+    margin-left:  min(40px, 2vw);
+    margin-bottom: 0px;
+}
+.roomlink{
+    text-decoration: none!important;
+}
+.moreButton .roomlink{
+    display: none!important;
+}
+.bars h3{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px, 1.3vw,25px);
+    text-align: left;
+    line-height: clamp(22px, 1.563vw,32px);
+    color: rgba(35, 48, 56, 0.8);
+    text-transform: uppercase;
+}
+
+.fish img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    right: 5%;
+    bottom: 29%;
+    max-width: 376px;
+    z-index: -1;
+}
+
+.item .moreButton a{
+    margin-top: 0!important;
+}
+
+
+.item .moreButton a:hover {
+    color: #FFFFFF!important;
+    background-color: #232323;
+    transition: all 0.2s linear;
+}
+.item .moreButton{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    justify-content: flex-end!important;
+    align-items: flex-end!important;
+}
+.item .moreButton a{
+    font-size: clamp(11px, 0.729vw,14px);
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-family: 'Montserrat', serif;
+    text-decoration: none !important;
+    font-style: normal;
+    text-align: center;
+    color: #233038;
+    white-space: nowrap;
+    border: 1px solid #868686;
+    font-weight: 700;
+    width: clamp(100px, 7.5vw, 150px);
+    height: clamp(28px, 2.15vw, 42px);
+}
+
+
+@media screen and (max-width: 576px){
+    .restaurantsGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.findAlacarte-wrapper{
+    position: relative;
+}
+.actions {
+    margin: 5px;
+}
+.grid {
+    margin: 60px 0px 60px calc((100vw - 1124px)/2)  ;
+    position: relative;
+}
+.item {
+    position: absolute;
+    width: 562px;
+    height: fit-content;
+    overflow: hidden;
+    margin: 0px 25px 25px 0px;
+    z-index: 1;
+}
+
+.item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.findRightSide label{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(15px, 1.3vw,25px);
+    line-height: clamp(30px, 2vw,40px);
+    letter-spacing: -0.035em;
+    color: rgba(35, 48, 56, 0.8);
+}
+.checkbox input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #CFCFCF;
+}
+
+.findRightSide{
+    display: flex;
+    gap: clamp(25px, 2vw,40px);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.checkboxes {
+    display: block;
+    position: relative;
+    padding-left: clamp(25px, 2.344vw,45px);
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxes input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: clamp(15px, 1.3vw,25px);
+    width: clamp(15px, 1.3vw,25px);
+    border: 1px solid #CFCFCF;
+    bottom: 0;
+    margin: auto;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxes input:checked ~ .checkmark {
+    background-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxes input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxes .checkmark:after {
+    left: clamp(8px, 0.573vw,11px);
+    top: clamp(-5.5px, -0.43vw, -8px);
+    width: clamp(12px, 0.885vw,17px);
+    height: clamp(16px, 1.3vw,25px);
+    border: solid rgba(35, 48, 56, 0.8);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.vh{
+    position: relative;
+    height: 130px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(161, 161, 161, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 1px;
+    opacity: 0.5;
+}
+@media screen and (min-width: 2397px){
+
+.grid {
+    margin: 60px calc((100vw - 2348px) / 2 );
+    position: relative;
+}
+.bars article p{
+    width: 50%;
+}
+}
+@media screen and (max-width: 1300px){
+    .item{
+        width: 400px;
+    }
+    .grid {
+        margin: 60px 0px 60px calc((100vw - 800px)/2);
+    }
+    .barSvg,.barsSvg{
+        transform: scale(.8);
+    }
+}
+@media screen and (max-width: 900px){
+    .item{
+        width: 39vw;
+    }
+    .grid {
+        margin: 60px 0px 60px calc((100vw - 78vw)/2);
+    }
+    .bars .barCafeImg{
+        height: 200px;
+    }
+    .bars article p{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 880px){
+    .barCafesHeroText{
+        margin: 60px 12vw 60px 12vw;
+    }
+    .findAlacarte{
+        margin-bottom: 30px;
+    }
+    .barSvg{
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .alacarteHero .gastroP p{
+        text-align: center;
+        width: 90%;
+    }
+    .alacarteHero .gastroP{
+        margin:75px 20px;
+    }
+    .mobile{
+        display: none;
+    }
+    .alacarteHero img{
+        width: 100vw;
+        height: 50vh;
+    }
+    .alacarteHero .alacarteIcons{
+        margin-top: 45px;
+    }
+    .alacarteHero:after{
+        margin-top: 0;
+    }
+    .findAlacarte{
+        margin-top: 60px;
+    }
+    .grid{
+        margin:0;
+    }
+  
+    .bars article{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .findAlacarte{
+        margin-top: 144px;
+        flex-direction: column;
+    }
+    .findRightSide{
+        gap: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .findRightSide label{
+        font-size: 18px;
+    }
+    .findLeftSide{
+        justify-content: center;
+    }
+ 
+    .vh{
+        display: none;
+    }
+    .barCafesHeroText{
+        margin:60px 2vw 80px 2vw;
+    }
+   
+    .item{
+        width: 90vw;
+        margin: 0px 5vw 5vw 0px;
+    }
+    .findAlacarte{
+        margin-bottom: 0px;
+    }
+    .grid {
+        margin: 0px 0px 60px calc((100vw - 90vw)/2);
+    }
+
+    .bars article p{
+        width: 50%;
+    }
+    
+}
+
+
+.pageUpButton {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    text-align: center;
+}

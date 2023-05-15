@@ -1,0 +1,267 @@
+.entertainmentHero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+}
+.heroImage img{
+    width: 100vw!important;
+    height: auto;
+    object-fit: cover;
+}
+
+.heroImage figure{
+    position: relative;
+    margin: 0px;
+}
+
+.heroImage figure:before{
+    content: ' ';
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+}
+.moreButton a:not(:hover) {
+    color: #233038;
+    background: transparent;
+    transition: all 0.3s linear;
+}
+
+.moreButton a:hover {
+    background: #233038;
+    color: #FFFFFF !important;
+    transition: all 0.3s linear;
+}
+
+.moreButton a{
+   
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none!important;
+    font-size: 14px;
+    line-height: 17px;
+    width: 150px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #233038;
+    background: transparent;
+    margin-top: 30px;
+    border: 1px solid #233038;
+
+}
+.entertainmentHero article h1{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 6px 7px rgba(0, 0, 0, 0.25);
+}
+.entertainmentHero article h1:after{
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 55.125vw;
+    margin: 40px;
+    opacity: 0.5;
+}
+
+.entertainmentHero article span{
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #F8F8F8;
+    display: block;
+}
+
+.entertainmentHero article{
+    position: absolute;
+    margin: auto;
+    z-index: 3;
+}
+
+
+.roomlink{
+    display: contents;
+}
+
+.entertainmentSection {
+    margin: 83px 6.406vw 83px 6.406vw;
+}
+
+
+
+.pageUpButton {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.entertainmentSection img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.entertainmentSection article {
+    position: relative;
+}
+
+.leftText {
+    margin-right: 10.125vw;
+    margin-left: 5.208vw;
+}
+
+.rightText {
+    padding-left: 10.167vw;
+    margin-right: 5.208vw;
+}
+
+.entertainmentSection article h2 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    text-transform: uppercase;
+}
+
+.entertainmentSection article h2:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 30%;
+    margin: 30px 0 30px -35px;
+    opacity: 0.5;
+}
+
+.entertainmentSection article p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.entertainmentSection article span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3D515E;
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.entertainmentSection .moreButton {
+    justify-content: flex-start;
+}
+
+.entertainmentSection .col-lg-5 {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1281px) {
+    .entertainmentSection {
+        margin: 60px 4.406vw 100px 4.406vw !important;
+    }
+}
+@media screen and (max-width: 1200px){
+.entertainmentHero{
+    margin-top: 0px;
+}
+}
+@media screen and (max-width: 880px) {
+    .leftText{
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .entertainmentSection article h2:after{
+        width: 100%;
+        margin: 30px 0 30px 0px;
+    }
+
+    .entertainmentSection article p{
+        text-align: center;
+        width: 80%;
+    }
+
+    .entertainmentSection .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightText{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroImage img{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .entertainmentHero article h1{
+        font-size: 25px!important;
+        line-height: 37px!important;
+    }
+    .entertainmentHero article h1:after{
+        width: auto;
+        margin: 20px;
+    }
+
+    .entertainmentHero article span{
+        font-size: 17px!important;
+        line-height: 22px!important;
+    }
+    .entertainmentSection{
+        margin-bottom: 80px !important;
+    }
+
+    .entertainmentSection h2{
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-top: 30px!important;
+    }
+
+    .entertainmentSection h2:after{
+        margin: 20px 0 20px 0 !important;
+    }
+
+    .entertainmentSection p{
+        font-size: 13px!important;
+        line-height: 19px!important;
+    }
+}
+

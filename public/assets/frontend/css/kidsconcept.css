@@ -1,0 +1,902 @@
+.childrenHero {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%), url("../images/kidsConcept/childrenCover.webp");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% auto;
+    height: 34.375vw;
+    width: 100vw;
+    margin-top: 89px;
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+
+
+.childrenHero h1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 6px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: min(40px, 2vw);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.swiper-button-next:after,.swiper-button-prev::after{
+    display: none!important;
+}
+.childrenText span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    color: rgba(35, 48, 56, 0.8);
+    margin: min(100px, 5.2vw) 0 30px 0;
+}
+
+.childrenText span:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    opacity: 0.5;
+}
+
+.childrenSpecsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.childrenSpecsInfo svg {
+    width: 45px;
+    height: 45px;
+}
+
+.childrenSpecsInfo p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(35, 48, 56, 0.8);
+    margin-top: 30px;
+}
+
+.childrenDetailSpecs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.childrenActivitySlider {
+    margin-left: 22.55vw;
+}
+.activitySlider{
+    padding-bottom: 160px;
+}
+
+.childrenActivitySlider img {
+    object-fit: cover;
+    width: 410px;
+}
+
+.childrenActivitySlider figure {
+    height: auto;
+    position: relative;
+    width: fit-content;
+
+}
+
+.childrenActivitySlider figure:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.slider-row {
+    width: 75vw;
+    margin-left: 3vw;
+}
+
+.row-swiper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+
+.icon-row {
+    width: 24.323vw;
+}
+
+.childrenActivitySlider figure:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #CFCFCF;
+    left: 51px;
+    top: 102px;
+    z-index: -1;
+}
+
+.childrenActivitySlider h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-transform: uppercase;
+}
+
+.childrenActivitySlider span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #F8F8F8;
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+    right: 0%;
+}
+
+.childrenActivitySlider p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    
+}
+
+.childrenFoodSlider p, .childrenActivitySlider p{
+    margin-left: calc(48px + 2vw);
+    width: min(60%,300px);
+    left: auto;
+    right: auto;
+
+}
+.childrenSliderIcon{
+    position: absolute;
+    width: min(210px, 10.938vw);
+    right: -11vw;
+    margin: auto 0;
+}
+
+.activitySlider .swiper-button-next {
+    opacity: 0.5;
+    margin-top: 100px;
+    margin-left: 959px;
+    right: auto;
+}
+
+.activitySlider .swiper-button-next:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.activitySlider .swiper-button-next:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.activitySlider .swiper-button-prev {
+    opacity: 0.5;
+    margin-top: 100px;
+    margin-left: 435px;
+}
+
+.activitySlider .swiper-button-prev:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.activitySlider .swiper-button-prev:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+/* Activity Slide End */
+
+
+.foodSlide {
+    margin-bottom: 100px;
+}
+
+.foodSlide .col-md-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.childrenFoodSlider .swiper-wrapper {
+    padding-bottom: 100px;
+}
+
+.childrenFoodSlider img {
+    width: 410px;
+    object-fit: cover;
+}
+
+.childrenFoodSlider figure {
+    height: auto;
+    position: relative;
+    width: fit-content;
+}
+
+.childrenFoodSlider figure:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.childrenFoodSlider figure:after {
+    content: '';
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    border: 1px solid #CFCFCF;
+    left: 51px;
+    top: 102px;
+    z-index: -1;
+}
+
+.childrenFoodSlider h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 15px;
+    left: 125px;
+    text-transform: uppercase;
+}
+
+.childrenFoodSlider span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #F8F8F8;
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+    right: 0%;
+}
+
+.childrenFoodSlider p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+}
+
+.sliderIcon img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sliderIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.childrenFoodSlider .swiper-button-next:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.childrenFoodSlider .swiper-button-next:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.childrenFoodSlider .swiper-button-prev {
+    opacity: 0.5;
+    margin-top: 100px;
+    right: 965px;
+    left: auto;
+}
+.childrenFoodSlider .swiper-button-next {
+    opacity: 0.5;
+    margin-top: 100px;
+    right: 452px;
+    left: auto;
+}
+.childrenFoodSlider .swiper-button-prev:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.childrenFoodSlider .swiper-button-prev:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+#childrenCarousel {
+    position: relative;
+}
+
+#childrenCarousel figure {
+    position: relative;
+    margin: 0px!important;
+}
+.childrenFoodSlider h5, .childrenActivitySlider h5{
+    width: 380px;
+}
+#childrenCarousel figure:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+#childrenCarousel h5 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 18%;
+    left: 25%;
+}
+
+#childrenCarousel h5:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    left: -30%;
+    bottom: -10px;
+}
+
+#childrenCarousel p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+}
+
+
+#childrenCarousel span {
+    position: absolute;
+    bottom: 10%;
+}
+
+
+.childrenFoodSlider{
+    z-index: 5;
+padding-bottom: 80px;
+    position: relative;
+}
+
+.kidsSpecialOffer {
+    margin-top: 100px;
+    margin-left: 15%;
+    padding-bottom: 3vw;
+    position: relative;
+}
+.kidsSpecialOffer h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px, 1.146vw,22px);
+    line-height: clamp(20px, 1.563vw,30px);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    z-index: 100;
+}
+.specialOfferSlider .swiper-button-next:after,.specialOfferSlider .swiper-button-prev:after{
+    display: none;
+}
+.kidsSpecialOffer h6 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #233038;
+    margin-bottom: 30px;}
+.swiper-button-next img,.swiper-button-prev img,.swiper-button-next,.swiper-button-prev{
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+.kidsSpecialOffer figure img {
+    width: 343px;
+    height: 100%;
+    object-fit: cover;
+
+    max-width: 343px;
+    position: relative;
+    z-index: 25;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+.kidsSpecialOffer figure {
+    position: relative;
+    z-index: 25;
+    margin-top: 48px;
+}
+
+.kidsSpecialOffer figure:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    max-width: 343px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 96;
+}
+
+.kidsSpecialOffer .swiper-slide {
+    position: relative;
+    z-index: 20;
+    transform: none !important;
+    transition-property: none !important;
+}
+
+
+.backgroundLines {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    max-width: 343px;
+    border: 1px solid #CFCFCF;
+    z-index: -500;
+    top: 0;
+    left: 48px;
+}
+.kidsSpecialOffer .specialSvg {
+    width: unset !important;
+    height: unset !important;
+    object-fit: unset !important;
+    position: relative;
+    z-index: 30;
+}
+
+.kidsSpecialOffer .swiper-slide-active .backgroundLines img, .swiper-slide-next .backgroundLines img {
+    opacity: 1;
+}
+
+.kidsSpecialOffer .swiper {
+    padding-bottom: 30px;
+}
+.foodSliderWrapper{
+    margin-right: 20vw;
+}
+.swiper-pagination-bullet-active {
+    color: #66252B;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: transparent;
+}
+
+.kidsSpecialOfferSlider .swiper-pagination {
+    width: 60% !important;
+}
+
+.specialOfferSlider .swiper-button-next {
+    left: 782px;
+    position: absolute;
+}
+
+.childrenActivitySlider .swiper-pagination, .childrenFoodSlider .swiper-pagination{
+    width: 100%;
+position: absolute;
+bottom: 41px;
+margin: auto;}
+
+.backgroundLines img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -35%;
+    top: 75%;
+    z-index: 0;
+    opacity: 0;
+
+}
+
+.kidsSpecialOffer .swiper-slide:after {
+    content: ' ';
+    width: 100%;
+    height:100%;
+    position: absolute;
+    max-width: 343px;
+    border-top: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
+    border-image: linear-gradient(to bottom, #CFCFCF, white) 10;
+    z-index: -1;
+    top: 0;
+    margin-left: 48px;
+}
+.specialOfferSlider article {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    margin-top: 25%;
+    left: 0;
+    right: 0;
+    max-width: 343px;
+    z-index: 25;
+}
+.kidsSpecialOffer span {
+    font-family: 'Montserrat', serif !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    text-align: center;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+.kidsSpecialOffer p {
+    font-family: 'Lora', serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 25px !important;
+    line-height: 32px !important;
+    color: #FFFFFF !important;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15) !important;
+    text-transform: uppercase;
+    margin-top: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.swiper-slide p{
+    direction: ltr;
+}
+.kidsSpecialOffer h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px, 1.146vw,22px);
+    line-height: clamp(20px, 1.563vw,30px);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    z-index: 100;
+}
+.kidsSpecialOffer .swiper-button-next:after,.kidsSpecialOffer .swiper-button-prev:after{
+    display: none;
+}
+.specialOfferSlider .swiper-button-prev, .specialOfferSlider .swiper-button-next {
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+
+}
+.specialOfferSlider .swiper-button-prev {
+    left: 353px;
+    position: absolute;
+}
+.specialOfferSlider .swiper-button-next, .specialOfferSlider .swiper-button-prev{
+    top: 464px;
+    position: absolute;
+}
+.kidsSpecialOffer .swiper-button-prev .restSvg:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.kidsSpecialOffer .swiper-button-prev .specialSvg:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.kidsSpecialOffer .swiper-button-next .restSvg:not(:hover) {
+    opacity: 0.5;
+    transition: opacity 0.1s linear;
+}
+
+.kidsSpecialOffer .swiper-button-next .restSvg:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.kidsSpecialOfferSlider article {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    margin-top: 25%;
+    left: 0;
+    right: 0;
+    max-width: 343px;
+    z-index: 25;
+}
+.pageUpButton {
+    margin-top: 100px !important;
+    text-align: center;
+}
+
+@media screen and (max-width: 1281px) {
+    
+    .kidsSpecialOffer article{
+        margin-top: 35%;
+    }
+
+.activitySlider .swiper-button-prev{
+    display: none;
+}
+.activitySlider .swiper-button-next{
+   margin-left: 448px;
+}
+   
+}
+@media screen and (max-width: 1200px) {
+    .childrenHero{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .backgroundLines{
+        width: 100%;
+    }
+    
+        .kidsSpecialOffer .swiper-pagination{
+            width: 74%;
+        }
+        
+    }
+    @media screen and (max-width: 980px){
+        .specialOfferSlider .swiper-button-prev{
+            display: none;
+        }
+       
+        .specialOfferSlider .swiper-button-next{
+            left: 353px;
+        }
+    
+    }        
+
+
+@media screen and (max-width: 880px) {
+
+
+    .icon-row {
+        display: none;
+    }
+
+   
+
+    .row-swiper {
+        display: block !important;
+        margin-right: 40px;
+    }
+
+    .slider-row {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 576px) {
+    .childrenHero{
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .childrenActivitySlider{
+        margin-left: 5vw;
+    }
+    .foodSliderWrapper{
+        margin-right:5vw;
+    }
+    .childrenHero h1 {
+        font-size: 25px !important;
+        line-height: 32px !important;
+    }
+
+    .childrenText span {
+        font-size: 18px !important;
+        line-height: 27px !important;
+        text-align: center !important;
+        margin: min(100px, 5.2vw) 0 50px 0 !important;
+    }
+
+    .childrenText span:after {
+        display: none !important;
+    }
+
+    .childrenSpecsInfo {
+        min-width: 25vw;
+    }
+
+    .childrenSpecsInfo p {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .childrenDetailSpecs {
+        margin-bottom: 60px !important;
+    }
+
+    .childrenDetailSpecs {
+        flex-wrap: wrap;
+        column-gap: 2px;
+        row-gap: 54px;
+        justify-content: space-evenly;
+    }
+
+    
+
+    .row-swiper {
+        margin-right: 10px !important;
+    }
+
+   
+  
+    #childrenCarousel img {
+        width: auto !important;
+        margin-left: -80vw !important;
+        height: 50vh !important;
+    }
+
+    #childrenCarousel h5 {
+        bottom: 80% !important;
+    }
+
+    #childrenCarousel p {
+        bottom: 68% !important;
+    }
+    .kidsSpecialOffer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: clamp(0px,10.26vw ,389px);
+
+    }
+
+    .kidsSpecialOffer .swiper-pagination{
+        margin-left: 22%;
+    }
+    .kidsSpecialOffer .swiper-button-prev{
+        display: none;
+    }
+    .kidsSpecialOffer .swiper-button-next{
+        left: 281px;
+        top: 394px;
+    }
+
+    .kidsSpecialOffer figure img,.kidsSpecialOffer figure:before{
+        width: 280px;
+    }.backgroundLines{
+        left: 36px!important;
+        width: 280px!important;
+    }
+    .kidsSpecialOffer figure{
+        margin-top: 36px;
+    }
+    .kidsSpecialOffer article{
+        max-width: 280px;
+    }
+    .kidsSpecialOffer .swiper-slide:after {
+        max-width: 280px;
+        border-top: 1px solid #CFCFCF;
+        border-right: 1px solid #CFCFCF;
+        border-left: 1px solid #CFCFCF;
+        border-image: linear-gradient(to bottom, #CFCFCF, white) 10;
+        z-index: -1;
+        top: 0;
+        margin-left: 36px;
+    }
+    .childrenActivitySlider img,.childrenFoodSlider img{
+        width: 280px;
+    }
+    .childrenActivitySlider figure:after,.childrenFoodSlider figure:after{
+        left: 38px;
+        top: 76px;
+    }
+    .childrenFoodSlider .swiper-button-prev {
+        right: 305px;
+    }
+    .activitySlider .swiper-button-next {
+        margin-left: 305px;
+    }
+    .activitySlider .swiper-button-prev, .childrenFoodSlider .swiper-button-next{
+        display: none;
+    }
+    .childrenFoodSlider h5, .childrenActivitySlider h5{
+        width: 250px;
+    }
+    .childrenActivitySlider .swiper-button-next,.childrenFoodSlider .swiper-button-prev{
+        margin-top: -50px;
+    }
+    .childrenCarousel img{
+        object-fit: cover;
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+
+.kidsSvg {
+    width: unset !important;
+    height: unset !important;
+    object-fit: unset !important;
+    max-width: 30px !important;
+}

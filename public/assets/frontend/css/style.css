@@ -1,0 +1,3077 @@
+.heroText h1,
+.heroText img {
+    position: relative;
+    z-index: 1
+}
+
+.heroSocialMediaIcon,
+.heroText {
+    position: absolute;
+    display: flex
+}
+
+.homeTextCard .row .col-lg-4 .row,
+.inclusiveSlider {
+    overflow: visible !important
+}
+
+body,
+html {
+    background-color: #fff;
+    padding: 0;
+    width: 100vw;
+    margin: 0;
+    z-index: 0;
+    overflow-x: hidden
+}
+
+.hamburgerMenu {
+    background-color: transparent
+}
+
+.heroText {
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    right: 0;
+    gap: min(30px, 1.563vw);
+    flex-direction: column;
+    left: 0;
+    height: fit-content;
+    z-index: 6;
+    margin: 0 auto
+}
+
+.heroText h1 {
+    font-family: Lora, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(20px, 1.5vw, 30px);
+    text-align: center;
+    text-shadow: 0 6px 7px rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+    color: #fff
+}
+
+.heroText img {
+    width: clamp(200px, 18.229vw, 350px)
+}
+
+.booking a,
+.booking input,
+.booking span {
+    font-weight: 300;
+    z-index: 10;
+    font-size: clamp(15px, 1vw, 20px);
+    line-height: clamp(20px, 1.25vw, 24px);
+    width: clamp(90px, 15.781vw, 303px);
+    height: clamp(40px, 3.125vw, 60px);
+    text-align: center;
+    text-decoration: none !important
+}
+
+.heroSwiperNext,
+.heroSwiperPrev {
+    z-index: 7
+}
+
+.gastronomySlider .swiper-button-next img,
+.gastronomySlider .swiper-button-prev img,
+.heroSwiperNext img,
+.heroSwiperPrev img {
+    filter: invert(1)
+}
+
+.heroSocialMediaIcon {
+    bottom: 40px;
+    left: 32px;
+    z-index: 6;
+    flex-direction: row;
+    gap: 30px
+}
+
+.booking,
+.booking a {
+    justify-content: center
+}
+
+.heroTopSwiper {
+    width: 100vw;
+    margin-top: 89px;
+    max-height: 100vh;
+    position: relative;
+    height: calc(100dvh - 250.75px);
+    z-index: 5
+}
+
+.heroTopSwiper .homeHeroSwiperImg {
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: 100vh;
+    max-width: 100vw
+}
+
+.booking {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start
+}
+
+.Roomswiper .swiper-button-next,
+.childAgeCounter1,
+.childAgeCounter2,
+.childAgeCounter3,
+.gastronomySlider .swiper-pagination,
+.guestMenu,
+.inclusive-next,
+.inclusive-prev,
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none
+}
+
+.guestMenu {
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    justify-content: center;
+    width: min(303px, 15.781vw);
+    min-width: fit-content;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 2vw;
+    align-items: center;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, .1)
+}
+
+.childrenSlider .swiper-button-next:not(:hover),
+.childrenSlider .swiper-button-prev:not(:hover),
+.decrement,
+.homeSpecialOffer .swiper-button-next .specialSvg:not(:hover),
+.homeSpecialOffer .swiper-button-prev .specialSvg:not(:hover),
+.increment {
+    opacity: .5;
+    transition: opacity .1s linear
+}
+
+.childrenSlider .swiper-button-next:hover,
+.childrenSlider .swiper-button-prev:hover,
+.concertsWrapper .swiper-button-next:hover,
+.concertsWrapper .swiper-button-prev:hover,
+.decrement:hover,
+.homeSpecialOffer .swiper-button-next .specialSvg:hover,
+.homeSpecialOffer .swiper-button-prev .specialSvg:hover,
+.increment:hover {
+    opacity: 1;
+    transition: opacity .1s linear
+}
+
+.concertsWrapper .swiper-button-next:not(:hover),
+.concertsWrapper .swiper-button-prev:not(:hover),
+.thinLine {
+    opacity: .5
+}
+
+.booking .adultCounter,
+.booking .childCounter {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+
+.childAgeCounter {
+    justify-content: space-between
+}
+
+.booking .counter-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start
+}
+
+.counter-item img,
+.guests {
+    cursor: pointer
+}
+
+.booking a {
+    background-color: #233038;
+    color: #fff !important;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    display: flex;
+    position: relative;
+    align-items: center
+}
+
+.booking input,
+.booking span,
+.guestMenu p {
+    color: #233038;
+    font-family: Montserrat, serif;
+    font-style: normal
+}
+
+.booking input,
+.booking span {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: #f8f8f8
+}
+
+.booking input {
+    border-right: none
+}
+
+.guestMenu p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.guestDiv {
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.flatpickr-input:focus-visible {
+    outline: 0 !important
+}
+
+.cur-year,
+.flatpickr-monthDropdown-months {
+    font-family: Montserrat, serif !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #233038 !important
+}
+
+.flatpickr-day,
+.flatpickr-weekday {
+    font-family: Montserrat, serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    color: rgba(35, 48, 56, .8) !important
+}
+
+.flatpickr-weekday {
+    font-size: 11px !important;
+    line-height: 13px !important
+}
+
+.flatpickr-input.active,
+.guests.active {
+    outline: rgba(35, 48, 56, .5) auto 1px !important
+}
+
+.flatpickr-day.selected {
+    border: 1px solid #233038 !important;
+    background: #233038 !important;
+    color: #fff !important
+}
+
+.firstCalendar .bookNow {
+    background: #233038;
+    color: #fff !important
+}
+
+.thinLine {
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #939393 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 100%
+}
+
+.homeIcons .iconGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    gap: 35px
+}
+
+.homeIcons .iconGroup img {
+    height: clamp(38px, 2.5vw, 48px)
+}
+
+.iconGroup span {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: clamp(12px, .7vw, 14px);
+    line-height: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, .8)
+}
+
+.homeAccommdationmoreButton,
+.homeIconWrapper,
+.homeServicesButton,
+.moreButton,
+.travelSlider .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.homeIconContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: clamp(60px, 5.2vw, 100px) 0;
+    gap: min(8.021vw, 154px);
+    align-items: center
+}
+
+@media screen and (max-width:768px) {
+    .homeIcons .row {
+        flex-wrap: wrap
+    }
+
+    .homeIcons .row .col-4,
+    .homeIcons .row .col-6,
+    .homeIcons .row .col-md-2 {
+        width: 33.3% !important
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .homeIcons .row .col-4,
+    .homeIcons .row .col-6,
+    .homeIcons .row .col-md-2 {
+        width: 50% !important
+    }
+}
+
+.inclusiveArea h2 {
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #233038;
+    margin-bottom: 25px
+}
+
+.inclusiveArea p,
+.inclusiveArea span {
+    font-family: Montserrat, serif;
+    font-style: normal
+}
+
+.inclusiveArea span {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(35, 48, 56, .8);
+    margin-bottom: 25px
+}
+
+.inclusiveArea {
+    margin-top: min(100px, 5.2vw)
+}
+
+.inclusiveArea p {
+    font-weight: 400;
+    margin: 0 !important;
+    font-size: clamp(13px, .99vw, 15px);
+    line-height: clamp(15px, 1.17vw, 22.5px);
+    text-align: justify;
+    width: min(454px, 23.646vw);
+    color: #000
+}
+
+.homeTextCard .starNumber,
+.homeTextCard h3 {
+    font-family: Lora, serif;
+    font-weight: 500;
+    color: #233038;
+    font-style: normal
+}
+
+.inclusiveText {
+    display: flex;
+    justify-content: center;
+    gap: min(30px, 1.563vw);
+    margin: auto
+}
+
+.homeTextCard {
+    width: 100vw;
+    margin-bottom: min(136px, 7.083vw);
+    margin-top: min(30px, 1.563vw)
+}
+
+.homeTextCard .starNumber {
+    display: flex;
+    align-items: center;
+    font-size: 65px;
+    line-height: 83px;
+    gap: 10px
+}
+
+.homeTextCard .row {
+    justify-content: flex-end;
+    gap: min(20px, 1.394vw);
+    overflow: visible
+}
+
+.homeTextCard .row .col-lg-8 {
+    width: fit-content !important;
+    overflow: visible !important
+}
+
+.homeTextCard .row .col-lg-4 {
+    position: relative;
+    z-index: 5;
+    width: 35vw !important
+}
+
+.contactForm .contact-form-item:nth-child(4),
+.homeTextCard p {
+    width: 100%
+}
+
+.homeTextCard .row .col-lg-4::after {
+    position: absolute;
+    content: '';
+    width: 60vw;
+    height: 110%;
+    background-color: #fff;
+    top: -5%;
+    right: -3vw;
+    z-index: -1
+}
+
+.homeTextCard h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: min(27px, 1.4vw)
+}
+
+.homeTextCard h5 {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(35, 48, 56, .8);
+    margin-top: 30px
+}
+
+.homeTextCard .col-md-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+.homeTextCard .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.childrenSlider .swiper-pagination-bullet-active,
+.inclusiveSlider .swiper-pagination-bullet-active,
+.specialOfferSlider .swiper-pagination-bullet-active {
+    color: #66252b
+}
+
+.childrenSlider .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.inclusiveSlider .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.specialOfferSlider .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: 0 0
+}
+
+.inclusiveSlider .swiper-pagination-horizontal {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    bottom: max(-30px, -1.563vw)
+}
+
+.inclusiveSlider {
+    width: 50vw;
+    height: 100%;
+    margin-right: 0 !important
+}
+
+.inclusiveSlider .swiper-slide-prev {
+    opacity: 0 !important
+}
+
+.inclusiveSlider .swiper-slide {
+    transition: opacity .2s ease-in-out
+}
+
+#inclusive-next,
+#inclusive-prev {
+    position: absolute;
+    bottom: 100px;
+    z-index: 100;
+    width: clamp(10px, .67vw, 13px);
+    height: clamp(18px, 1.3vw, 25px)
+}
+
+#inclusive-prev {
+    left: -3vw
+}
+
+#inclusive-next {
+    right: 19.219vw
+}
+
+.children h2,
+.concertsHeader {
+    font-family: Lora, serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    text-align: center;
+    font-style: normal
+}
+
+.homeConcertSlider img {
+    width: 100%;
+    height: auto;
+    max-width: 340px
+}
+
+.homeConcertSlider {
+    overflow: hidden;
+    margin-top: min(75px, 3.9vw);
+    padding-bottom: 50px;
+    height: fit-content !important
+}
+
+.swiper-slide video {
+    width: calc((100vw - 120px)/ 6);
+    height: calc((100vw - 120px)/ 6 * 1.777)
+}
+
+.childrenSlider .swiper-pagination,
+.homeConcertSlider .swiper-pagination {
+    justify-content: center;
+    transform: scale(1.5)
+}
+
+#concertsPagination .swiper-pagination-bullet,
+.childrenSlider .swiper-pagination-bullet {
+    background: grey
+}
+
+.children h2:after,
+.concertsHeader:after {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #a1a1a1 50%, rgba(0, 0, 0, 0) 100%);
+    position: absolute
+}
+
+.concertsHeader {
+    margin-bottom: 0 !important
+}
+
+.contactIcon .whatsapp,
+.whatsappText {
+    font-weight: 700 !important;
+    color: #64a4ff !important
+}
+
+.concertsWrapper .swiper-button-next,
+.concertsWrapper .swiper-button-prev {
+    width: clamp(15px, 1.5vw, 17px);
+    height: clamp(15px, 1.5vw, 17px);
+    position: absolute;
+    bottom: 10px;
+    top: auto
+}
+
+.concertsWrapper .swiper-button-next {
+    right: 40vw;
+    left: auto
+}
+
+.concertsWrapper .swiper-button-prev {
+    left: 40vw;
+    right: auto
+}
+
+.children h2:after,
+.concertsHeader:after,
+.homeAccommdation h2:after {
+    height: 1px;
+    display: block;
+    width: 40%;
+    left: 0;
+    right: 0;
+    content: ''
+}
+
+.concertsHeader:after {
+    margin: min(30px, 1.563vw) auto
+}
+
+@media screen and (max-width:1700px) {
+    .concertsWrapper .swiper-button-next {
+        right: 30vw;
+        left: auto
+    }
+
+    .concertsWrapper .swiper-button-prev {
+        left: 30vw;
+        right: auto
+    }
+}
+
+.children .moreButton {
+    padding-top: clamp(50px, 4.68vw, 90px);
+    justify-content: center !important
+}
+
+.children h2:after {
+    margin: 30px auto
+}
+
+.subChildren {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 75px;
+    flex-direction: row;
+    gap: min(70px, 3.6vw);
+    margin-top: 65px
+}
+
+.childrenIcons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 23%
+}
+
+.subChildren span {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(12px, .7vw, 14px);
+    line-height: clamp(15px, .8vw, 17px);
+    text-align: center;
+    color: rgba(35, 48, 56, .8);
+    width: 30%
+}
+
+.childrenSlider img {
+    width: 100%;
+    height: auto
+}
+
+.childrenSwiper .swiper {
+    padding-bottom: clamp(15px, 1.563vw, 30px)
+}
+
+.childrenSlider .swiper-wrapper .swiper-slide a {
+    width: 100%;
+    display: flex;
+    height: 100%
+}
+
+.childrenSlider .swiper-wrapper {
+    margin-left: -20vw
+}
+
+.childrenSlider .swiper-pagination-bullets {
+    bottom: 40px !important
+}
+
+.childrenSlider .swiper-pagination {
+    display: flex !important;
+    flex-direction: row !important;
+    position: absolute;
+    z-index: 5;
+    bottom: 0 !important;
+    justify-content: center
+}
+
+.childrenSlider .swiper-button-next,
+.childrenSlider .swiper-button-prev {
+    width: 13px;
+    height: 25px;
+    display: none;
+    opacity: .5
+}
+
+.childrenSlider .swiper-button-next {
+    margin-top: 8%;
+    margin-right: 16%
+}
+
+.childrenSlider {
+    overflow: visible !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(57.917vw + 60px)
+}
+
+#children-prev {
+    left: 14vw
+}
+
+#children-next {
+    right: 14vw
+}
+
+#children-next,
+#children-prev {
+    position: absolute;
+    bottom: 0;
+    width: clamp(10px, .67vw, 13px);
+    height: clamp(18px, 1.3vw, 25px)
+}
+
+.childrenContainer {
+    padding: 0 20vw
+}
+
+.homeAccommdationmoreButton a,
+.homeGastroMoreButton a,
+.moreButton a {
+    font-family: Montserrat, serif;
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #233038;
+    border: 1px solid #868686;
+    padding: 12px 30px;
+    white-space: nowrap
+}
+
+.homeAccommdation h2,
+.homeAccommdation h3,
+.homeAccommdation h6 {
+    font-style: normal;
+    font-weight: 500;
+    text-align: center
+}
+
+.homeAccommdationmoreButton a:hover,
+.moreButton a:hover {
+    color: #fff;
+    background-color: #232323;
+    transition: .2s linear
+}
+
+.homeAccommodationWrapper {
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: min(60px, 3.125vw);
+    justify-content: center;
+    align-items: center
+}
+
+.homeAccommdation .swiper-slide {
+    width: fit-content
+}
+
+.homeAccommdation h2 {
+    font-family: Lora, serif;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    margin-bottom: 30px
+}
+
+.homeAccommdation h2:after {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #a1a1a1 50%, rgba(0, 0, 0, 0) 100%);
+    margin: 30px auto
+}
+
+.homeAccommdation h3 {
+    font-family: Lora, serif;
+    font-size: 25px;
+    line-height: 32px;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    text-transform: uppercase
+}
+
+.homeAccommdation h6 {
+    font-family: Montserrat, serif;
+    margin-bottom: 0 !important;
+    font-size: clamp(12px, 1vw, 20px);
+    line-height: clamp(14px, 1.563vw, 30px);
+    color: rgba(35, 48, 56, .8);
+    margin-top: 30px
+}
+
+.homeAccommdation p,
+.homeAccommdation span {
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-style: normal
+}
+
+.homeAccommdation img {
+    width: 100%;
+    max-width: 343px;
+    object-fit: cover
+}
+
+.Roomswiper {
+    height: 730px;
+    margin-left: 17.969vw;
+    width: 100%
+}
+
+.homeAccommdation .otherImage {
+    position: relative;
+    width: 393px
+}
+
+.otherImage figure {
+    width: 343px;
+    height: 504px;
+    position: relative
+}
+
+.otherImage .toRoom {
+    width: 393px;
+    height: 641px
+}
+
+.homeAccommdation figure:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, rgba(0, 0, 0, .3) 90%)
+}
+
+.homeAccommdation figure:after {
+    content: '';
+    position: absolute;
+    width: 348px;
+    height: 589px;
+    border: 1px solid #cfcfcf;
+    left: 48px;
+    top: 48px;
+    z-index: -1
+}
+
+.homeAccommdation span {
+    font-weight: 700;
+    line-height: 22px;
+    color: #cfcfcf;
+    position: absolute;
+    bottom: 146px;
+    left: 16px
+}
+
+.homeAccommdation p {
+    font-weight: 400;
+    line-height: 18px;
+    text-align: justify;
+    color: #000;
+    position: absolute;
+    bottom: 81px;
+    left: 90px;
+    margin-bottom: 0 !important;
+    width: 252px
+}
+
+.homeBanner h3,
+.otherRooms h3 {
+    font-style: italic;
+    font-weight: 500
+}
+
+.homeBanner h3,
+.homeContact h6,
+.otherRooms h3 {
+    font-family: Lora, serif;
+    color: #233038
+}
+
+.homeAccommdationmoreButton {
+    position: absolute;
+    bottom: 22px;
+    width: 150px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 193px
+}
+
+.contact-info,
+.homeBanner,
+.homeBanner img,
+.homeContact,
+.otherRooms {
+    position: relative
+}
+
+.homeAccommdationmoreButton .toRoom {
+    display: none !important
+}
+
+.homeAccommdation .homeAccommdationmoreButton a:not(:hover) {
+    color: #000;
+    background-color: #fff;
+    transition: .2s linear
+}
+
+.homeAccommdation .homeAccommdationmoreButton a:hover {
+    color: #fff;
+    background-color: #000;
+    transition: .2s linear
+}
+
+.homeAccommdation .toRoom {
+    border: transparent;
+    position: relative !important;
+    display: flex
+}
+
+.otherRooms {
+    padding-bottom: 50px
+}
+
+.otherRooms h3 {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 100px
+}
+
+.roomsBg {
+    padding-bottom: 100px
+}
+
+.roomsBg .row {
+    display: flex;
+    justify-content: center
+}
+
+.Roomswiper .swiper-slide-duplicate-active,
+.Roomswiper .swiper-slide-duplicate-next {
+    opacity: 0
+}
+
+@media screen and (min-width:1920px) {
+    .Roomswiper {
+        margin-left: calc((100vw - 1323px)/ 2)
+    }
+}
+
+.homeBanner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center
+}
+
+.homeBanner img {
+    width: 100%;
+    object-fit: cover
+}
+
+.homeBanner .moreButton,
+.homeBanner h3 {
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: 0
+}
+
+.homeBanner h3 {
+    font-size: clamp(25px, 1.3vw, 28px);
+    line-height: clamp(34px, 2.188vw, 42px);
+    text-align: center;
+    top: min(125px, 6.51vw);
+    max-width: 90vw
+}
+
+.homeBanner .moreButton {
+    top: min(250px, 13.021vw)
+}
+
+@media screen and (max-width:1200px) {
+    .pool-img-watermelon {
+        object-position: 22% 0%
+    }
+
+    #navbar2 {
+        background-color: transparent
+    }
+
+    .heroTopSwiper {
+        width: 100vw;
+        margin-top: 0;
+        position: relative;
+        height: calc(100dvh - 224.75px);
+        z-index: 5
+    }
+
+    .swiper-slide video {
+        width: calc((100vw - 40px)/ 3);
+        height: auto
+    }
+
+    .homeBanner .moreButton {
+        position: absolute;
+        top: 20vw;
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width:768px) {
+    .childrenSlider {
+        width: 100vw !important
+    }
+
+    .childrenIcons {
+        flex-basis: 50%
+    }
+
+    .childrenContainer {
+        padding: 0 5vw
+    }
+
+    .childrenSlider .swiper-wrapper {
+        margin-left: 0
+    }
+
+    #children-next,
+    #children-prev {
+        display: none
+    }
+
+    .childrenSlider .swiper-slide {
+        margin-left: 0 !important
+    }
+
+    .children h2 {
+        font-size: 25px;
+        line-height: 32px
+    }
+
+    .subChildren .childrenIcons:nth-child(3) {
+        order: 1
+    }
+
+    .subChildren .childrenIcons:nth-child(2) {
+        order: 2
+    }
+
+    .subChildren .childrenIcons:first-child {
+        order: 3
+    }
+
+    .subChildren {
+        gap: 0;
+        row-gap: 5.128vw;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    .subChildren span {
+        width: 80%;
+        padding: 0 5vw
+    }
+
+    .childrenIcons svg {
+        opacity: .5
+    }
+
+    .homeBanner .moreButton {
+        top: 26.021vw !important;
+        top: max(40.021vw, 250px) !important
+    }
+}
+
+.contactImage {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important
+}
+
+.mobileContact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: min(69px, 3.5vw);
+    height: 100%;
+    align-items: flex-start
+}
+
+.homeContact {
+    background-color: #f8f8f8;
+    margin-top: 0 !important;
+    padding: min(100px, 5.2vw) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.contact-wrapper {
+    width: min(1314px, 68.438vw);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: min(94px, 4.896vw)
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content
+}
+
+.homeContact h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(21px, 1.458vw, 28px);
+    line-height: clamp(31px, 2vw, 42px);
+    margin-bottom: 6px !important;
+    white-space: nowrap
+}
+
+.contactIcon a,
+.homeContact span {
+    font-size: clamp(12px, 1vw, 20px);
+    font-style: normal
+}
+
+.homeContact span {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    line-height: clamp(15px, 1.563vw, 30px);
+    color: rgba(35, 48, 56, .8);
+    display: inline-block;
+    margin-bottom: min(34px, 1.7vw)
+}
+
+.contactIcon {
+    display: flex;
+    flex-direction: row;
+    gap: min(22px, 1.146vw);
+    margin-bottom: min(15px, .781vw);
+    align-items: center
+}
+
+.contactIcon a {
+    font-weight: 400;
+    font-family: Montserrat, 'serif';
+    color: #233038;
+    text-decoration: none !important
+}
+
+.contactIcon .whatsapp {
+    font-family: Montserrat, serif !important;
+    font-style: normal !important;
+    font-size: clamp(15px, 1vw, 20px) !important
+}
+
+.homeContact img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 317px
+}
+
+.homeContact input {
+    border-radius: 5px
+}
+
+.form-group {
+    height: fit-content !important
+}
+
+.homeContact input::placeholder {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(134, 134, 134, .7)
+}
+
+.homeContact textarea {
+    border-radius: 5px;
+    height: min(100px, 5.2vw);
+    margin-bottom: 0 !important
+}
+
+.homeContact textarea::placeholder {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(134, 134, 134, .7)
+}
+
+.contact-wrap .row {
+    row-gap: 16px
+}
+
+.contactForm {
+    width: min(517px, 26.927vw);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: min(16px, .833vw)
+}
+
+.contactForm .contact-form-item:nth-child(-n+3) {
+    width: calc((100% - 15px)/ 2)
+}
+
+.contactIcon img {
+    width: clamp(18px, 1.146vw, 22px);
+    height: auto
+}
+
+.contact-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.homeContact .submit {
+    background-color: #64a4ff;
+    border: 1px solid #64a4ff !important;
+    padding: 12px 45px;
+    color: #fff;
+    transition: .4s ease-in-out;
+    font-family: Montserrat serif;
+    font-size: clamp(12px, .729vw, 14px);
+    font-weight: 700;
+    line-height: clamp(13px, .885vw, 1px);
+    letter-spacing: 0;
+    text-align: center
+}
+
+.homeContact .submit:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #64a4ff !important;
+    color: #64a4ff
+}
+
+@media screen and (max-width:1500px) {
+    .contact-wrapper {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width:834px) {
+    .homeIconContainer {
+        flex-wrap: wrap;
+        gap: 0;
+        padding-left: 5.128vw;
+        padding-right: 5.128vw;
+        row-gap: 12.81vw
+    }
+
+    .homeIconWrapper {
+        flex-basis: 33%
+    }
+
+    .inclusiveArea h2 {
+        margin-bottom: min(7.69vw, 30px)
+    }
+
+    .swiper-pagination-horizontal {
+        margin-left: 0;
+        justify-content: center
+    }
+
+    .homeTextCard .row .col-lg-4::after {
+        display: none
+    }
+
+    .inclusive-prev {
+        left: 2vw;
+        right: unset;
+        top: 0;
+        bottom: 0;
+        margin: auto 0
+    }
+
+    .inclusive-next {
+        right: 2vw;
+        left: unset;
+        top: 0;
+        bottom: 0;
+        margin: auto 0
+    }
+
+    .inclusiveSlider .swiper-pagination-horizontal {
+        bottom: -2vw;
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+
+    .inclusive-next img,
+    .inclusive-prev img {
+        filter: invert(1)
+    }
+
+    .inclusiveSlider .swiper-wrapper .swiper-slide {
+        height: auto;
+        --bs-gutter-x: 0px !important
+    }
+
+    .homeTextCard .row .col-lg-8 {
+        width: 105vw !important;
+        display: flex;
+        align-items: flex-start;
+        padding: 0 !important;
+        margin: 0 !important;
+        justify-content: flex-start;
+        --bs-gutter-x: 0px !important
+    }
+
+    .inclusiveSlider {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding-left: 0 !important
+    }
+
+    .homeTextCard .row .col-lg-4 {
+        width: 100vw !important;
+        padding: 0 0 0 2vw !important
+    }
+
+    .homeTextCard {
+        margin: 0 0 5vw !important
+    }
+
+    .inclusiveArea .container {
+        max-width: 100vw !important
+    }
+
+    .homeTextCard .col-md-12 {
+        padding: 0 0 0 10vw !important;
+        display: flex;
+        left: 0;
+        width: 100vw;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center
+    }
+
+    .col-lg-4 .row,
+    .row .col-lg-4 {
+        --bs-gutter-x: 0px !important;
+        width: 100vw;
+        max-width: 100vw !important
+    }
+
+    .starNumber {
+        justify-content: flex-start !important
+    }
+
+    .inclusiveArea p {
+        width: 80.744vw;
+        text-align: left
+    }
+
+    .inclusiveText {
+        display: flex;
+        align-items: center;
+        gap: min(7.69vw, 30px);
+        padding-bottom: min(15vw, 60px);
+        flex-direction: column;
+        width: 100%
+    }
+
+    .inclusiveArea {
+        margin-top: 60px
+    }
+
+    .inclusiveArea span {
+        margin-bottom: min(14vw, 30px)
+    }
+
+    .homeTextCard .col-md-8 {
+        display: flex;
+        align-items: center
+    }
+
+    .homeTextCard h3 {
+        margin-bottom: min(30px, 7.69vw)
+    }
+
+    .homeTextCard .row {
+        gap: min(100px, 25.64vw);
+        flex-direction: column-reverse;
+        justify-content: flex-start
+    }
+
+    .concertsWrapper .swiper-button-next {
+        right: 20vw;
+        left: auto
+    }
+
+    .concertsWrapper .swiper-button-prev {
+        left: 20vw;
+        right: auto
+    }
+
+    .swiper-slide video {
+        width: calc((100vw - 20px)/ 2);
+        height: auto
+    }
+
+    .children h2::after,
+    .concertsHeader:after,
+    .homeAccommdation h2:after {
+        margin: min(30px, 7.69vw) auto
+    }
+
+    .homeConcertSlider {
+        margin-top: min(60px, 15vw)
+    }
+
+    .subChildren {
+        margin-bottom: 40px !important
+    }
+
+    .homeAccommdation h6 {
+        margin-top: min(30px, 7.69vw)
+    }
+
+    .homeAccommodationWrapper {
+        gap: min(50px, 12.82vw)
+    }
+
+    .homeBanner {
+        margin-top: 60px !important
+    }
+
+    .mobileContact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: min(100px, 25vw);
+        width: 100%;
+        height: min(650px, 76vw)
+    }
+
+    .contactForm .contact-form-item:nth-child(-n+3) {
+        width: 100%
+    }
+
+    .contact-form-wrapper {
+        order: 3;
+        width: 50%
+    }
+
+    .contactForm {
+        width: 75%
+    }
+
+    .homeContact h6 {
+        margin-bottom: 15px !important
+    }
+
+    .contactIcon {
+        margin-bottom: 15px
+    }
+
+    .contactImage {
+        width: 50%;
+        order: 1;
+        height: 100%
+    }
+
+    .contact-info {
+        width: 50%;
+        order: 2
+    }
+
+    .contact-info::after {
+        content: '';
+        width: 150%;
+        height: 1px;
+        position: absolute;
+        left: -5%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(161, 161, 161, .5) 50%, rgba(0, 0, 0, 0) 100%);
+        bottom: max(-50px, -12.82vw)
+    }
+}
+
+@media screen and (max-width:700px) {
+    .mobileContact {
+        height: 558px
+    }
+}
+
+.homeSpecialOffer h6,
+.specialOfferSlider p {
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 42px
+}
+
+.homeSpecialOffer h6 {
+    font-size: 28px;
+    color: #233038;
+    margin-bottom: 30px
+}
+
+.homeSpecialOffer {
+    margin-top: 100px;
+    margin-left: 15%;
+    position: relative
+}
+
+.homeSpecialOffer figure img {
+    width: 343px;
+    height: 100%;
+    object-fit: cover;
+    max-width: 343px;
+    position: relative;
+    z-index: 25;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+}
+
+.homeSpecialOffer figure {
+    position: relative;
+    z-index: 25;
+    margin-top: 48px
+}
+
+.homeSpecialOffer .swiper-slide {
+    position: relative;
+    z-index: 20;
+    transform: none !important;
+    transition-property: none !important
+}
+
+.backgroundLines {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    max-width: 343px;
+    border: 1px solid #cfcfcf;
+    z-index: -500;
+    top: 0;
+    left: 48px
+}
+
+.homeSpecialOffer .specialSvg {
+    width: unset !important;
+    height: unset !important;
+    object-fit: unset !important;
+    position: relative;
+    z-index: 30
+}
+
+.swiper-slide-active .backgroundLines img,
+.swiper-slide-next .backgroundLines img {
+    opacity: 1
+}
+
+.homeSpecialOffer .swiper {
+    padding-bottom: 30px
+}
+
+.specialOfferSlider .swiper-pagination {
+    width: 60% !important
+}
+
+.specialOfferSlider .swiper-button-next {
+    left: 795px
+}
+
+.specialOfferSlider .swiper-button-prev {
+    left: 353px
+}
+
+.specialOfferSlider .swiper-button-next,
+.specialOfferSlider .swiper-button-prev {
+    top: 464px;
+    position: absolute;
+    width: 70px;
+    height: 70px
+}
+
+.backgroundLines img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -35%;
+    top: 75%;
+    z-index: 0;
+    opacity: 0
+}
+
+.specialOfferSlider article {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    margin-top: 25%;
+    left: 0;
+    right: 0;
+    max-width: 343px;
+    z-index: 25
+}
+
+.specialOfferSlider p {
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    margin-top: 21px;
+    margin-bottom: 15px
+}
+
+.specialOfferSlider span {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #cfcfcf
+}
+
+.gastroText,
+.homeGastronomy h2 {
+    font-style: italic;
+    line-height: 42px
+}
+
+.homeGastronomy {
+    position: relative;
+    margin-top: 100px
+}
+
+.homeGastroMoreButton {
+    display: flex;
+    align-items: center;
+    margin-top: 30px
+}
+
+.gastronomySlider .moreButton a:hover,
+.homeGastroMoreButton a:hover,
+.homeServicesButton a:hover {
+    color: #232323;
+    background-color: #fff;
+    transition: .2s linear
+}
+
+.gastronomySlider span:after,
+.homeGastronomy h6:after {
+    content: '';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #a1a1a1 50%, rgba(0, 0, 0, 0) 100%);
+    display: block
+}
+
+.homeGastronomy h2 {
+    font-family: Lora, serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    color: #233038
+}
+
+.gastroText p,
+.homeGastronomy h6 {
+    font-family: Montserrat, serif;
+    font-style: normal
+}
+
+.homeGastronomy h6 {
+    font-weight: 500;
+    font-size: clamp(15px, 1vw, 20px);
+    line-height: clamp(25px, 1.5vw, 30px);
+    text-align: center;
+    color: rgba(35, 48, 56, .8);
+    margin: 0
+}
+
+.homeGastronomy h6:after {
+    height: 1px;
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    margin-top: min(50px, 2.6vw);
+    opacity: .5
+}
+
+.gastroText span {
+    white-space: nowrap;
+    line-height: 30px
+}
+
+.gastroIconsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: min(100px, 5.2vw);
+    gap: min(141px, 7.344vw)
+}
+
+.homeGastronomyWrapper {
+    width: 100%;
+    padding: 0 10vw
+}
+
+.gastroIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 0;
+    align-items: flex-start;
+    width: fit-content;
+    justify-content: center
+}
+
+.gastroText p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #233038;
+    white-space: nowrap;
+    margin-top: 6px
+}
+
+.gastroText,
+.gastronomySlider span {
+    font-family: Lora, serif;
+    font-weight: 500
+}
+
+.gastroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+    color: #233038
+}
+
+.gastroSlideBg {
+    margin-top: 6.771vw;
+    position: relative !important;
+    z-index: 1 !important
+}
+
+.gastroSlideBg img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover
+}
+
+.gastronomySlider .swiper-wrapper img {
+    width: 51.823vw;
+    height: auto;
+    object-fit: cover
+}
+
+.gastroIcon1 {
+    width: 23px !important;
+    margin-right: min(1.406vw, 27px);
+    height: auto !important
+}
+
+.gastroIcon2 {
+    width: 19px !important;
+    margin-right: min(1.51vw, 29px);
+    height: auto !important
+}
+
+.gastronomySlider {
+    position: absolute;
+    bottom: 6%;
+    width: 100%
+}
+
+.gastronomySlider article {
+    display: flex;
+    padding-top: 5vw;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column
+}
+
+.gastronomySlider span {
+    font-style: normal;
+    font-size: 25px;
+    line-height: 32px;
+    color: #fff;
+    white-space: nowrap
+}
+
+.gastronomySlider a,
+.gastronomySlider p {
+    font-family: Montserrat, serif;
+    font-style: normal
+}
+
+.gastronomySlider span:after {
+    height: 1px;
+    width: 178px;
+    margin-top: 30px;
+    margin-bottom: 34px
+}
+
+.gastronomySlider p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #cfcfcf
+}
+
+.gastronomySlider a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff
+}
+
+.gastronomySlider .moreButton {
+    justify-content: left;
+    margin-left: 89px;
+    margin-top: 40px
+}
+
+.gastronomySlider .moreButton a:not(:hover) {
+    color: #fff;
+    background-color: transparent;
+    transition: .2s linear
+}
+
+.gastronomySlider .swiper-button-prev {
+    position: absolute;
+    width: 5%;
+    left: 6.5%;
+    z-index: 1;
+    top: 90%
+}
+
+.gastronomySlider .swiper-button-next:not(:hover),
+.gastronomySlider .swiper-button-prev:not(:hover),
+.homeServices .swiper-button-nextSlide:not(:hover),
+.homeServices .swiper-button-previous:not(:hover) {
+    opacity: .5;
+    transition: opacity .3s linear
+}
+
+.gastronomySlider .swiper-button-next:hover,
+.gastronomySlider .swiper-button-prev:hover,
+.homeServices .swiper-button-nextSlide:hover,
+.homeServices .swiper-button-previous:hover {
+    opacity: 1;
+    transition: opacity .3s linear
+}
+
+.gastronomySwiper .swiper-button-next,
+.gastronomySwiper .swiper-button-prev {
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    opacity: .5
+}
+
+.gastronomySwiper .swiper-button-next {
+    right: 2vw
+}
+
+.gastronomySwiper .swiper-button-prev,
+.holidayCheckIcon {
+    left: 0
+}
+
+.gastroSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px
+}
+
+@media screen and (max-width:1281px) {
+    .gastronomySlider {
+        bottom: 6%
+    }
+
+    .gastroSlide figure {
+        display: flex;
+        justify-content: center
+    }
+
+    .gastroSlide p,
+    .gastroSlide span {
+        margin-left: -31px
+    }
+
+    .gastroSlide .moreButton {
+        margin-left: -31px;
+        margin-top: 20px
+    }
+
+    .gastroSlideBg img {
+        height: 45vw !important
+    }
+
+    .gastroIconsWrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: min(141px, 7.344vw);
+        column-gap: min(141px, 7.344vw)
+    }
+
+    .gastroIcons {
+        flex-basis: 40%
+    }
+
+    .gastronomySwiper .swiper-button-next,
+    .gastronomySwiper .swiper-button-prev {
+        top: 50%
+    }
+}
+
+@media screen and (max-width:1025px) {
+    #children-prev {
+        left: 23vw
+    }
+
+    #children-next {
+        right: 23vw
+    }
+
+    .childrenContainer {
+        padding: 0 5vw
+    }
+
+    .homeGastronomy h6 {
+        margin: -110px 0 67px
+    }
+
+    .homeGastronomy .row {
+        margin-top: 12%
+    }
+
+    .gastronomySlider {
+        bottom: 3%
+    }
+
+    .gastronomySlider article {
+        margin-top: 171px
+    }
+
+    .gastroTextSec {
+        padding-top: unset
+    }
+
+    .gastroSlide figure {
+        margin-top: 110px
+    }
+
+    .gastroSlideBg {
+        margin-top: 130px
+    }
+}
+
+.homeBrand {
+    padding: 60px 10.417vw !important;
+    background: #f8f8f8
+}
+
+.homeBrand img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-height: 110px;
+    max-width: 100%;
+    opacity: .8
+}
+
+.homeBrand .swiper-wrapper {
+    align-items: center
+}
+
+.homeBrand .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+@media screen and (max-width:990px) {
+    .gastroText span {
+        font-size: 17px !important
+    }
+
+    .gastroText p {
+        font-size: 13px !important;
+        white-space: normal
+    }
+
+    .homeBrand img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        max-height: 110px;
+        max-width: 70%
+    }
+}
+
+.serviceBackground img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    position: relative
+}
+
+.serviceBackground {
+    height: 50vw
+}
+
+.serviceBackground:before {
+    content: ' ';
+    position: absolute;
+    height: 100%;
+    z-index: 5;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    left: 0
+}
+
+.serviceDetail img {
+    width: min(608px, 31.667vw);
+    height: auto;
+    object-fit: cover
+}
+
+.serviceDetailItemWrapper {
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    display: flex;
+    gap: min(117px, 6.094vw);
+    justify-content: center;
+    align-items: center;
+    max-width: 1290px;
+    width: fit-content;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.aboveInsta,
+.homeAboveFooter,
+.homeServices,
+.ratinglink,
+.serviceDetail .serviceText,
+.serviceDetail p {
+    position: relative
+}
+
+.serviceDetailItemWrapper div {
+    position: relative;
+    z-index: 7
+}
+
+.serviceDetail span {
+    font-family: Lora, serif;
+    font-style: normal;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: clamp(25px, 1.458vw, 28px);
+    line-height: clamp(32px, 2.18vw, 42px);
+    text-align: center;
+    color: #fff;
+    display: block
+}
+
+.homeServicesButton a,
+.serviceDetail p {
+    font-family: Montserrat, serif;
+    color: #fff;
+    font-style: normal;
+    text-align: center
+}
+
+.serviceDetail .container .row .col-md-5 {
+    width: 29.375vw
+}
+
+.serviceDetail p {
+    font-weight: 500;
+    font-size: clamp(12px, .8vw, 16px);
+    line-height: clamp(15px, 1.5vw, 30px);
+    padding-bottom: clamp(15px, 1.563vw, 30px);
+    margin-bottom: 0 !important
+}
+
+.serviceDetail .serviceText {
+    flex-direction: column;
+    gap: clamp(15px, 1.563vw, 30px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: min(564px, 29.375vw)
+}
+
+.serviceDetail p:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #939393 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 15%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center
+}
+
+.serviceDetail {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+.homeServices .swiper-button-nextSlide {
+    top: 50%;
+    position: absolute;
+    right: 3vw;
+    z-index: 3
+}
+
+.homeServices {
+    display: block;
+    margin-top: 100px
+}
+
+.homeServicesButton a {
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    border: 1px solid #868686;
+    padding: 12px 30px;
+    white-space: nowrap
+}
+
+.services-swiper-pagination span {
+    transform: scale(1.3);
+    bottom: 1.5vw
+}
+
+.homeServices .swiper-button-previous {
+    position: absolute;
+    left: 3vw;
+    top: 50%;
+    z-index: 3
+}
+
+@media screen and (max-width:770px) {
+    .serviceDetailItemWrapper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        align-items: center;
+        width: 100%;
+        gap: 10vw
+    }
+
+    .serviceBackground {
+        height: 85vh
+    }
+
+    .serviceDetail .serviceText {
+        width: 70vw;
+        gap: 7vw
+    }
+
+    .serviceDetail p {
+        padding-bottom: 7vw
+    }
+
+    .serviceDetail img {
+        width: 60vw
+    }
+
+    .serviceDetail .col-md-6 {
+        justify-content: center
+    }
+}
+
+@media screen and (max-width:321px) {
+    .childrenSlider .swiper-button-next {
+        margin-top: 25%;
+        margin-right: 4%
+    }
+
+    .childrenSlider .swiper-button-prev {
+        margin-top: 25%;
+        margin-left: 4%
+    }
+
+    .childrenSlider .swiper-pagination {
+        margin-left: 0;
+        justify-content: center
+    }
+
+    .homeServices .swiper-button-next {
+        right: 10px !important;
+        margin-top: 14px !important
+    }
+}
+
+.travelSliderWrapper {
+    height: clamp(150px, 12vw, 250px);
+    padding: 0 min(185px, 9.635vw);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ratinglink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.homeTravelCompany img {
+    height: auto
+}
+
+.homeTravelCompany p:not(:hover) {
+    opacity: .2;
+    transition: opacity .2s ease-in-out
+}
+
+.homeTravelCompany p:hover {
+    opacity: .5;
+    transition: opacity .2s ease-in-out
+}
+
+.bookinglogo-img {
+    width: clamp(160px, 16.823vw, 323px)
+}
+
+.tripadvisorlogo-img {
+    width: clamp(160px, 17.292vw, 332px)
+}
+
+.googlelogo-img {
+    width: clamp(130px, 13.542vw, 260px)
+}
+
+.holidaychecklogo-img {
+    width: clamp(115px, 12.188vw, 234px)
+}
+
+.homeTravelCompany p {
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(50px, 4.167vw, 80px);
+    text-align: center;
+    color: rgba(35, 48, 56, .5);
+    display: block;
+    position: absolute;
+    top: min(-30px, -2vw);
+    z-index: -1
+}
+
+.aboveInsta a,
+.aboveInsta p {
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 8%
+}
+
+.bookingcomIcon {
+    left: -17%
+}
+
+.googleIcon {
+    left: -9%
+}
+
+.tripadvisorIcon {
+    left: -16%
+}
+
+.homeAboveFooter {
+    padding: 40px 0;
+    display: flex;
+    background-color: #f8f8f8;
+    flex-direction: column
+}
+
+.homeAboveFooter .specialSvg {
+    width: unset;
+    margin-right: 10px !important
+}
+
+.aboveImg {
+    width: 300vw;
+    overflow-x: hidden;
+    margin-left: -1px;
+    margin-right: -60px;
+    display: flex
+}
+
+.aboveImg img {
+    width: 100%;
+    height: auto;
+    max-width: 270px;
+    aspect-ratio: 1/1;
+    margin-right: 66px
+}
+
+.phoneImage img {
+    margin-left: 20vw;
+    position: absolute;
+    object-fit: cover;
+    width: 379px;
+    height: auto;
+    bottom: -38px
+}
+
+.aboveInsta a {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    top: 10px;
+    text-decoration: none !important
+}
+
+.aboveInsta p {
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    top: 223px
+}
+
+.aboveFooterTextLine:before {
+    content: '';
+    height: 1px;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .3);
+    display: block
+}
+
+@media screen and (max-width:1920px) {
+    .aboveImg img {
+        margin-right: 30px !important
+    }
+}
+
+@media screen and (max-width:834px) {
+
+    .gastroIconSlider .swiper-button-next,
+    .homeGastronomy .gastroSlideBg,
+    .homeGastronomy h6 {
+        display: none
+    }
+
+    .gastronomySlider {
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+        bottom: 0
+    }
+
+    .homeGastronomy h2:after {
+        content: '';
+        height: 1px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #939393 50%, rgba(0, 0, 0, 0) 100%);
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    .homeGastronomy .container {
+        --bs-gutter-x: 0
+    }
+
+    .gastroIconSlider .gastroIcons {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px
+    }
+
+    .gastronomySlider .swiper {
+        padding-left: 0
+    }
+
+    .gastronomySlider .swiper-wrapper img {
+        width: 100vw;
+        height: 50vh
+    }
+
+    .gastronomySlider span {
+        margin-left: 0;
+        margin-bottom: auto
+    }
+
+    .gastroSlide {
+        justify-content: left !important
+    }
+
+    .gastronomySlider article {
+        margin-top: 10px !important;
+        padding-top: 0;
+        position: absolute;
+        bottom: 5%;
+        margin-left: 20px;
+        height: 90%;
+        justify-content: space-between;
+        z-index: 2
+    }
+
+    .gastronomySlider p {
+        margin-left: 0
+    }
+
+    .gastronomySlider span:after {
+        content: '';
+        display: none
+    }
+
+    .gastronomySlider .moreButton {
+        justify-content: center !important;
+        margin-left: 0 !important;
+        margin-top: 20px
+    }
+
+    .gastronomySlider .moreButton a {
+        color: #233038
+    }
+
+    .gastronomySlider figure {
+        position: relative;
+        margin-bottom: 0
+    }
+
+    .gastronomySlider figure:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .5);
+        top: 0;
+        z-index: 1
+    }
+
+    .gastroSlide figure {
+        margin-top: 15px !important
+    }
+
+    .gastronomySlider .swiper-pagination {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .homeGastronomy .row {
+        margin-top: 0
+    }
+
+    .homeServices {
+        margin-top: 60px
+    }
+
+    .phoneImage img {
+        margin-left: 28%
+    }
+
+    .aboveImg {
+        margin-left: -42%
+    }
+}
+
+@media screen and (max-width:576px) {
+    .heroSocialMediaIcon {
+        left: 0;
+        right: 0;
+        justify-content: center;
+        margin: 0 auto
+    }
+
+    .heroSocialMediaIcon a img {
+        transform: scale(.9)
+    }
+
+    .booking input {
+        border-right: 1px solid rgba(0, 0, 0, .2) !important;
+        border-radius: 0 !important;
+        min-width: calc(45vw - 1px) !important
+    }
+
+    #checkin,
+    .booking .flatpickr-input:first-child {
+        border-right: none !important
+    }
+
+    .guestMenu {
+        min-width: 150px !important;
+        width: fit-content;
+        padding: 5vw
+    }
+
+    .adultCounter,
+    .childAgeCounter {
+        gap: 5vw
+    }
+
+    #checkout {
+        border-right: 1px solid rgba(0, 0, 0, .2)
+    }
+
+    .bookNow,
+    .guestDiv {
+        margin-top: -20px
+    }
+
+    .booking {
+        flex-wrap: wrap;
+        height: 158px;
+        align-items: center;
+        padding: 30px 0
+    }
+
+    #checkin,
+    #checkout,
+    .bookNow,
+    .guests {
+        width: calc(45vw - 1px) !important
+    }
+
+    .contact-info::after,
+    .heroSwiperNext,
+    .heroSwiperPrev,
+    .homeGastronomy .gastroSlideBg,
+    .homeGastronomy h6,
+    .specialOfferSlider .swiper-button-prev,
+    .swiper-button-nextSlide,
+    .swiper-button-previous,
+    .thinLine {
+        display: none
+    }
+
+    .pool-img-watermelon {
+        object-position: 20% 0%
+    }
+
+    .heroText {
+        top: calc(90px + 4.6vw)
+    }
+
+    .heroText h1 {
+        font-size: min(7.179vw, 28px);
+        line-height: min(8.974vw, 35px)
+    }
+
+    .heroText img {
+        width: min(71.795vw, 280px)
+    }
+
+    .homeIcons .row {
+        row-gap: 0
+    }
+
+    .homeIconWrapper {
+        flex-basis: 50%
+    }
+
+    .homeIcons .col-6 {
+        margin-top: 50px
+    }
+
+    .inclusiveArea h2 {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 34px
+    }
+
+    .inclusiveArea span {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 0 !important
+    }
+
+    .inclusiveArea span:after {
+        content: '';
+        height: 1px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #939393 50%, rgba(0, 0, 0, 0) 100%);
+        display: block;
+        width: 100%;
+        margin: 25px 0
+    }
+
+    .inclusiveSlider {
+        padding-left: 0 !important
+    }
+
+    .contact-wrapper,
+    .inclusiveArea .inclusiveText {
+        flex-direction: column
+    }
+
+    .inclusiveText p {
+        text-align: center !important;
+        font-size: 13px;
+        line-height: 19px;
+        color: rgba(35, 48, 56, .8)
+    }
+
+    .homeTextCard .row {
+        flex-direction: column-reverse
+    }
+
+    .homeTextCard img {
+        margin: 0
+    }
+
+    .homeTextCard {
+        margin: 20px
+    }
+
+    .homeTextCard .starNumber {
+        margin-top: 30px;
+        font-size: 55px;
+        line-height: 70px
+    }
+
+    .starNumber svg {
+        margin-left: 10px
+    }
+
+    .homeTextCard h3 {
+        margin-top: 11px;
+        font-size: 25px;
+        line-height: 32px
+    }
+
+    .inclusiveArea p {
+        font-size: 13px;
+        line-height: 19px;
+        color: rgba(35, 48, 56, .8);
+        text-align: left;
+        margin-top: 30px
+    }
+
+    .homeTextCard h5 {
+        font-size: 12px;
+        line-height: 15px
+    }
+
+    .concertsWrapper .swiper-button-next {
+        right: min(15vw, 20px);
+        top: 50%;
+        bottom: auto;
+        left: auto
+    }
+
+    .concertsWrapper .swiper-button-prev {
+        left: min(15vw, 20px);
+        right: auto;
+        top: 50%;
+        bottom: auto
+    }
+
+    .swiper-slide video {
+        width: calc((100vw - 40px)/ 12*10);
+        height: auto
+    }
+
+    .concertsHeader {
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-top: 0
+    }
+
+    .homeConcertSlider {
+        margin-top: 60px;
+        margin-bottom: 60px
+    }
+
+    .contactForm .contact-form-item:nth-child(5),
+    .homeConcertSlider .swiper-wrapper .swiper-slide figure {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .concertsHeader:after {
+        margin: 25px auto 30px
+    }
+
+    .otherImage figure {
+        width: 280px;
+        height: fit-content
+    }
+
+    .otherImage .toRoom {
+        height: 463px
+    }
+
+    .homeAccommdation img,
+    .specialOfferSlider article,
+    .specialOfferSlider figure img,
+    .specialOfferSlider figure:before {
+        width: 280px
+    }
+
+    .homeAccommdation span {
+        font-size: 10px;
+        width: 250px;
+        bottom: 61px
+    }
+
+    .homeAccommdation figure:after {
+        left: 38px;
+        height: 500px;
+        width: 280px;
+        top: 38px
+    }
+
+    .homeAccommdation p {
+        left: 55px;
+        width: 235px;
+        bottom: -14px
+    }
+
+    .homeAccommdationmoreButton {
+        transform: scale(.8);
+        left: 169px;
+        bottom: -63px
+    }
+
+    .Roomswiper {
+        margin-left: 5vw;
+        height: auto
+    }
+
+    .homeBanner .moreButton {
+        top: max(40.021vw, 250px) !important
+    }
+
+    .homeBanner {
+        overflow: hidden;
+        margin-top: 70px
+    }
+
+    .homeBanner img {
+        position: relative;
+        width: auto;
+        height: 100%
+    }
+
+    .contactImage,
+    .mobileContact {
+        height: fit-content
+    }
+
+    .homeContact {
+        padding: min(50px, 12vw) 0
+    }
+
+    .mobileContact {
+        flex-direction: column;
+        width: 100%;
+        gap: min(50px, 12.82vw);
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center
+    }
+
+    .contact-form-wrapper {
+        width: 100%
+    }
+
+    .contactForm {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: min(20px, 5.13vw)
+    }
+
+    .contact-info {
+        align-items: center;
+        width: 100%
+    }
+
+    .contact-wrap {
+        align-items: center
+    }
+
+    .contactIcon {
+        gap: min(15px, 3.85vw);
+        margin-bottom: min(15px, 3.85vw)
+    }
+
+    .contact-form-item {
+        width: min(100%, 310px) !important
+    }
+
+    .homeContact span {
+        margin-bottom: min(40px, 10vw);
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center
+    }
+
+    .homeContact h6 {
+        margin-bottom: min(15px, 3.85vw) !important;
+        font-size: 25px;
+        line-height: 32px
+    }
+
+    .homeSpecialOffer {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: clamp(0px, 10.26vw, 389px)
+    }
+
+    .specialOfferSlider .swiper-pagination {
+        margin-left: 22%
+    }
+
+    .specialOfferSlider .swiper-button-next {
+        left: 281px;
+        top: 394px
+    }
+
+    .backgroundLines {
+        left: 36px !important;
+        width: 280px !important
+    }
+
+    .specialOfferSlider figure {
+        margin-top: 36px
+    }
+
+    .gastroIcons {
+        flex-basis: auto
+    }
+
+    .gastroIconsWrapper {
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content
+    }
+
+    .homeGastronomy h2:after {
+        content: '';
+        height: 1px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, #939393 50%, rgba(0, 0, 0, 0) 100%);
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    .homeGastronomy .container {
+        --bs-gutter-x: 0
+    }
+
+    .gastroIconSlider .gastroIcons {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-top: 40px
+    }
+
+    .gastroIconSlider .swiper-button-next {
+        display: block !important
+    }
+
+    .gastronomySlider {
+        position: relative;
+        bottom: 0;
+        margin-left: 0
+    }
+
+    .gastronomySlider .swiper {
+        padding-left: 0
+    }
+
+    .gastronomySlider .swiper-wrapper img {
+        width: 100vw;
+        height: 60vh
+    }
+
+    .gastronomySlider span {
+        margin-left: 0;
+        font-size: 20px !important
+    }
+
+    .gastronomySlider p {
+        margin-left: 0
+    }
+
+    .gastronomySlider span:after {
+        content: '';
+        display: none
+    }
+
+    .gastronomySlider .moreButton {
+        justify-content: flex-start !important;
+        margin-left: 0 !important;
+        margin-top: 20px
+    }
+
+    .gastronomySlider .moreButton a {
+        color: #233038
+    }
+
+    .gastronomySlider figure {
+        position: relative;
+        margin-top: 10px
+    }
+
+    .gastronomySlider article {
+        margin-top: 40px
+    }
+
+    .gastronomySlider figure:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .5);
+        top: 0
+    }
+
+    .gastronomySlider .swiper-pagination {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .homeGastronomyWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .homeBrand img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        max-height: 110px;
+        max-width: 80%
+    }
+
+    .serviceDetail img {
+        width: 70vw
+    }
+
+    .serviceDetail span {
+        white-space: normal
+    }
+
+    .serviceDetailImgWrapper {
+        height: 40%
+    }
+
+    .serviceBackground {
+        height: 80vh
+    }
+
+    .aboveImg {
+        width: 340vw;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        margin-left: -60%
+    }
+
+    .homeAboveFooter {
+        padding: 0 0 40px
+    }
+
+    .phoneImage img {
+        padding: 0;
+        width: 85vw;
+        height: auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+
+    .mobileV {
+        display: none !important
+    }
+}
+
+.homePageUpButton {
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    margin-bottom: -60px
+}
+
+.homePageUpButton img {
+    width: unset !important;
+    height: unset !important;
+    object-fit: unset !important
+}
+
+@media screen and (max-width:880px) {
+    .homePageUpButton {
+        margin-bottom: 0
+    }
+}

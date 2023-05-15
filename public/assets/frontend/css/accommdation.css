@@ -1,0 +1,600 @@
+/* Accomdation CSS */
+
+.accommdationHero {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%), url("../images/accommdation/heroAccommdation.webp");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 89px - min(260px,13.542vw ));
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 89px;
+}
+
+.roomFeaturesWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: min(200px, 10vw);
+}
+.accommdationSvg {
+    width: clamp(20px, 2.6vw,50px);
+    height: clamp(16px, 2vw, 40px);
+    margin: 0;
+}
+.swiper-pagination-bullet-active{
+    background-color: rgb(86, 86, 86);
+}
+.swiper-button-next:after,.swiper-button-prev::after{
+    display: none!important;
+}
+.swiper-pagination{
+    display: none;
+}
+.pageUpButton img {
+    width: unset;
+    height: unset;
+}
+
+.accommdationHero h1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+        position: absolute;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: min(40px, 2vw);
+    color: #FFFFFF;
+    text-shadow: 0 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.roomSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: min(116px, 6.042vw);
+    height: min(260px,13.542vw );
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.roomSelect a {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    z-index: 2;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #233038;
+    text-decoration: none !important;
+    padding: 11px 55px;
+    transition: all .2s linear;
+}
+
+.roomSelect a:hover {
+    color: #FFFFFF;
+    background-color: #233038;
+    border: 1px solid #FFFFFF;
+    transition: all .2s linear;
+}
+
+.flamingoBg {
+    position: absolute;
+    right: 0px;
+    width: min(569px,29.635vw    );
+    height: min(1184px,61.667vw );
+    z-index: -1;
+    top: min(-142px, -7.396vw );
+    
+}
+.flamingoBg img{
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+    width: min(569px,29.635vw    );
+    height: min(1184px,61.667vw );
+}
+.roomsRows a{
+    width: 57.865vw;
+    height:31.719vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pigeonBg {
+    position: absolute;
+    z-index: 0;
+    top: min(-29px, -1.51vw    );
+    right: min(72px, 3.75vw);
+    z-index: -1;
+}
+.pigeonBg img{
+    width: min(316px, 16.458vw    );
+    height: auto;
+}
+
+.accommRoom .col-lg-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.accomFamilyRoom img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.accomKingRoom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.collapsableFeatureGrid{
+    margin: auto;
+}
+
+.accomStandardRoom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.accommRoom h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    margin-bottom: 0!important;
+    font-weight: 500;
+    position: relative;
+    font-size: clamp(20px, 2vw,40px);
+    line-height: clamp(30px, 2.6vw,50px);
+    color: #233038;
+    text-transform: uppercase;
+}
+
+.accomFamilyRoom .col-md-6 {
+    position: relative;
+}
+
+/* 03.04 added */
+.accomFamilyRoom .swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+
+/* 03.04 added end */
+.roomDescWrapper{
+    width: min(688px,35.833vw );
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: min(55px, 2.865vw);
+}
+.accommRoom h5:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(207,207,207,1) 35%, rgba(207,207,207,1) 65%, rgba(0,0,0,0) 100%);
+    width: min(100px,5.2vw );
+    bottom: min(-25px,-1.3vw    );
+    left: -10%;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.accommRoom p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 0.781vw,15px)
+    ;
+    max-width: 365px;
+    width: 22.01vw;
+    position: relative;
+    margin: 0px!important;
+    line-height: clamp(19px, 1.146vw,22px);
+    color: #000000;
+}
+.roomSpecWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: min(30px, 1.563vw);
+}
+.roomSwiperWrapper{
+    width: 57.865vw;
+    height:fit-content    ;
+    position: relative;
+}
+.roomsRows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:min(120px,6.45vw    ) ;
+    align-items: flex-end;
+    width: 100vw;
+    height: fit-content;
+}
+.accommRoom span {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px, 1vw,20px);
+    line-height: clamp(35px, 2vw,42px);
+    color: #3D515E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.accommRoom .roomSpecs {
+    display: flex;
+    align-items: flex-start;
+    gap: clamp(20px, 2.6vw,50px);
+}
+
+.accommRoom .extraSpec {
+    display: block;
+}
+
+.accommRoom .reverse {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.reverse .roomDescWrapper{
+    padding-left: 15.26vw;
+}
+
+.accommRoom .moreButton {
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 42px;
+}
+.DeskMore a{
+    width: 150px;
+    height: 100%;
+}
+.accommRoom {
+    z-index: 1;
+    position: relative;
+    margin-bottom: min(100px, 5.2vw);
+}
+
+.accommRoom .mobileMore {
+    display: none;
+}
+
+.showAllFeature{
+    font-family: 'Montserrat', serif;
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #233038;
+    border: 1px solid #868686;
+    padding: 12px 30px;
+    white-space: nowrap;
+}
+.featureInfo p {
+    font-family: 'Montserrat', serif;
+    max-width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 0.781vw, 15px);
+    line-height: clamp(15px, 1.146vw,22px);
+
+    color: #000000;
+}
+
+.roomFeatures .featureInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-basis: 25%;
+    gap: min(30px, 1.563vw);
+}
+
+.featureInfo svg {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+.accommRoom .roomText {
+    padding-left: 10%;
+}
+.accommRoom .extraStandard{
+    display: none;
+}
+
+
+
+.roomFeatures h6 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #233038;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.roomFeatures h6:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(161, 161, 161, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 178px;
+    right: 0;
+    left: 0;
+    margin: 1.563vw auto 1.563vw auto;
+    opacity: 0.7;
+}
+
+.roomFeatures .moreButton {
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .accommRoom p{
+        width: 80%;
+        max-width: none;
+    }
+    .roomDescWrapper{
+        gap: 1vw;
+    }
+    .roomSpecWrapper{
+        gap: .75vw;
+    }
+    .reverse .roomDescWrapper{
+        padding-left: 8vw;
+    }
+    .reverse p{
+        width: 100%;
+    }
+    .accommRoom h5:after{
+        bottom: -.7vw;
+    }
+   
+}
+@media screen and (max-width: 1200px) {
+    .accommdationHero{
+        height: calc(100vh - 68px - min(260px,13.542vw));
+        background-position: 50% 0%;
+        margin-top: 0px;
+    }
+   
+}
+
+
+@media screen and (max-width: 995px) {
+    .accomFamilyRoom img{
+        height: 100%;
+    }
+  
+    .accomKingRoom img{
+        height: 100%;
+    }
+    .accomStandardRoom img{
+        height: 100%;
+    }
+    .roomSwiperWrapper,.roomSwiperWrapper .swiper{
+        height: 55vw;
+    }
+    .accommRoom .extraStandard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .roomsRows a, .roomSwiperWrapper img{
+        height: 100%;
+        width: 100% ;
+        object-fit: cover;
+    }
+
+
+    .flamingoBg {
+        display: none;
+    }
+
+    .pigeonBg {
+        display: none;
+    }
+
+    .roomSelect {
+        flex-direction: column;
+        gap: 3.015vw ;
+        height: fit-content;
+        padding: 6vw 0px;
+    }
+
+    .roomSelect a {
+        width: 75%;
+    }
+
+    .roomText {
+        padding-left: 0%;
+    }
+
+    .roomPhotos h6 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .roomPhotos p {
+        font-size: 13px;
+        line-height: 19px;
+        bottom: 2% !important;
+    }
+
+    .roomPhotos span {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+ 
+    .accommRoom .roomText {
+        padding-left: 0% !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .swiper-pagination{
+        display: block;
+    }
+    .accommdationHero {
+        background-position: bottom center;
+        height: 55vh;
+    }
+
+    .accommFamilyRoom .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+.roomSelect{
+    padding: 10.26vw 0px 6vw 0px;
+}
+
+.roomSwiperWrapper{
+    padding-bottom: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12.82vw;
+}
+.swiper-pagination-king, .swiper-pagination,.swiper-pagination-standard,.swiper-pagination-family{
+    bottom: -5.85vw!important;
+    position: absolute;
+}
+    .accomKingRoom .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+
+    
+    .accommRoom p::after{
+        content: '';
+        position: absolute;
+        bottom: -7.5vw;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
+        width: 90%;
+        height: 1px;
+        
+    }
+
+    .accomStandardRoom .swiper-wrapper {
+        padding-bottom: 15px;
+    }
+
+.DeskMore{
+    display: none!important;
+}
+.mobileMore{
+    display: flex!important;
+    align-self: center;
+}
+    .accommRoom {
+        margin-top: 0;
+        padding-top: 20vw;
+        margin-bottom: 0px;
+    }
+.featureInfo{
+    flex-basis: 50%!important;
+}
+.roomFeatures .featureGrid{
+    justify-content: flex-start!important;
+}
+    .roomSpecWrapper{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 7.69vw;
+        margin-top: 7.5vw;
+    }
+.accommRoom span{
+    text-align: center;
+}
+    .accommdationHero h1 {
+        font-size: 25px !important;
+        line-height: 37px;
+        padding-top: 42vh;
+        padding-bottom: 35px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .reverse .roomDescWrapper{
+        padding: 0;
+    }
+    .roomsRows::after{
+        content: '';
+        width: 100vw;
+        height: 1px;
+        background-color: #DDDDDD;
+        position: absolute;
+        top: -10vw;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+.accommRoom p{
+    width: 100%;
+    text-align: center;
+}
+   .roomSwiperWrapper, .roomSwiperWrapper .swiper{
+    width: 100vw;
+    overflow: visible;
+    height: auto;
+   }
+
+
+    .accommRoom .roomsRows {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 7.69vw;
+        align-items: center;
+        position: relative;
+        padding-top: 4vw;
+    }
+
+    .roomDescWrapper{
+        width:75.128vw ;
+        justify-content: center;
+        align-items: center;
+        gap: 7.5vw;
+    }
+    .accommRoom h5:after{
+        display: none;
+    }
+}
+
+/* Accomdation CSS END */

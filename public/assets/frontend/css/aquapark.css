@@ -1,0 +1,449 @@
+.aquaparkHero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 3.125vw 5.208vw;
+    padding-top: 90px;
+}
+
+.aquaparkHero figure span {
+    position: absolute;
+    top: 5%;
+    right: -7%;
+    z-index: -1;
+}
+
+.aquaparkHero img {
+    object-fit: cover;
+    aspect-ratio: 997/868;
+    width: 51.979vw;
+}
+.aquaparkVideo a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aquaparkHero h1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    text-align: center;
+}
+
+.aquaparkHero h1:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(161, 161, 161, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+
+.aquaparkHero article span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(35, 48, 56, 0.8);
+    position: relative !important;
+    margin-top: 60px;
+    display: block;
+}
+
+.aquaparkHero article p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.aquaparkHero article {
+    text-align: center;
+    border: 1px solid #CFCFCF;
+    padding: 60px 130px;
+    z-index: 1;
+}
+
+.gallery h2 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.aquaparkSlider figure {
+    position: relative;
+    padding-top: 48px;
+}
+
+.aquaparkSlider figure:before {
+    content: ' ';
+    width: 345px;
+    height: calc(100% - 48px);
+    position: absolute;
+    max-width: 345px;
+    border: 1px solid #CFCFCF;
+    z-index: -1;
+    top: 0;
+    margin-left: 48px;
+
+    opacity: 0.5;
+}
+
+.aquaparkSlider img {
+    width: 345px;
+    height: auto;
+}
+
+.gallery {
+    margin: 50px 0px 50px 5.2vw;
+}
+.aquaparkSlider .swiper-button-next{
+    display: none!important;
+}
+.aquaIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.aquaIcon p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(35, 48, 56, 0.8);
+    text-align: center;
+}
+
+.aquaparkVideo {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.aquaparkVideo img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+.aquaparkVideo a {
+    position: absolute;
+}
+
+.aquaparkVideo span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(35, 48, 56, 0.8);
+    display: block;
+    margin-top: 30px;
+}
+
+.aquaparkSpecialOffer {
+    margin-top: 100px;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.aquaparkSpecialOffer h5 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(15px, 1.146vw,22px);
+    line-height: clamp(20px, 1.563vw,30px);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 52px;
+    left: 8px;
+    z-index: 100;
+}
+
+.aquaparkSpecialOffer .swiper-slide-active .backgroundLines img, .swiper-slide-next .backgroundLines img {
+    opacity: 1;
+}
+.backgroundLines {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    max-width: 343px;
+    border: 1px solid #CFCFCF;
+    z-index: -500;
+    top: 0;
+    left: 48px;
+}
+.backgroundLines img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -35%;
+    top: 75%;
+    z-index: 0;
+    opacity: 0;
+
+}
+.aquaparkSpecialOffer .swiper {
+    padding-bottom: 30px;
+}
+
+.aquaparkSpecialOffer img {
+    width: 343px;
+    height: 100%;
+    object-fit: cover;
+
+    max-width: 343px;
+    position: relative;
+    z-index: 25;
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+
+
+.aquaparkSpecialOffer .swiper-pagination {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 31.5%;
+    width: 60%!important;
+}
+
+
+.aquaparkSpecialOffer .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background: transparent;
+}
+.aquaparkSpecialOffer .swiper-pagination-bullet-active{
+    color: #66252B;
+}
+
+.aquaparkSpecialOffer .swiper-button-next:not(:hover) {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.aquaparkSpecialOffer .swiper-button-next:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+.aquaparkSpecialOffer .swiper-button-prev:not(:hover) {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+
+.aquaparkSpecialOffer .swiper-button-prev:hover {
+    opacity: 1;
+    transition: opacity 0.1s linear;
+}
+.aquaparkSpecialOffer .swiper-button-next:after,.aquaparkSpecialOffer .swiper-button-prev:after{
+    display: none;
+}
+.aquaparkSpecialOffer .swiper-button-prev, .aquaparkSpecialOffer .swiper-button-next {
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    top: 464px;
+    position: absolute;
+
+}
+ 
+.aquaparkSpecialOffer .swiper-button-prev {
+    left: 353px
+}
+.aquaparkSpecialOffer .swiper-button-next {
+    left: 782px
+}
+
+
+.aquaparkSpecialOffer h6 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #233038;
+    margin-bottom: 30px;
+    z-index: 100;
+
+}
+
+.pageUpButton {
+    margin-top: 30px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.aquaparkSpecialOffer figure {
+    position: relative;
+    z-index: 25;
+    margin-top: 48px;
+}
+
+.aquaparkSpecialOffer figure:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    max-width: 343px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 96;
+}
+
+.aquaparkSpecialOffer .swiper-slide {
+    position: relative;
+    z-index: 20;
+    transform: none !important;
+    transition-property: none !important;
+}
+
+
+    @media screen and (max-width: 1200px){
+        .aquaparkHero{
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+        .aquaparkSpecialOfferSlider .swiper-button-prev{
+            display: none;
+        }
+        .aquaparkSpecialOffer .swiper-pagination{
+            width: 74%;
+        }
+        .backgroundLines{
+            width: 100%;
+        }
+       
+        .aquaparkSpecialOfferSlider .swiper-button-next{
+            left: 353px;
+        }
+        .aquaparkHero {
+            flex-direction: column;
+            margin: 0 !important;
+        }
+    
+        .aquaparkHero img {
+            width: 100%;
+        }
+    
+        .aquaparkHero article {
+            margin: 3.125vw 5.208vw;
+        }
+    
+        .aquaparkVideo img {
+            width: 100%;
+        }
+    
+    
+    }        
+
+
+
+@media screen and (max-width: 576px) {
+    .aquaparkHero h1 {
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-top: 50px;
+    }
+
+    .aquaparkHero article {
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .aquaparkHero span {
+        font-size: 18px !important;
+        line-height: 27px !important;
+    }
+
+
+.aquaparkSlider img{
+    width: 280px;
+}
+.aquaparkSlider figure:before{
+    width: 280px;
+    height: calc(100% - 38px);
+    margin-left: 38px;
+}
+.aquaparkSlider figure{
+    padding-top: 38px;
+}
+.gallery{
+    margin-left: 5vw;
+}
+    .aquaparkVideo .container{
+        padding: 0;
+    }
+
+    .aquaIcon{
+        align-items: flex-start;
+    }
+    .aquaIcon p{
+        font-size: 13px!important;
+        line-height: 19px!important;
+    }
+
+  
+   
+    .aquaparkSpecialOfferSlider{
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+    }
+
+    .aquaparkSpecialOffer .swiper-pagination{
+        margin-left: 22%;
+    }
+    .aquaparkSpecialOfferSlider .swiper-button-prev{
+        display: none;
+    }
+    .aquaparkSpecialOfferSlider .swiper-button-next{
+        left: 281px;
+        top: 394px;
+    }
+
+    .aquaparkSpecialOfferSlider figure img,.aquaparkSpecialOfferSlider figure:before{
+        width: 280px;
+    }.backgroundLines{
+        left: 36px!important;
+        width: 280px!important;
+    }
+    .aquaparkSpecialOfferSlider figure{
+        margin-top: 36px;
+    }
+    .backgroundLines{
+        left: 36px!important;
+        width: 280px!important;
+    }
+
+}

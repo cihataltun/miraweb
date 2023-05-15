@@ -1,0 +1,512 @@
+/* Standard Room */
+.standardRoomDetailHero {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%), url("../images/standardRooms/standardRoomHero.webp");
+    text-align: center;
+    background-position: top left;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin-top: 89px;
+}
+
+.standardRoomDetailHero h1 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 6px 7px rgba(0, 0, 0, 0.25);
+    padding-top: 65vh;
+}
+
+.standardRoomSelect {
+    margin-top: 93vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 116px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.standardRoomSelect a {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #233038;
+    text-decoration: none !important;
+    padding: 11px 55px;
+    transition: all .2s linear;
+}
+
+.standardRoomSelect a:hover {
+    color: #FFFFFF;
+    background-color: #233038;
+    border: 1px solid #FFFFFF;
+    transition: all .2s linear;
+}
+
+.cornerViewRoom img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cornerViewRoom figure {
+    position: relative;
+}
+
+.cornerViewRoom figure span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8F8F8;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: 0;
+}
+
+.cornerViewRoom {
+    position: relative;
+    background: rgba(248, 248, 248, 0.96);
+    padding: 40px;
+}
+
+.cornerViewRoom svg {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 1;
+    width: 25%;
+}
+
+.cornerViewRoom article {
+    margin-top: 30%;
+}
+
+.cornerViewRoom h5 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #233038;
+    margin-left: 121px;
+}
+
+.cornerViewRoom h5:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(207,207,207,1) 35%, rgba(207,207,207,1) 65%, rgba(0,0,0,0) 100%);
+    width: min(150px,7.3vw );
+    opacity: 0.5;
+    display: block;
+    margin: 30px 0 30px -10%;
+    opacity: 0.7;
+}
+
+.cornerViewRoom p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 121px;
+    margin-bottom: 25px;
+}
+
+.cornerViewRoom span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3D515E;
+    margin-left: 121px;
+    white-space: nowrap;
+}
+
+.cornerViewRoom .moreButton {
+    justify-content: start;
+    margin-left: 121px;
+    margin-top: 55px;
+}
+
+.seaView .moreButton {
+    justify-content: start;
+    margin-left: 121px;
+    margin-top: 55px;
+}
+
+.seaView {
+    margin-top: 100px !important;
+}
+
+.seaView figure {
+    position: relative;
+}
+
+.seaView img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.seaView figure span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8F8F8;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.seaView article h5 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+    font-size: 28px;
+    line-height: 42px;
+    color: #233038;
+    margin-left: 121px;
+}
+
+.seaView article h5:after {
+    content: '';
+    height: 1px;
+    display: block;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(207,207,207,1) 35%, rgba(207,207,207,1) 65%, rgba(0,0,0,0) 100%);
+    width: min(150px,7.3vw );
+    opacity: 0.7;
+    margin: 30px 0 30px -10%;
+}
+
+.seaView article p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 121px;
+}
+
+.seaView article span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3D515E;
+    margin-left: 121px;
+    white-space: nowrap;
+}
+
+.seaView article {
+    margin-top: 30%;
+    margin-right: 113px;
+}
+
+.standardBird {
+    position: absolute!important;
+    z-index: 1!important;
+    width: min(214px,11.146vw)!important;
+    height: auto!important;
+    padding: 0px!important;
+    margin: 0px!important;
+    top: min(40px, 2vw);
+    right: min(25px, 1.3vw);
+}
+
+#gardenview{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+/* Standard Room End */
+@media screen and (max-width: 2560px) {
+    .standardRoomSelect {
+        margin-top: 88vh;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .roomDetailSpecs {
+        flex-wrap: wrap;
+        column-gap: 2px;
+        row-gap: 54px;
+        justify-content: space-evenly;
+    }
+
+    .roomSpecsInfo {
+        min-width: 25vw;
+    }
+
+    .seaView article h5:after,.cornerViewRoom h5:after{
+        width: 20vw;
+    }
+
+    .standardRoomSelect {
+        flex-direction: column;
+        gap: 30px !important;
+        margin: 93vh 0 70px 0 !important; /* line 03.04 */
+    }
+
+    .standardRoomSelect a {
+        width: 75%;
+    }
+
+    .standardBird {
+        display: none !important;
+    }
+    .cornerViewRoom {
+        padding: 0 !important;
+        background: #FFFFFF !important;
+    }
+
+    .cornerViewRoom .col-12 {
+        padding: 0 !important;
+    }
+
+    .cornerViewRoom article {
+        margin-top: 50px !important;
+        text-align: center !important;
+    }
+
+    .cornerViewRoom article h5 {
+        margin-left: 0 !important;
+    }
+
+    .cornerViewRoom article h5:after {
+        left: 0 !important;
+        right: 0 !important;
+        position: absolute !important;
+        margin: 30px auto auto auto !important;
+    }
+
+    .cornerViewRoom article p {
+
+        margin: 60px auto 30px 0;
+    }
+
+    .cornerViewRoom span {
+        margin-left: 0 !important;
+    }
+
+    .cornerViewRoom .moreButton {
+        justify-content: center !important;
+        margin-left: 0 !important;
+        margin-top: 30px !important;
+    }
+    .cornerViewRoom svg {
+        display: none !important;
+    }
+
+    .seaView {
+        flex-direction: column-reverse;
+    }
+
+    .seaView figure span {
+        text-align: center !important;
+    }
+
+    .seaView .col-12 {
+        padding: 0 !important;
+    }
+
+    .seaView article {
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+
+    .seaView article h5 {
+        margin-left: 0 !important;
+    }
+
+    .seaView article h5:after {
+        left: 0 !important;
+        right: 0 !important;
+        position: absolute !important;
+        margin: 30px auto auto auto !important;
+    }
+
+    .seaView article p {
+        margin: 60px 0 30px 0 !important;
+    }
+
+    .seaView span {
+        margin-left: 0 !important;
+    }
+
+    .seaView .moreButton {
+        margin-top: 30px !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .standardRoomDetailHero {
+        background-position: 25%;
+        height: 44.22vh;
+        margin-top: 89px;
+    }
+
+    .standardRoomDetailHero h1 {
+        padding-top: 37vh;
+        font-size: 25px !important;
+        line-height: 32px !important;
+    }
+
+    .standardRoomSelect {
+        flex-direction: column;
+        gap: 30px !important;
+        margin: 61vh 0 7vh 0 !important;
+    }
+
+    .standardRoomSelect {
+        flex-direction: column;
+        gap: 30px;
+        margin: 40px 0 40px 0;
+    }
+
+    .standardRoomSelect a {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        width: 85% !important;
+        white-space: nowrap !important;
+    }
+    .seaView{
+        margin-bottom: 60px;
+    }
+    .cornerViewRoom article{
+        margin-top: 30px;
+    }
+    .cornerViewRoom article p{
+        margin: 60px auto 20px 0;
+    }
+
+    .cornerViewRoom svg {
+        display: none !important;
+    }
+
+    .cornerViewRoom {
+        padding: 0 !important;
+        background: #FFFFFF !important;
+    }
+
+    .cornerViewRoom .col-12 {
+        padding: 0 !important;
+    }
+
+    .cornerViewRoom figure span {
+        font-size: 13px !important;
+        line-height: 22px !important;
+    }
+
+    .cornerViewRoom article {
+        margin-top: 50px !important;
+        text-align: center !important;
+    }
+
+    .cornerViewRoom article h5 {
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-left: 0 !important;
+    }
+
+    .cornerViewRoom article h5:after {
+        left: 0 !important;
+        right: 0 !important;
+        position: absolute !important;
+        margin: 30px auto auto auto !important;
+    }
+
+    .cornerViewRoom article p {
+        font-size: 13px !important;
+        line-height: 19px !important;
+        margin: 60px auto 20px 0;
+    }
+
+    .cornerViewRoom span {
+        margin-left: 0 !important;
+        white-space: unset!important;
+    }
+
+    .cornerViewRoom .moreButton {
+        margin-top: 10px !important;
+    }
+    .seaView {
+        flex-direction: column-reverse;
+    }
+
+    .seaView figure span {
+        font-size: 13px !important;
+        line-height: 22px !important;
+        text-align: center !important;
+    }
+
+    .seaView .col-12 {
+        padding: 0 !important;
+    }
+
+    .seaView article {
+        margin-top: 50px !important;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+
+    .seaView article h5 {
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-left: 0 !important;
+    }
+
+    .seaView article h5:after {
+        left: 0 !important;
+        right: 0 !important;
+        position: absolute !important;
+        margin: 30px auto auto auto !important;
+    }
+
+    .seaView article p {
+        font-size: 13px !important;
+        line-height: 19px !important;
+        margin: 60px 0 20px 0 !important;
+    }
+
+    .seaView span {
+        margin-left: 0 !important;
+    }
+
+    .seaView .moreButton {
+        margin-top: 10px !important;
+    }
+    .seaView article span {
+        white-space: unset!important;
+    }
+    
+}

@@ -1,0 +1,247 @@
+.floating-menu-item, .floating-menu-open-button {
+    background: #32b345;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    margin-left: -50px;
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    transform: translate3d(0, 0, 0);
+    transition: all .4s ease-in-out;
+  }
+  .floating-menu-open-button{
+    animation: pulse-menu 1.5s infinite;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+
+
+
+  }
+  @keyframes pulse-menu {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 #32b345d5;
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px #32b34500;
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 #32b34500;
+    }
+  }
+  
+  .floating-menu-open-button:hover{
+    color: #32b345;
+    background: white;
+    box-shadow: 0px 0px 4px gray;
+
+  }
+  .floating-menu-open-button:hover .close-mark{
+    color: #32b345;
+  }
+  .floating-menu-item{
+    cursor: pointer;
+  }
+  .floating-menu-open {
+    display: none;
+  }
+
+.floating-menu-open-button .fa-phone-volume{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    animation-name: rotating-phone;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.speech-bubble {
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background: white;
+    color: grey;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Montserrat', 'sans-serif';
+
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px;
+	border-radius: .4em;
+    height: 40px;
+}
+
+.speech-bubble::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+    z-index: 99;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: rgba(0, 0, 0, 0.562);
+	border-left: 0;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.speech-bubble::before {
+	content: '';
+	position: absolute;
+	left: 0;
+    z-index: 100;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	margin-top: -9px;
+	margin-left: -9px;
+}
+
+.floating-item-text{
+    left: 70px;
+    top: 0px;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+    border-radius: 10px;
+    height: 50px;
+    display: none;
+    position: absolute;
+    justify-content: center;
+align-items: center;
+ 
+}
+.floating-menu-item .fa-whatsapp{
+    transform: scale(1.3) translateY(-1px);
+}
+
+  .close-mark {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: block;
+    position: relative;
+    color: white;
+    opacity: 0;
+    top: -55px;
+    left: 0px;
+    transition: transform 200ms ;
+  }
+  
+  .floating-menu-open-button .fa-paper-plane{
+      opacity: 1;
+  }
+  .floating-menu-open:checked + .floating-menu-open-button i {
+  opacity: 0;}
+  .floating-menu-open:checked + .floating-menu-open-button .close-mark {
+      opacity: 1;
+  }
+  .floating-menu-open:checked + .floating-menu-open-button{
+    animation: none;
+  }
+  .floating-menu-item:hover .floating-item-text{
+    display: flex;
+    opacity: 1;
+  }
+  .floating-menu {
+    position: fixed;
+    left: 50px;
+    bottom: 00px;
+    margin-left: -60px;
+    z-index: 99;
+    padding-top: 20px;
+    padding-left: 80px;
+    filter: url("#shadowed-goo");
+    width: 150px;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: left;
+  }
+  
+  .floating-menu-item:hover {
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    color: #32b345;
+   
+  }
+  .floating-menu-item:nth-child(3),.floating-menu-item:nth-child(4) {
+    transition-duration: 180ms;
+  }
+  .floating-menu-open-button {
+    z-index: 2;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 400ms;
+    transform:  translate3d(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .floating-menu-open-button:hover {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .floating-menu-open:checked + .floating-menu-open-button {
+    transition-timing-function: linear;
+    transition-duration: 200ms;
+    transform: scale(0.9, 0.9) translate3d(0, 0, 0);
+  }
+  
+  .floating-menu-open:checked ~ .floating-menu-item {
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .floating-menu-open:checked ~ .floating-menu-item:nth-child(3) {
+    transition-duration: 190ms;
+    transform: translate3d(0px, -65px, 0);
+  }
+  .floating-menu-open:checked ~ .floating-menu-item:nth-child(4) {
+    transition-duration: 290ms;
+    transform: translate3d(0px, -130px, 0);
+  }
+@keyframes rotating-phone{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(30deg);
+  }
+}
+@media  screen and (max-width:1200px) {
+.floating-menu{
+  transform: scale(.9);
+  left: calc((10vw ) + 20.25px);
+  bottom: 16.25px;
+  margin-left: 0px;
+  padding: 0px;
+  width: fit-content;
+}
+.floating-menu-item, .floating-menu-open-button{
+  bottom: 1.25px;
+}
+.tusla-livechat{
+  bottom: 18.25px!important;
+  right: calc((10vw ) - 24.25px)!important;
+}
+.tusla-livechat .tusla-livechat__launcher .tusla-livechat__launcher__open-icon{
+  background-size: 21px!important;
+}
+}
+@media  screen and (max-width:768.5px) {
+    .floating-menu-open:checked ~ .floating-menu-item .floating-item-text {
+        opacity: 1;
+        display: flex;
+      }
+    
+}

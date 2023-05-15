@@ -1,0 +1,463 @@
+.topSlider{
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.topSlider img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* 27.03 Changes */
+.topSlider h1{
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.083vw;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.topSlider p{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.458vw;
+    line-height: 42px;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.topSlider figure{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topSlider figure:after{
+    content: '';
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.topSlider article{
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    left: 24%;
+}
+/* 27.03 Changes end */
+.foodDrinkHero {
+    padding: 60px 0;
+    position: relative;
+}
+.top-swiper-wrapper{
+    margin-left: -9.646vw;
+}
+.foodDrinkHero img {
+    width: 100%;
+    height: 21.875vw;
+    object-fit: cover;
+    max-width: 28.906vw;
+}
+
+.foodDrinkHero .firstRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.foodDrinkHero .heroCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roomlink{
+    display: contents
+}
+
+.foodDrinkHero a {
+    position: absolute;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #F8F8F8;
+    border: 1px solid #CFCFCF;
+    padding: 18px 4.688vw;/* 24.03 line changed */
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+}
+
+.foodDrinkHero .heroCard:hover a {
+    background: #FFFFFF;
+    color: #233038;
+    opacity: 0.95;
+    transition: all 0.3s linear;
+}
+
+.heroCard figure {
+    position: relative;
+}
+.moreButton a:not(:hover) {
+    color: #233038;
+    background: transparent;
+    transition: all 0.3s linear;
+}
+
+.moreButton a:hover {
+    background: #233038;
+    color: #FFFFFF !important;
+    transition: all 0.3s linear;
+}
+
+.moreButton a{
+   
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none!important;
+    font-size: 14px;
+    line-height: 17px;
+    width: 150px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #233038;
+    background: transparent;
+    margin-top: 30px;
+    border: 1px solid #233038;
+
+}
+.heroCard figure::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%);
+    transition: all 0.3s linear;
+}
+
+.heroCard figure:hover::before {
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.gastroSection {
+    margin: 50px 6.406vw 100px 6.406vw;
+}
+
+
+.pageUpButton {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.gastroSection img {
+    width: 100%;
+    height: 29.167vw;/* 24.03 line changed */
+    object-fit: cover;
+}
+
+.gastroSection article {
+    position: relative;
+}
+
+.leftText {
+    margin-right: 10.125vw;
+    margin-left: 5.208vw;
+}
+
+.rightText {
+    padding-left: 10.167vw;
+    margin-right: 5.208vw;
+}
+
+.gastroSection article h2 {
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #233038;
+    text-transform: uppercase;
+}
+
+.gastroSection article h2:after {
+    content: '';
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(147, 147, 147, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    display: block;
+    width: 30%;
+    margin: 30px 0 30px -35px;
+    opacity: 0.5;
+}
+
+.gastroSection article p {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.gastroSection article span {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3D515E;
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.gastroSection .moreButton {
+    justify-content: flex-start;
+}
+
+.gastroSection .col-lg-5 {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1281px) {
+    .foodDrinkHero article {
+        margin-left: 8.885vw;
+    }
+
+    .gastroSection {
+        margin: 50px 4.406vw 100px 4.406vw !important;
+    }
+
+    .gastroSection img{
+        height: 40vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px){
+    .rightText{
+     padding-left: 5.208vw;
+     padding-bottom: 5.208vw;
+    }
+ 
+ }
+@media screen and (max-width: 880px) {
+    .topSlider{
+        margin-top: 89px
+    }
+
+    /* 27.03 Change add */
+    .topSlider h1{
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+    .topSlider p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .topSlider article{
+        left: 20%;
+    }
+    /* 27.03 Change end */
+
+    .gastroSection span{
+        text-align: center;
+        width: 65%;
+    }
+    .gastroSection {
+        margin: 50px 0 100px 0 !important;
+    }
+    .foodDrinkHero .firstRow {
+        margin-left: 0 !important;
+        flex-direction: column !important;
+        gap: 0;
+    }
+
+    .foodDrinkHero .secondRow {
+        margin-left: 0 !important;
+        flex-direction: column !important;
+        gap: 0;
+    }
+
+    .foodDrinkHero{
+        padding: 0;
+    }
+
+    .foodDrinkHero figure{
+        margin: 0;
+    }
+
+    .foodDrinkHero img{
+        width: 100vw!important;
+        height: 40vh!important;
+        max-width: none!important;
+    }
+
+    .leftText{
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gastroSection article h2:after{
+        width: 100%;
+        margin: 30px 0 30px 0px;
+    }
+
+    .gastroSection article p{
+        text-align: center;
+        width: 80%;
+    }
+
+    .gastroSection .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightText{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foodDrinkHero article{
+        bottom: -200px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+    }
+
+    .foodDrinkHero article span{
+        text-align: center;
+    }
+
+    .firstGastro{
+        margin-top: 90px !important;
+    }
+
+    .foodDrinkHero article:after{
+        display: none !important;
+    }
+
+    .homeBrand{
+        padding: 10px 0!important;
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    /* 27.03 Change add */
+    .topSlider article{
+        left: 13%;
+    }
+    .topSlider h1{
+        font-size: 32px!important;
+        line-height: 32px!important;
+        margin-bottom: 30px;
+    }
+    .topSlider p{
+        font-size: 17px!important;
+        line-height: 20px!important;
+    }
+    /* 27.03 Change end */
+    .firstGastro{
+        margin-top: 90px !important;/* 24.03 line changed */
+    }
+
+    .gastroSection{
+        margin-bottom: 80px !important;
+    }
+
+    .gastroSection h2{
+        font-size: 25px !important;
+        line-height: 32px !important;
+        margin-top: 30px!important;
+    }
+
+    .gastroSection h2:after{
+        margin: 20px 0 20px 0 !important;
+    }
+
+    .gastroSection p{
+        font-size: 13px!important;
+        line-height: 19px!important;
+    }
+    .homeBrand{
+        margin-bottom: 80px;
+    }
+
+
+    .foodDrinkHero a{
+        font-size: 17px!important;
+        line-height: 20px!important;
+        padding: 14px 60px!important;
+    }
+}
+
+/* Home Brands Swiper Area START */
+.homeBrand {
+    padding: 60px 10.417vw !important;
+    background: #F8F8F8;
+}
+.homeBrand img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-height: 110px;
+    max-width: 100%;
+    opacity: .8;
+}
+.homeBrand .swiper-wrapper {
+    align-items: center;
+}
+.homeBrand .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (max-width: 990px) {
+    .homeBrand img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        max-height: 110px;
+        max-width: 70%;
+   }
+}
+@media screen and (max-width: 576px) {
+    .homeBrand img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        max-height: 110px;
+        max-width: 80%;
+   }
+}
+/* Home Brands Swiper Area END */
