@@ -69,7 +69,7 @@
     </div>
     <div class="restaurantText">
         <h1>MINI CLUB A’LA CARTE</h1>
-        <p>Port Nature Mini Club A’la Carte makes everything for your children such as healthy and delicious food, safety area and skilled personal.<br> <br><b>Enjoy your holiday</b></p>
+        <p>Port Nature Mini Club A’la Carte has everything for your children such as healthy and delicious food, safe area and skilled personal.<br> <br><b>Enjoy your holiday</b></p>
     </div>
 </div>
 

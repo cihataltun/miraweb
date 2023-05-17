@@ -72,7 +72,7 @@
     <figure>
         <img src="{{ asset('assets/frontend/images/chivas/chivasLogo.png') }}" alt="chivas"/>
     </figure>
-    <p>Her Chivas Regal viski kendinden eşsiz bir tada sahiptir ve Chivas Regal 18 Year Old en iyisidir. En iyi viski Port Nature'da.</p>
+    <p>Chivas Regal'ın viskileri için benzersiz formülleriyle beraber, özenli karıştırmanın sonucu olan zengin ve karmaşık lezzeti nedeniyle Port Nature'deki en iyi viskilerden kabul edilir.</p>
 </div>
 
 <div class="container">
@@ -105,7 +105,7 @@
                         Eşsiz zengin tat, 18 yıl beklemiş çok değerli viski.
                     </h2>
                     <p>Bir lezzet simgesi, ödüllü viski. Uluslararası Şarap ve Alkollü İçkiler Yarışmasında 'En İyi Karışık Scotch Viski' gibi gıpta ile bakılan unvanlara sahiptir ve bunun nedenini anlamak zor değil.</p>
-                    <p>Chivas 18, her yudumda hayran bırakan, özenle hazırlanmış bir viskidir. Sadece en iyi fıçılarda yoğun tatlar geliştiren 18 yaşındaki bir Scotch, asla bitmeyen bir tat deneyimine sahip rafine ve zengin bir viskidir.</p>
+                    <p>Chivas 18, her yudumda hayran bırakan, özenle hazırlanmış bir viskidir. Sadece en iyi fıçılarda yoğun tatlar geliştiren 18 yıllık bir Scotch, asla bitmeyen bir tat deneyimine sahip rafine ve zengin bir viskidir.</p>
                     <div class="hours">
                         <img class="chivasSvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
                         <span>10:00 - 18:00</span>

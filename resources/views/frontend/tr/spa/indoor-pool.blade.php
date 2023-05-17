@@ -52,7 +52,7 @@
             <img class="indoorSvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
             <span>09:00 - 19:00</span>
         </div>
-        <p>Işıltılı sulara, zarif bir dekora ve dingin bir ambiyansa sahip, serinletici bir yüzme veya uzanmak için mükemmel olan lüks kapalı havuzumuzda en üst düzeyde rahatlama deneyimi yaşayın. Ailenizle eğlenceli bir gün geçirin Port Nature havuzları size özel ve unutulmaz bir deneyim sunuyor.</p>
+        <p>Lüks kapalı havuzumuz, ışıltılı suları, zarif dekoru ve dingin atmosferiyle size en üst düzeyde rahatlama ve lüks bir deneyim sunuyor.</p>
     </div>
 </div>
 

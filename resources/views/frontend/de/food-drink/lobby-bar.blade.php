@@ -62,7 +62,7 @@
                     <span>24/7</span>
                 </div>
                 <article>
-                    <p>Die Lobbybar ist immer für Sie da, mit Premium-Alkohol, lokalen Getränken und kalten und heißen Getränken. Rund um die Uhr geöffnete Bar mit luxuriösem Design und moderner Atmosphäre für Erwachsene.</p>
+                    <p>Genießen Sie das raffinierte Ambiente unserer rund um die Uhr geöffneten Lobby Bar, wo Sie eine Welt erstklassiger Spirituosen, exquisiter lokaler und internationaler Cocktails sowie erfrischender Heiß- und Kaltgetränke entdecken können.</p>
                 </article>
             </div>
         </div>

@@ -143,7 +143,7 @@
                         <figure>
                             <img src="{{ asset('assets/frontend/images/activity/Darts.webp') }}" alt="darts"/>
                         </figure>
-                        <h5>Darts</h5>
+                        <h5>Dart</h5>
                     </div>
                     <div class="swiper-slide">
                         <figure>

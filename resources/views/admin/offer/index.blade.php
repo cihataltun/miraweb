@@ -49,7 +49,7 @@
                                                     <th>Top Title</th>
                                                     <th>Title</th>
                                                     <th>Sub Title</th>
-                                                    <th>Bottom Title</th>
+                                                    <th>Sayfa Url</th>
                                                     <th>Meta Title</th>
                                                     <th>Status</th>
                                                     <th class="text-center">İşlemler</th>
@@ -65,7 +65,7 @@
                                                     <td data-field="top_title">{{ $offer->top_title }}</td>
                                                     <td data-field="title">{{ $offer->title }}</td>
                                                     <td data-field="sub_title">{{ $offer->sub_title }}</td>
-                                                    <td data-field="bottom_title">{{ $offer->bottom_title }}</td>
+                                                    <td data-field="opportunity_slug">{{ $offer->opportunity_slug }}</td>
                                                     <td data-field="meta_title">{{ $offer->meta_title }}</td>
                                                     <td data-field="status">
                                                         @if($offer->status == '1')

@@ -105,7 +105,7 @@
                     <span>12:00 - 00:00</span>
                 </div>
                 <article>
-                    <p>Treten Sie ein in die warme und einladende Atmosphäre unseres Irish Pubs, wo Sie ein Pint klassischen Alkohols genießen können. Der Pub von Port Nature ist der perfekte Ort, um sich zu entspannen und den Charme und die Gastfreundschaft Irlands zu erleben. Spezieller Cocktail, lokaler Alkohol und kalt Getränk.</p>
+                    <p>Treten Sie ein in die warme und einladende Atmosphäre unseres irischen Pubs, wo Sie ein Pint klassischen Alkohols genießen können. Port Nature's Pub ist der perfekte Ort, um sich zu entspannen und den Charme und die Gastfreundschaft Irlands zu erleben.</p>
                 </article>
             </div>
         </div>

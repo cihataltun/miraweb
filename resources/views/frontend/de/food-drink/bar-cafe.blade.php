@@ -63,9 +63,9 @@
                         <h3>Script Chivas Lounge</h3>
                     </div>
                     <article>
-                        <p>Nur Chivas Regal ist nur ein echter Whisky-Verkoster. Chivas 18 Jahre ist der elitärste Whisky.</p>
+                        <p>Für echte Whisky-Liebhaber ist nur Chivas Regal genug. Der 18-jährige Chivas ist einer der exklusivsten Whiskys.</p>
                         <div class="moreButton">
-                            <a href="{{ route('de-chivas-lounge') }}">Mehr Uber</a>
+                            <a href="{{ route('de-chivas-lounge') }}">Mehr erfahren</a>
                         </div>
                     </article>
                 </a>
@@ -83,7 +83,7 @@
                 <article>
                     <p>Genießen Sie während des Barerlebnisses von Port Nature die reichhaltigen und seidigen Aromen unserer besten Cognacs</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-hennessy-lounge') }}">Mehr Uber</a>
+                        <a href="{{ route('de-hennessy-lounge') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -98,9 +98,9 @@
                     <h3>Irish Pub</h3>
                 </div>
                 <article>
-                    <p>Sie werden sich fühlen, als ob Sie an einem kalten Tag einen Irish Pub verlassen und sich bei speziellem Alkohol entspannen.</p>
+                    <p>In unserem Irish Pub erwarten Sie eine Vielzahl von Bieren, eine freundliche Atmosphäre und einzigartige alkoholische Getränke.</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-irish-pub') }}">Mehr Uber</a>
+                        <a href="{{ route('de-irish-pub') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -115,9 +115,9 @@
                     <h3>Lobby Bar</h3>
                 </div>
                 <article>
-                    <p>Die Lobby Bar ist ein beliebter Ort für Sie mit erstklassigem importiertem und traditionellem Alkohol.</p>
+                    <p>Die Lobby Bar bietet mit ihren importierten alkoholischen Getränken ein einzigartiges Trinkerlebnis.</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-lobby-bar') }}">Mehr Uber</a>
+                        <a href="{{ route('de-lobby-bar') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -132,9 +132,9 @@
                     <h3>Flamingo Bar</h3>
                 </div>
                 <article>
-                    <p>Pool und ein kühles Bier oder ein kühler Cocktail fallen mir da als erstes ein</p>
+                    <p>Ein kühles Bier oder ein kühler Cocktail am Pool ist die erste Idee, die einem in den Sinn kommt.</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-flamingo-bar') }}">Mehr Uber</a>
+                        <a href="{{ route('de-flamingo-bar') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -149,9 +149,9 @@
                     <h3>Davidoff Kafe</h3>
                 </div>
                 <article>
-                    <p>Blue Ribbon Kaffeebohnen verwandeln sich im Davidoff Cafe in einen einzigartigen Kaffeegeschmack von Meisterhand</p>
+                    <p>Blue-Ribbon-Kaffeebohnen verwandeln sich im Davidoff Cafe aus Meisterhand in einzigartigen Kaffeegeschmack</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-davidoff-cafe') }}">Mehr Uber</a>
+                        <a href="{{ route('de-davidoff-cafe') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -166,9 +166,9 @@
                     <h3>Kit Kat</h3>
                 </div>
                 <article>
-                    <p>Jeder Bissen beinhaltet Geschmack, kindische, indiskrete Schokolade und das bekannte Kit Kat.</p>
+                    <p>Jeder Bissen beinhaltet Geschmack, Kindheit, zartschmelzende Schokolade und das bekannte Kit Kat.</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-kitkat-cafe') }}">Mehr Uber</a>
+                        <a href="{{ route('de-kitkat-cafe') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>
@@ -185,7 +185,7 @@
                 <article>
                     <p>Perfekter Kaffee ist Kompetenz. Das bedeutet, dass wir kompromisslos Grenzen verschieben.</p>
                     <div class="moreButton">
-                        <a href="{{ route('de-nespresso-cafe') }}">Mehr Uber</a>
+                        <a href="{{ route('de-nespresso-cafe') }}">Mehr erfahren</a>
                     </div>
                 </article>
             </a>

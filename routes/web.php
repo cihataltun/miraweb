@@ -74,10 +74,12 @@ Route::get('kids-concept', [KidsConceptController::class, 'index'])->name('kids-
 Route::get('aquapark', [KidsConceptController::class, 'aquapark'])->name('aquapark');
 Route::get('mini-club-alacarte-restaurant', [KidsConceptController::class, 'mini_club_alacarte'])->name('mini-club-alacarte');
 
+// Route::get('{$offer_slug}', [OfferController::class, 'offerDetail'])->name('offer-detail');
 Route::get('special-offers', [OfferController::class, 'index'])->name('special-offers');
 Route::get('en-antalya-hotels', [OfferController::class, 'antalyaOffers'])->name('antalya-hotels');
 Route::get('en-belek-hotels', [OfferController::class, 'belekOffers'])->name('belek-hotels');
 Route::get('en-turkey-hotels', [OfferController::class, 'turkeyOffers'])->name('turkey-hotels');
+
 
 Route::get('food-drinks', [FoodDrinkController::class, 'index'])->name('food-drink');
 Route::get('alacarte-restaurants', [FoodDrinkController::class, 'alacarte_restaurants'])->name('alacarte-restaurants');
@@ -330,4 +332,3 @@ Route::prefix('admin')->middleware(['auth', 'isAdmin'])->group(function () {
     Route::get('user-edit/{user_id}', [UserController::class, 'edit']);
     Route::put('user-update/{user_id}', [UserController::class, 'update']);
 });
-

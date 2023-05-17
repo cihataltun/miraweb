@@ -92,10 +92,10 @@
             <div class="col-lg-6">
                 <article>
                     <h2>
-                        Zwei Jahrhunderte Perfektion in jedem Schluck - Erleben Sie das Vermächtnis.
+                        Zwei Jahrhunderte Perfektion in jedem Schluck - Erleben Sie das Erbe.
                     </h2>
-                    <p>Hennessy von Port Nature ist ein ausgewogener Cognac, der 200 Jahre Know-how von Hennessy zum Ausdruck bringt. Diese einzigartige Mischung ist das Ergebnis der Unsicherheiten der Natur und hat die Elemente zum Cognac-Handwerk gezähmt seine Persönlichkeit.</p>
-                    <p>Als Cognac von bemerkenswerter Konsistenz und Vitalität vermittelt Hennessy das ganze Savoir-faire der Hennessy Master Blender, die seit 200 Jahren für anhaltenden Erfolg sorgen.</p>
+                    <p>Hennessy von Port Nature ist ein ausgewogener Cognac, der 200 Jahre Know-how von Hennessy zum Ausdruck bringt. Als Ergebnis der Unwägbarkeiten der Natur hat diese einzigartige Mischung die Elemente gezähmt, um einen Cognac zu schaffen. Die Emotionen, die durch das Verkosten dieses Cognacs geweckt werden, enthüllen immer wieder neue Facetten seiner Persönlichkeit.</p>
+                    <p>Als Cognac von bemerkenswerter Konsistenz und Vitalität vermittelt Hennessy das ganze Savoir-faire der Hennessy Master Blender, die seit 200 Jahren für anhaltenden Erfolg sorgen. </p>
                     <div class="hours">
                         <img class="hennesySvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
                         <span>10:00 - 18:00</span>

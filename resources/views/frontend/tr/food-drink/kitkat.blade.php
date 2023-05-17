@@ -27,8 +27,8 @@
                 </figure>
             </a>
             <article>
-                <p>Çıtır gofret yapraklarını çevreleyen<br> pürüzsüz çikolata</p>
-                <span>PÜRÜZSÜZ KIT KAT'ı DENE</span>
+                <p>Çıtır gofret yapraklarını çevreleyen<br> gerçek çikolata</p>
+                <span>BENZERSİZ KIT KAT'I DENE</span>
             </article>
 
         </div>
@@ -39,8 +39,8 @@
                 </figure>
             </a>
             <article>
-                <p>Çıtır gofret yapraklarını çevreleyen<br> pürüzsüz çikolata</p>
-                <span>PÜRÜZSÜZ KIT KAT'ı DENE</span>
+                <p>Çıtır gofret yapraklarını çevreleyen<br> gerçek çikolata</p>
+                <span>BENZERSİZ KIT KAT'I DENE</span>
             </article>
         </div>
         <div class="swiper-slide">
@@ -50,8 +50,8 @@
                 </figure>
             </a>
             <article>
-                <p>Çıtır gofret yapraklarını çevreleyen<br> pürüzsüz çikolata</p>
-                <span>PÜRÜZSÜZ KIT KAT'ı DENE</span>
+                <p>Çıtır gofret yapraklarını çevreleyen<br> gerçek çikolata</p>
+                <span>BENZERSİZ KIT KAT'I DENE</span>
             </article>
         </div>
     </div>

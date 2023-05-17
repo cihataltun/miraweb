@@ -27,7 +27,7 @@
   </div>
   <article>
     <h1>Unterhaltung</h1>
-    <span>Port Nature gibt Ihnen einen Vorgeschmack auf Genuss.<br> Unbeschwerter Genuss für Kinder und Erwachsene.</span>
+    <span>Port Nature bietet einen verlockenden Einblick in die Welt des reinen Vergnügens.<br> Eine sorgenfreie Oase für Kinder und Erwachsene.</span>
   </article>
 </div>
 <!-- Hero Part End -->
@@ -56,7 +56,7 @@
     <div class="col-12 col-md-12 col-lg-5">
       <article class="rightText">
         <h2>Konzerte</h2>
-        <p>Der Besuch eines Live-Konzerts kann ein atemberaubendes Erlebnis sein, da die atemberaubenden Darbietungen, die schillernden Lichter und der eindringliche Sound eine unvergessliche Atmosphäre schaffen. Von der Energie der Menge bis zur unglaublichen Artistik der Musiker für unsere Gäste und jeder kann ein Ticket kaufen.</p>
+        <p>Der Besuch eines Live-Konzerts kann ein atemberaubendes Erlebnis sein, bei dem die umwerfenden Darbietungen, die schillernden Lichter und der überwältigende Klang eine unvergessliche Atmosphäre schaffen. Von der Energie des Publikums bis zur unglaublichen Kunstfertigkeit der Musiker für unsere Gäste.</p>
         <div class="moreButton">
           <a href="{{ route('de-concert') }}">Mehr Uber</a>
         </div>

@@ -92,7 +92,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p>We have prepared an entertainment area of 1000 m².<br> Music and dance catch you.
+                <p>We have prepared an entertainment area of 1000m2 where<br> music and dance will captivate you. 
                 </p>
             </div>
         </div>

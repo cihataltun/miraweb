@@ -83,9 +83,9 @@
     <div class="offset-image-5-wrapper">
         <img class="offset-image-5" src="{{ asset('assets/frontend/images/concerts/An unfogettable show.webp') }}">
         <div class="offset-image-overlay">
-            <p class="overlay-top">Ein unvergessbares</p>
+            <p class="overlay-top">Ein unvergessbare</p>
             <div class="overlay-hr"></div>
-            <p class="overlay-bottom">ZEIGEN</p>
+            <p class="overlay-bottom">SHOW</p>
         </div>
 
     </div>
@@ -99,12 +99,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>EHRENGÄSTE</h2>
+                <h2>BESONDERE GÄSTE</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p>Wir haben einen Unterhaltungsbereich von 1000 m2 vorbereitet. Musik und Tanz fangen Sie ein.</p>
+                <p>Wir haben einen Unterhaltungsbereich von 1000m2 vorbereitet, wo Musik und Tanz Sie fesseln werden.</p>
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
         </div>
     </div>
     <div class="moreButton">
-        <a href="">Mehr Uber</a>
+        <a href="">Mehr erfahren</a>
     </div>
 </div>
 

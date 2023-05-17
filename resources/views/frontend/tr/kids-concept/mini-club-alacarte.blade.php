@@ -69,7 +69,7 @@
     </div>
     <div class="restaurantText">
         <h1>MINI CLUB A’LA CARTE</h1>
-        <p>Port Nature Luxury A’la Carte sağlıklı ve lezzetli yiyecekler ve donanımlı personel ile her şeyi çocuklarınız için yapar.<br> <br><b>Tatilinizin tadını çıkarın</b></p>
+        <p>Port Nature Luxury Mini Club A’la Carte sağlıklı ve lezzetli yiyecekler ve donanımlı personel ile her şeyi çocuklarınız için yapar.<br> <br><b>Tatilinizin tadını çıkarın</b></p>
     </div>
 </div>
 

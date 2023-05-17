@@ -168,7 +168,7 @@
         <div class="col-12 col-md-12 col-lg-5">
             <article class="leftText">
                 <h2>Main Restaurant</h2>
-                <p>Indulge in an unforgettable culinary experience at our main restaurant, where our chefs use only the finest, freshest ingredients to create our open buffet. Our main menu has something to satisfy every palate. You never boring this restaurant.</p>
+                <p>Indulge in an unforgettable culinary experience at our main restaurant, where our chefs use only the finest, freshest ingredients to create our open buffet. Our main menu has something to satisfy every palate. Your taste buds will never get bored here. </p>
                 <span>You deserve the best! We offer the best…</span>
                 <div class="moreButton">
                     <a href="{{ route('main-restaurant') }}">More About</a>

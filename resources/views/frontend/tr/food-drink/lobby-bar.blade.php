@@ -62,7 +62,7 @@
                     <span>7/24</span>
                 </div>
                 <article>
-                    <p>Lobby bar, premium alkol, yerli içkiler ve soğuk-sıcak içecekler ile her zaman yanınızda. Yetişkinler için lüks tasarımı ve modern atmosferi ile 24 saat açık bar.</p>
+                    <p>Lobby bar, premium alkol, yerli içkiler ve soğuk-sıcak içecekler ile her zaman yanınızda. Yetişkinler için lüks tasarımı ve modern atmosferi ile 24 saat hizmetinizde.</p>
                 </article>
             </div>
         </div>

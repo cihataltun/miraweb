@@ -56,7 +56,7 @@
                     <span>10:00 - 00:00</span>
                 </div>
                 <article>
-                    <p>You want to be relaxing warm and humid days Flamingo poolside bar every time is a cool choice with a lot of import drşnk and cold-hot drinks.</p>
+                    <p>If you want to relax in warm and humid days Flamingo poolside bar is a cool choice with lots of imported drinks and hot-cold soft drinks.</p>
                 </article>
             </div>
         </div>

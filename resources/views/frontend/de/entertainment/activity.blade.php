@@ -141,7 +141,7 @@
                         <figure>
                             <img src="{{ asset('assets/frontend/images/activity/Darts.webp') }}" alt="darts"/>
                         </figure>
-                        <h5>Darts</h5>
+                        <h5>Dart</h5>
                     </div>
                     <div class="swiper-slide">
                         <figure>
@@ -192,7 +192,7 @@
         </figure>
         <article>
             <h3>Aquapark</h3>
-            <p>18 Rutsche  ·  Sicherheit für Ihr Kind</p>
+            <p>18 Rutsche  ·  Sicher für Ihr Kind</p>
             <div class="moreButton">
                 <a href="{{ route('de-aquapark') }}">Mehr Uber</a>
             </div>
@@ -219,7 +219,7 @@
             <figure>
                 <img src="{{ asset('assets/frontend/images/activity/entertainment-2.webp') }}" alt="specialguests"/>
 
-            </figure><span>Ehrengast</span>
+            </figure><span>Besondere Gäste</span>
         </div></div>
         <div class="swiper-slide">
         <div class="entertainmentImg">

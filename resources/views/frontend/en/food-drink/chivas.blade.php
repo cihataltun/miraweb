@@ -72,7 +72,7 @@
     <figure>
         <img src="{{ asset('assets/frontend/images/chivas/chivasLogo.png') }}" alt="chivas"/>
     </figure>
-    <p>Every Chivas Regal whisky has its own unique formula and The Chivas Regal 18-year-old is the best. The best whiskey in Port Nature</p>
+    <p>Chivas Regal's unique formulas for their whiskies include their celebrated 18-year-old blend, widely considered the best whiskey in Port Nature due to its rich and complex flavor resulting from the careful blending.</p>
 </div>
 
 <div class="container">
@@ -102,9 +102,10 @@
             <div class="col-lg-6 text">
                 <article>
                     <h2>
-                        Uniquely rich flavour, this 18-year-old pearly whisky
+                        Uniquely rich flavour, 18-year-old pearly whisky 
                     </h2>
-                    <p>An icon of flovour. This award-winning whisky holds coveted titles such as ‘Best Blended Scotch Whisky’ from the International Wine and Spirits Competition – and it’s not hard to see why. Chivas 18 is a carefully crafted whisky that impresses with every sip.</p>
+                    <p>An icon of flavour. This award-winning whisky holds coveted titles such as ‘Best Blended Scotch Whisky’ from the International Wine and Spirits Competition – and it’s not hard to see why. Chivas 18 is a carefully crafted whisky that impresses with every sip. 
+                    </p>
                     <p>An 18-year-old Scotch that develops intense flavours within only the finest casks, it’s a refined and rich whisky with a never-ending taste experience.</p>
                     <div class="hours">
                         <img class="chivasSvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>

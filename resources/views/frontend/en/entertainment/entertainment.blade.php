@@ -26,7 +26,7 @@
     </div>
     <article>
       <h1>Entertainment</h1>
-      <span>Port Nature gives you a taste of enjoyment.<br> Pure enjoyment for kids and adults without worrying.</span>
+      <span>Port Nature offers a tantalizing glimpse into the world of pure enjoyment. <br>Providing a worry-free oasis for both children and adults.</span>
     </article>
   </div>
   <!-- Hero Part End -->
@@ -55,7 +55,7 @@
       <div class="col-12 col-md-12 col-lg-5">
         <article class="rightText">
           <h2>Concerts</h2>
-          <p>Attending a live concert can be a breathtaking experience, with the stunning performances, dazzling lights, and immersive sound creating an unforgettable atmosphere. From the energy of the crowd to the incredible artistry of the musicians for our guests and every one can buy a ticket.</p>
+          <p>Attending a live concert can be a breathtaking experience, with the stunning performances, dazzling lights, and immersive sound creating an unforgettable atmosphere. From the energy of the crowd to the incredible artistry of the musicians for our guests.</p>
           <div class="moreButton">
             <a href="{{ route('concert') }}">More About</a>
           </div>

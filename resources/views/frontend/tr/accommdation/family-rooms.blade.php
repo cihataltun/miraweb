@@ -282,7 +282,7 @@
                     <div class="otherRoomImage">
                         <a class="roomlink" href="{{ route('tr-standard-rooms') }}">
                         <figure>
-                            <img src="{{ asset('assets/frontend/images/home/home-page-standart-sea-1.webp.webp') }}" alt="standardRoom"/>
+                            <img src="{{ asset('assets/frontend/images/home/home-page-standart-sea-1.webp') }}" alt="standardRoom"/>
                         </figure>
                         <h4>STANDART ODA</h4>
                         <span>2 Yetişkin + 2  ·  34 m²  ·  Deniz / Kara / Yandan Manzaralı</span>

@@ -78,7 +78,7 @@
     </div>
     <div class="restaurantText">
         <h1>Seaside A'La Carte</h1>
-        <p>Probieren Sie den frischen Fisch in unserem Fischrestaurant am Meer, wo unsere erfahrenen Köche köstliche Meeresfrüchtegerichte mit den besten Zutaten zubereiten. Mit atemberaubendem Meerblick und einem einladenden Ambiente ist unser Restaurant das perfekte Ziel für Sie.</p>
+        <p>Probieren Sie den frischen Fisch in unserem Fischrestaurant am Meer, wo unsere erfahrenen Köche köstliche Meeresfrüchtegerichte mit den besten Zutaten zubereiten. Mit atemberaubendem Meerblick und einem einladenden Ambiente ist unser Restaurant der perfekte Ort für Sie.</p>
     </div>
 </div>
 

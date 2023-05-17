@@ -105,7 +105,7 @@
                     <span>12:00 - 00:00</span>
                 </div>
                 <article>
-                    <p>Bir bardak klasik alkolün tadını çıkarabileceğiniz İrlanda barımızın sıcak ve davetkar atmosferine adım atın. Port Nature’ın pubı, dinlenmek ve İrlanda'nın cazibesini, misafirperverliğini yaşamak için mükemmel bir mekandır. Özel kokteyl, yerli alkol ve soğuk içecekler ile.</p>
+                    <p>Bir bardak alkolün tadını çıkarabileceğiniz Irısh Pub'ın sıcak ve davetkar atmosferine adım atın. Port Nature Irish Pub, dinlenmek ve İrlanda'nın misafirperverliğini yaşamak için mükemmel bir mekandır. </p>
                 </article>
             </div>
         </div>

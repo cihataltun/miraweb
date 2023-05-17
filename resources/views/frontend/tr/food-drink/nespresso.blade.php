@@ -71,10 +71,10 @@
             <div class="col-lg-6">
                 <article>
                     <h2>
-                        Kahve hasat edilir ve işlenir, yani fermente edilir, yıkanır, ve dahası.
+                        Çekirdekten bardağa ulaşan eşsiz yolculuğa eşlik edin.
                     </h2>
                     <p>Çekirdekten bardağa giden karmaşık yol boyunca, işleri bizim yaptığımızdan daha hızlı yapmanın yolları var ve kesinlikle daha ucuz yollar. Ama daha iyi bir yol yok.</p>
-                    <p>Tek bir hatalı çekirdeğin bütün bir partiyi lekeleyebileceğini bildiğimizden, yolun her adımında ayrıntıları doğru bir şekilde okumaya kasıtlı bir bağlılıkla kalitenin kontrolünü son çekirdeğe kadar taşımaya çalışıyoruz. Port Nature bu kahvenin içilebileceği doğru yer.</p>
+                    <p>Bir tek hatalı kahve çekirdeğinin bile tüm partiye zarar verebileceğinin bilincinde olarak, kalite kontrolü her aşamada dikkatle yapılmakta ve her ayrıntı kasıtlı bir bağlılıkla doğru bir şekilde yapılmaktadır. Bu sayede kalite, son çekirdeğe kadar kontrol altında tutulmaktadır. Port Nature ise bu özenle hazırlanmış kahvenin tüketilebileceği en doğru yerdir.</p>
                 </article>
             </div>
         </div>

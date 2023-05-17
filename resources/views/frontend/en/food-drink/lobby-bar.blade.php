@@ -62,7 +62,7 @@
                     <span>24/7</span>
                 </div>
                 <article>
-                    <p>Lobby bar is always there for you with premium alcohol, local drinks, and cold-hot drinks. 24-hour open bar with luxury design and modern atmosphere for adults.</p>
+                    <p>Indulge in the sophisticated ambiance of our 24-hour open Lobby Bar, where you can discover a world of premium spirits, exquisite local and international cocktails, and refreshing hot and cold beverages.</p>
                 </article>
             </div>
         </div>

@@ -137,7 +137,7 @@
                     <h3>Mini Club A'La Carte</h3>
                 </div>
                 <div class="card-text-wrapper">
-                    <p class="card-text">Your child chooses yourself with our child exclusive menu.</p>
+                    <p class="card-text">Your children chooses their desired food with our child exclusive menu.</p>
                     <div class="moreButton">
                         <a href="{{ route('mini-club-alacarte') }}">More About</a>
                     </div>

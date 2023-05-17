@@ -71,7 +71,7 @@
     </div>
     <div class="restaurantText">
         <h1>Italian A'La Carte</h1>
-        <p>Das italienische Restaurant von Port Nature bietet original italienische Pastasorten und erstklassige Pizzabeläge von Spitzenköchen. Im Restaurant mit italienischer Atmosphäre fühlen Sie sich wie in Italien.</p>
+        <p>Das italienische Restaurant Port Nature's bietet original italienische Nudelgerichte und feinste Pizzen, die von Spitzenköchen handgemacht werden. Die italienische Atmosphäre gibt Ihnen das Gefühl, in Italien zu sein.</p>
     </div>
 </div>
 

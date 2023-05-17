@@ -447,7 +447,7 @@
                     </div>
                     <div class="opportunity-text">
                         <p class="opportunity-title">Antalya Hotel</p>
-                        <a class="transfer-btn" target="blank" href="{{ route('de-antalya-hotels') }}">Mehr Über</a>
+                        <a class="transfer-btn" target="blank" href="{{ route('de-antalya-hotels') }}">Mehr erfahren</a>
                     </div>
                 </a>
             </div>
@@ -459,7 +459,7 @@
                     </div>
                     <div class="opportunity-text">
                         <p class="opportunity-title">Hotel Türkei</p>
-                            <a class="transfer-btn" target="blank" href="{{ route('de-turkey-hotels') }}">Mehr Über</a>
+                            <a class="transfer-btn" target="blank" href="{{ route('de-turkey-hotels') }}">Mehr erfahren</a>
                     </div>
                 </a>
             </div>
@@ -470,7 +470,7 @@
                     </div>
                     <div class="opportunity-text">
                         <p class="opportunity-title">Hotel Belek</p>
-                        <a class="transfer-btn" target="blank" href="{{ route('de-belek-hotels') }}">Mehr Über</a>
+                        <a class="transfer-btn" target="blank" href="{{ route('de-belek-hotels') }}">Mehr erfahren</a>
                     </div>
                 </a>
             </div>

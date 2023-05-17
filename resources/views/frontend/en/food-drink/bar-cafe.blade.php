@@ -63,7 +63,7 @@
                         <h3>Script Chivas Lounge</h3>
                     </div>
                     <article>
-                        <p>Only Chivas Regal only a real whisky taster. Chivas 18 Year Old is the most elite whisky.</p>
+                        <p>Only a real whisky taster can truly appreciate Chivas Regal.</p>
                         <div class="moreButton">
                             <a href="{{ route('chivas-lounge') }}">More About</a>
                         </div>
@@ -98,7 +98,7 @@
                     <h3>Irish Pub</h3>
                 </div>
                 <article>
-                    <p>You will feel, you defect an Irish pub on a cold day and you relax with special alcohol.</p>
+                    <p>Experience the authentic feeling of Ireland at our hotel's Irish pub.</p>
                     <div class="moreButton">
                         <a href="{{ route('irish-pub') }}">More About</a>
                     </div>
@@ -115,7 +115,7 @@
                     <h3>Lobby Bar</h3>
                 </div>
                 <article>
-                    <p>Lobby Bar is a popular place for you with premium import ve taraditional alcohol.</p>
+                    <p>Lobby Bar offers a unique drinking experience with its imported alcoholic beverages.</p>
                     <div class="moreButton">
                         <a href="{{ route('lobby-bar') }}">More About</a>
                     </div>
@@ -166,7 +166,7 @@
                     <h3>Kit Kat</h3>
                 </div>
                 <article>
-                    <p>Every bite includes taste, childish, indiscrete chocolate, and known Kit Kat.</p>
+                    <p>Every bite includes taste, childish, smooth chocolate, and known Kit Kat.</p>
                     <div class="moreButton">
                         <a href="{{ route('kitkat-cafe') }}">More About</a>
                     </div>

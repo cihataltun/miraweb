@@ -81,7 +81,7 @@
     </div>
     <div class="restaurantText">
         <h1>French A'La Carte</h1>
-        <p>Verwöhnen Sie sich mit den exquisiten Aromen Frankreichs in unserem Restaurant, wo unsere Köche nur die frischesten Zutaten verwenden, um klassische französische Gerichte mit einem modernen Twist zu kreieren. Mit elegantem Dekor und tadellosem Service.</p>
+        <p>Genießen Sie die exquisiten Aromen Frankreichs in unserem Restaurant, wo unsere Köche nur die frischesten Zutaten verwenden, um klassische französische Gerichte mit einem modernen Touch zu kreieren.</p>
     </div>
 </div>
 

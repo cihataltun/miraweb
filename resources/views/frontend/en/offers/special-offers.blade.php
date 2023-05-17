@@ -29,19 +29,30 @@
             <div class="swiper-slide">
                 <div class="offers-slide-inner">
                     <img class="offers-banner" src="{{ asset('assets/frontend/images/offers/banner-1.webp') }}" />
-                    <img class="offers-banner-mobile"
-                        src="{{ asset('assets/frontend/images/offers/mobile-1.webp') }}" />
+                    <img class="offers-banner-mobile" src="{{ asset('assets/frontend/images/offers/mobile-1.webp') }}" />
+                    
+                    {{-- Toplu görselleri getirir --}}
+                    
+                    {{-- @foreach($sliderImages as $image)
+                        <img class="offers-banner" src="{{ asset('assets/admin/images/offers/' . $image) }}" />
+                        @endforeach --}}
+
+                        {{-- @foreach ($sliderImages as $image)
+                            <img class="offers-banner" src="{{ asset($image) }}" />
+                        @endforeach
+                        --}}
                     <div class="offers-hero-text offers-hero-1">
-                        <p class="offers-1-top">For Guests</p>
+                        <p class="offers-1-top">{{ $offer_content->top_title }}</p>
+                        {{-- <p class="offers-1-top">For Guests</p> --}}
                         <p class="offers-1-big">
                             Free <br> Tokens
                         </p>
                         <p class="offers-1-bottom">For Water Sports</p>
                     </div>
-                            <div class="water-sports-addendum-wrapper">            <p class="offers-addendum">Book your vacation through the call center and get 4 tokens as a gift</p>
-                    <p class="offers-addendum-right">Our guests can only benefit from one of the campaigns.</div>
-
-                    </p>
+                    <div class="water-sports-addendum-wrapper">
+                        <p class="offers-addendum">Book your vacation through the call center and get 4 tokens as a gift</p>
+                        <p class="offers-addendum-right">Our guests can only benefit from one of the campaigns.</p>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide">
@@ -380,19 +391,19 @@
         <div class="swiper flight-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-<a href="https://www.flypgs.com/en/cities/flights-to-antalya"><img class="pegasus-logo" src="{{ asset('assets/frontend/images/offers/logo-1.png') }}" /></a>                </div>
-                <div class="swiper-slide">
-<a href="https://www.skyscanner.com/"><img class="scanner-logo" src="{{ asset('assets/frontend/images/offers/logo-2.png') }}" /></a>                </div>
-                <div class="swiper-slide">
-<a href="https://www.corendonairlines.com/"><img class="corendon-logo" src="{{ asset('assets/frontend/images/offers/logo-3.png') }}" /></a>                </div>
-                <div class="swiper-slide">
-<a href="https://www.aviasales.ru/?params=IST1&currency=usd"><img class="avia-logo" src="{{ asset('assets/frontend/images/offers/logo-4.png') }}" /></a>                </div>
-                <div class="swiper-slide">
-<a href="https://www.turkishairlines.com/en-int/flights/booking/index.html"><img class="turkish-logo" src="{{ asset('assets/frontend/images/offers/logo-5.png') }}" /></a>                </div>
+                    <a href="https://www.flypgs.com/en/cities/flights-to-antalya"><img class="pegasus-logo" src="{{ asset('assets/frontend/images/offers/logo-1.png') }}" /></a>                </div>
+                                    <div class="swiper-slide">
+                    <a href="https://www.skyscanner.com/"><img class="scanner-logo" src="{{ asset('assets/frontend/images/offers/logo-2.png') }}" /></a>                </div>
+                                    <div class="swiper-slide">
+                    <a href="https://www.corendonairlines.com/"><img class="corendon-logo" src="{{ asset('assets/frontend/images/offers/logo-3.png') }}" /></a>                </div>
+                                    <div class="swiper-slide">
+                    <a href="https://www.aviasales.ru/?params=IST1&currency=usd"><img class="avia-logo" src="{{ asset('assets/frontend/images/offers/logo-4.png') }}" /></a>                </div>
+                                    <div class="swiper-slide">
+                    <a href="https://www.turkishairlines.com/en-int/flights/booking/index.html"><img class="turkish-logo" src="{{ asset('assets/frontend/images/offers/logo-5.png') }}" /></a>                
+                </div>
             </div>
         </div>
     </div>
-
 </div>
 <!-- TRANSFER SECTION -->
 
@@ -488,10 +499,8 @@
         <h1>SPECIAL OFFERS</h1>
         <p>Introducing our special hotel offers! Enjoy luxurious <a href="https://www.portnature.com.tr/rooms">accommodations</a>, stunning views, and exceptional service. With unbeatable prices and exclusive amenities, there's no better place to stay. Make an <a href="https://portnature.rezervasyonal.com/?_gl=1*1t14gzh*_ga*NzI2Nzc2MjAuMTY4MjQ5NTU2Ng..*_ga_6EYM72GR61*MTY4MjY3MDQyNS43LjEuMTY4MjY3MDQ0MS4wLjAuMA..">online booking now</a> and turn your dream vacation into a reality. We offer a variety of packages to suit your every need. Our hotel has everything you need for a comfortable and memorable stay. Don't miss out, reserve your room today! Additionally, the <a href="https://www.portnature.com.tr/en"> Port Nature Luxury Resort Hotel's</a> <a href="tel:+902427310707">call center</a> is offering special deals exclusively for you. Contact the <a href="tel:+902427310707">call center</a> now to take advantage of these exclusive offers.</p>
     </div>
-    <a class="split-img" href="https://www.portnature.com.tr/en
-    ">
-        <img
-            src="{{ asset('assets/frontend/images/offers/seo/en/antalya/antalya-hotels-port-nature-premium-resort-hotel.webp') }}" />
+    <a class="split-img" href="https://www.portnature.com.tr/en">
+        <img src="{{ asset('assets/frontend/images/offers/seo/en/antalya/antalya-hotels-port-nature-premium-resort-hotel.webp') }}" />
     </a>
 </div>
 

@@ -19,8 +19,14 @@ return new class extends Migration
             $table->string('top_title')->nullable();
             $table->string('title')->nullable();
             $table->string('sub_title')->nullable();
-            $table->string('bottom_title')->nullable();
-            $table->string('slider_images')->nullable();
+            $table->string('bottom_desc_left')->nullable();
+            $table->string('bottom_desc_center')->nullable();
+            $table->string('bottom_desc_right')->nullable();
+            $table->text('slider_images')->nullable();
+            $table->text('slider_images_mobile')->nullable();
+            $table->string('opportunity_image')->nullable();
+            $table->string('opportunity_title')->nullable();
+            $table->string('opportunity_slug')->nullable();
             $table->mediumText('seo_description');
             $table->string('meta_title');
             $table->text('meta_description')->nullable();

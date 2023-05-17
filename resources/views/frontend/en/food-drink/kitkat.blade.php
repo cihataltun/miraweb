@@ -27,7 +27,7 @@
                 </figure>
             </a>
             <article>
-                <p>Crispy wafer center &<br> Smooth chocolate covering.</p>
+                <p>Crispy wafer center <br>& smooth chocolate covering.</p>
                 <span>TRY SMOOTH KIT KAT</span>
             </article>
 
@@ -39,7 +39,7 @@
                 </figure>
             </a>
             <article>
-                <p>Crispy wafer center &<br> Smooth chocolate covering.</p>
+                <p>Crispy wafer center <br>& smooth chocolate covering.</p>
                 <span>TRY SMOOTH KIT KAT</span>
             </article>
         </div>
@@ -50,7 +50,7 @@
                 </figure>
             </a>
             <article>
-                <p>Crispy wafer center &<br> Smooth chocolate covering.</p>
+                <p>Crispy wafer center <br>& smooth chocolate covering.</p>
                 <span>TRY SMOOTH KIT KAT</span>
             </article>
         </div>

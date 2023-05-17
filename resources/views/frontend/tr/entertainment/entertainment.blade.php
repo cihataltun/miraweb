@@ -56,7 +56,7 @@
     <div class="col-12 col-md-12 col-lg-5">
       <article class="rightText">
         <h2>Konserler</h2>
-        <p>Unutulmaz bir atmosfer yaratan çarpıcı performanslar, göz kamaştırıcı ışıklar ve sürükleyici ses ile canlı bir konsere katılmak nefes kesici bir deneyim olabilir. Kalabalığın enerjisinden müzisyenlerin inanılmaz sanatına kadar misafirlerimiz için. Ayrıca herkes bir bilet alabilir.</p>
+        <p>Unutulmaz bir atmosfer yaratan çarpıcı performanslar, göz kamaştırıcı ışıklar ve sürükleyici ses ile canlı bir konsere katılmak nefes kesici bir deneyim olabilir. Kalabalığın enerjisi ve müzisyenlerin inanılmaz sanatıyla çoşkuyu doruklarda yaşayın. </p>
         <div class="moreButton">
           <a href="{{ route('tr-concert') }}">Daha Fazlası</a>
         </div>

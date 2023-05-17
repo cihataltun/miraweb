@@ -74,7 +74,7 @@
     </div>
     <div class="restaurantText">
         <h1>HAUPTRESTAURANT</h1>
-        <p>Wir bieten eine große Auswahl an köstlichen Gerichten, die jeden Gaumen zufrieden stellen, von herzhaftem Fleisch bis hin zu frischen Salaten mit offenem Buffet. Unsere erfahrenen Köche verwenden nur die frischesten Zutaten, um schmackhafte und gesunde Gerichte zu kreieren.</p>
+        <p>Von saftigem Fleisch bis zu frischen Salaten bieten wir in unserem Buffet eine große Auswahl an leckeren Gerichten für jeden Geschmack. Unsere erfahrenen Köche verwenden nur die frischesten Zutaten, um köstliche und gesunde Gerichte zuzubereiten.</p>
     </div>
 </div>
 

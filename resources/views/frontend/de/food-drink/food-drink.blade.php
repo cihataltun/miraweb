@@ -90,10 +90,11 @@
         <div class="col-12 col-md-12 col-lg-5">
             <article class="leftText">
                 <h2>A'La Carte</h2>
-                <p>Einladende Atmosphäre mit einem gemütlichen A'la Carte sind der perfekte Ort, um sich mit Freunden zu treffen und leckeres Essen zu genießen.</p>
-                <span>Formen Sie Perfektion zu Ihrer Gaumenfreude.</span>
+                <p>Unsere A'la Carte ist der perfekte Ort, um sich mit Freunden zu unterhalten und in gemütlicher Atmosphäre lecker zu essen.
+                    </p>
+                <span>Gestalten Sie die Perfektion nach Ihrem Geschmacksempfinden.</span>
                 <div class="moreButton">
-                    <a href="{{ route('de-alacarte-restaurants') }}">Mehr Uber</a>
+                    <a href="{{ route('de-alacarte-restaurants') }}">Mehr erfahren</a>
                 </div>
             </article>
         </div>
@@ -108,7 +109,7 @@
                 <p>Egal, ob Sie nach einem Kaffee am Morgen oder einem entspannenden Drink am Abend suchen, unsere Bars und Cafés bieten das perfekte Ambiente, um sich zu entspannen und eine schöne Zeit mit Freunden und der Familie zu genießen.</p>
                 <span>Erleben Sie die perfekte Mischung aus Aromen und Ambiente.</span>
                 <div class="moreButton">
-                    <a href="{{ route('de-bar-cafe') }}">Mehr Uber</a>
+                    <a href="{{ route('de-bar-cafe') }}">Mehr erfahren</a>
                 </div>
             </article>
         </div>
@@ -170,7 +171,7 @@
                 <p>Gönnen Sie sich ein unvergessliches kulinarisches Erlebnis in unserem Hauptrestaurant, wo unsere Köche nur die besten und frischesten Zutaten für unser offenes Buffet verwenden. Unser Hauptmenü bietet für jeden Geschmack etwas. Hier wird es Ihren Geschmacksnerven nie langweilig.</p>
                 <span>Du verdienst das Beste! Wir bieten das Beste…</span>
                 <div class="moreButton">
-                    <a href="{{ route('de-main-restaurant') }}">Mehr Uber</a>
+                    <a href="{{ route('de-main-restaurant') }}">Mehr erfahren</a>
                 </div>
             </article>
         </div>

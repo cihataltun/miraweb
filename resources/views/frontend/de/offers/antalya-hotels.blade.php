@@ -874,7 +874,7 @@
                     die passende Unterkunft. Nutzen Sie die attraktiven Angebote und sparen Sie Zeit bei Ihrer nächsten
                     Reise nach Antalya. Freuen Sie sich auf entspannende Tage am Strand, kulinarische Köstlichkeiten und
                     faszinierende kulturelle Sehenswürdigkeiten. <b>Buchen Sie jetzt</b> Ihr Traumhotel in Antalya Reise und
-                    genießen Sie unvergessliche Urlaubsmomente. <a href="tel:+902427310707">Rufen Sie jetzt</a> an und erfahren Sie mehr über die besten
+                    genießen Sie unvergessliche Urlaubsmomente. <a href="tel:+902427310707">Rufen Sie jetzt</a> an und erfahren Sie Mehr erfahren die besten
                     Angebote für <a href="https://portnature.com.tr/familienzimmer">Familienzimmer</a>, <a href="https://portnature.com.tr/king-suite-zimmer">King suit</a> und <a href="https://portnature.com.tr/standard-zimmer">Standardzimmer</a>.
                 </p>
                 <h3 class="split-text-7">Antalya Familienhotel</h3>

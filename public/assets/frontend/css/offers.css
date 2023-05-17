@@ -3196,12 +3196,27 @@ a.split-2::after {
     width: 34.375vw;
     flex-direction: column;
     height: fit-content;
+    position: relative;
     padding-top: 4.3vw;
     justify-content: center;
     align-items: center;
     background-color: #233038;
 }
+.booking-ru-additional-text{
+    width: 100%;
+    max-width: 90vw;
+    height: auto;
+    position: absolute;
+    font-family: Montserrat;
+font-size: clamp(12px, 0.781vw,15px);
+font-weight: 400;
+line-height: clamp(14px, 0.99vw,19px);
+letter-spacing: 0em;
+color: rgba(170, 170, 170, 1);
+margin-bottom: 0px;
+text-align: left;
 
+}
 .select-label {
     font-family: 'Montserrat';
     font-size: 14px;
@@ -3478,11 +3493,22 @@ a.split-2::after {
     .hero-swiper-wrapper {
         margin-top: 0px;
     }
+  
 
+}
+@media screen and (max-width: 1500px) and (min-width:835px) {
+    .showcase-section-ru .room-image-swiper{
+        width: 40vw;
+    }
+    .showcase-section-ru .room-swiper-controls{
+        bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 835px) {
-
+    .showcase-section-ru{
+        padding-bottom: 100px;
+    }
     #checkin,
     #checkout {
         text-align: left;
@@ -3535,6 +3561,7 @@ a.split-2::after {
 }
 
 @media screen and (max-width: 576px) {
+
     .hero-swiper-wrapper {
         height: calc(100vh - 66.75px);
     }

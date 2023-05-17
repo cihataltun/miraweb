@@ -40,8 +40,11 @@
         </div>
         <div class=" gastroP">
             <p>
-                Mit einem geselligen und einladenden Ambiente bieten unsere A'la Cartes sind der perfekte Ort, um sich mit der Familie zu treffen oder einfach eine Pause zu machen und sich mit dem dringend benötigten köstlichen Essen zu verwöhnen.
-
+                Unsere A'la Carte-Gerichte werden in einem angenehmen und einladenden Ambiente serviert.
+                Es ist der perfekte Ort, um sich mit der Familie zu unterhalten oder sich einfach eine Pause zu gönnen und sich mit einem köstlichen Essen zu verwöhnen, das man dringend braucht. 
+                
+                
+                Die berühmtesten Küchen der Welt erwartet Sie im Port Nature Luxury.
 
             </p>
             <p>
@@ -70,9 +73,9 @@
                         <h3>All Day Dining A'La Carte</h3>
                     </div>
                     <div class="card-text-wrapper">
-                        <p class="card-text">Sie können keine Mahlzeit verpassen. Ganztägig gutes Essen. Wir bieten jedes Mal leckeres Essen.</p>
+                        <p class="card-text">Sie werden keine Mahlzeit verpassen! Sie können den ganzen Tag mit leckerem Essen verbringen.</p>
                         <div class="moreButton">
-                            <a href="{{ route('alldaydinning') }}">Mehr Uber</a>
+                            <a href="{{ route('alldaydinning') }}">Mehr erfahren</a>
                         </div>
                     </div>
             </div>
@@ -86,7 +89,7 @@
                 <div class="card-text-wrapper">
                     <p class="card-text">Ein einzigartiges kulinarisches Erlebnis, das eine große Auswahl an Sushi-Rollen bietet, die von erfahrenen Köchen zubereitet werden.</p>
                     <div class="moreButton">
-                        <a href="{{ route('sushi-bar') }}">Mehr Uber</a>
+                        <a href="{{ route('sushi-bar') }}">Mehr erfahren</a>
                     </div>
                 </div>
         </div>
@@ -100,7 +103,7 @@
                 <div class="card-text-wrapper">
                     <p class="card-text">Die italienische Küche zeichnet sich durch ihre Einfachheit, frische Zutaten und kräftige Aromen aus.</p>
                     <div class="moreButton">
-                        <a href="{{ route('italian') }}">Mehr Uber</a>
+                        <a href="{{ route('italian') }}">Mehr erfahren</a>
                     </div>
                 </div>
         </div>
@@ -114,7 +117,7 @@
                 <div class="card-text-wrapper">
                     <p class="card-text">Die französische Küche ist bekannt für ihre Raffinesse, Eleganz und Meisterschaft.</p>
                     <div class="moreButton">
-                        <a href="{{ route('french') }}">Mehr Uber</a>
+                        <a href="{{ route('french') }}">Mehr erfahren</a>
                     </div>
                 </div>
         </div>
@@ -128,7 +131,7 @@
                 <div class="card-text-wrapper">
                     <p class="card-text">Der frischeste Fisch in den geschickten Händen unseres Küchenchefs und der Meerblick vor Ihren Augen.</p>
                     <div class="moreButton">
-                        <a href="{{ route('seaside') }}">Mehr Uber</a>
+                        <a href="{{ route('seaside') }}">Mehr erfahren</a>
                     </div>
                 </div>
         </div>
@@ -140,9 +143,9 @@
                     <h3>Mini Club A'La Carte</h3>
                 </div>
                 <div class="card-text-wrapper">
-                    <p class="card-text">Ihr Kind wählt selbst mit unserem Kinder-Exklusiv-Menü.</p>
+                    <p class="card-text">Ihre Kinder wählen ihr Wunschessen mit unserem kinderexklusiven Menü aus.</p>
                     <div class="moreButton">
-                        <a href="{{ route('mini-club-alacarte') }}">Mehr Uber</a>
+                        <a href="{{ route('mini-club-alacarte') }}">Mehr erfahren</a>
                     </div>
                 </div>
         </div>
@@ -156,7 +159,7 @@
                 <div class="card-text-wrapper">
                     <p class="card-text">In der fernöstlichen Kultur findet sich eine vielfältige Auswahl an Aromen, Zutaten und Kochtechniken.</p>
                     <div class="moreButton">
-                        <a href="{{ route('fareast') }}">Mehr Uber</a>
+                        <a href="{{ route('fareast') }}">Mehr erfahren</a>
                     </div>
                 </div>
 

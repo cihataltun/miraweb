@@ -81,7 +81,7 @@
     </div>
     <div class="restaurantText">
         <h1>Fransız A'La Carte</h1>
-        <p>Şeflerimizin modern bir dokunuşla klasik Fransız yemekleri yaratmak için sadece en taze malzemeleri kullandığı restoranımızda Fransa'nın enfes lezzetlerinin tadını çıkarın. Zarif dekoru ve kusursuz hizmetiyle.</p>
+        <p>Şeflerimizin modern bir dokunuşla klasik Fransız yemekleri yaratmak için sadece en taze malzemeleri kullandığı restoranımızda Fransa'nın enfes lezzetlerinin tadını çıkarın. </p>
     </div>
 </div>
 

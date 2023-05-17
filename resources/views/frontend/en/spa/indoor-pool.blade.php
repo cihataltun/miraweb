@@ -52,7 +52,7 @@
             <img class="indoorSvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
             <span>09:00 - 19:00</span>
         </div>
-        <p>Experience the ultimate in relaxation and sophistication in our luxurious indoor pool, featuring sparkling waters, elegant decor, and a serene ambiance, perfect for a refreshing swim or lie.</p>
+        <p>Experience the ultimate in relaxation and sophistication in our luxurious indoor pool, which boasts sparkling waters, elegant decor, and a serene ambiance, perfect for a refreshing swim or lounge.</p>
     </div>
 </div>
 

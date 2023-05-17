@@ -44,24 +44,48 @@
                                     <form class="custom-validation" action="{{ url('admin/offer-create') }}" method="POST" enctype="multipart/form-data">
                                         @csrf
                                         <div class="mb-3">
-                                            <label for="">Top Title</label>
-                                            <input type="text" name="top_title" class="form-control" placeholder="Offer top title yazınız"/>
+                                            <label for="">Üst Başlık</label>
+                                            <input type="text" name="top_title" class="form-control" required placeholder="Offer top title yazınız"/>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="">Title</label>
+                                            <label for="">Başlık</label>
                                             <input type="text" name="title" class="form-control" placeholder="Offer title yazınız"/>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="">Sub Title</label>
+                                            <label for="">Sub Başlık</label>
                                             <input type="text" name="sub_title" class="form-control" placeholder="Offer sub title yazınız"/>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="">Bottom Title</label>
-                                            <input type="text" name="bottom_title" class="form-control" placeholder="Offer bottom title yazınız"/>
+                                            <label for="">Sol Alt Açıklama</label>
+                                            <input type="text" name="bottom_desc_left" class="form-control" required placeholder="Resmin sol altındaki açıklamayı yazınız"/>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="">Offer Görselleri</label>
+                                            <label for="">Orta Alt Açıklama</label>
+                                            <input type="text" name="bottom_desc_center" class="form-control" required placeholder="Resmin altındaki orta açıklamayı yazınız"/>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Sağ Alt Açıklama</label>
+                                            <input type="text" name="bottom_desc_right" class="form-control" required placeholder="Resmin sağ altındaki açıklamayı yazınız"/>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Teklif Görselleri</label>
                                             <input type="file" name="slider_images[]" class="form-control" required placeholder="Görselleri ekleyiniz" multiple>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Mobil Teklif Görselleri</label>
+                                            <input type="file" name="slider_images_mobile[]" class="form-control" required placeholder="Mobil görselleri ekleyiniz" multiple>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Fırsat Görseli</label>
+                                            <input type="file" name="opportunity_image" class="form-control" placeholder="Fırsat görseli ekleyiniz"/>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Fırsat Başlık</label>
+                                            <input type="text" name="opportunity_title" class="form-control" placeholder="Fırsat başlığı yazınız"/>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="">Fırsat Url</label>
+                                            <input type="text" name="opportunity_slug" class="form-control" placeholder="Fırsat için URL yazınız"/>
                                         </div>
                                         <div class="mb-3">
                                             <label>Seo Açıklaması</label>

@@ -302,7 +302,6 @@ var checkout = document.querySelector('#checkout')
 var pageLanguage = window.location.href;
 pageLanguage = pageLanguage.substr(pageLanguage.length - 2);
 var localeText;
-console.log(pageLanguage)
 if (pageLanguage === 'ru') {
     localeText = {
         firstDayOfWeek: 1,
@@ -796,3 +795,24 @@ var ww =($(window).width())/100;
 });
   }
 
+//Adjustment for RU additional text
+
+$(window).on('scroll load resize', function () {
+     var ww = $(window).width()
+    var elementsHeight =$('.booking-ru-additional-text').css('height');
+    $('.booking-ru-additional-text').css('bottom', `calc( (-1 * ${elementsHeight}) - min(3vw, 25px) + 14px)`)
+    $('.showcase-section-ru .offers-rooms-swiper').css('padding-top', '0')
+    $('.showcase-section-ru ').css('padding-bottom','8vw')
+
+
+    if ((ww > 576) && (ww < 1600)){
+        $('.showcase-section-ru ').css('padding-bottom', `calc(  ${elementsHeight} + min(150px, 10.813vw))`)
+        $('.showcase-section-ru .offers-rooms-swiper').css('padding-top', '0')
+
+    }
+    if (ww <= 576){
+        $('.booking-ru-additional-text').css('bottom', `calc( (-1 * ${elementsHeight}) - 30px`)
+        $('.showcase-section-ru .offers-rooms-swiper').css('padding-top', `calc( ( ${elementsHeight}) + 10vw`)
+
+    }
+})

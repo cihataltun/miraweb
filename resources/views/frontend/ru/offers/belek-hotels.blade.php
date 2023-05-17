@@ -136,11 +136,11 @@
 
 <!-- SHOWCASE SECTION -->
 
-<div class="showcase-section-wrapper">
+<div class="showcase-section-wrapper showcase-section-ru">
     <div class="plane-svg colorful-image-wrapper"></div>
     <img class="plane-svg-mobile" src="{{ asset('assets/frontend/images/offers/svg/mobile/plane-1.svg') }}" />
     <p class="plane-before">.. закажите билет прямо сейчас</p>
-    <div class="booking-section-wrapper">
+    <div class="booking-section-wrapper booking-section-ru"><p class="booking-ru-additional-text">При оплате кредитными картами операций бронирования возможны различия в 8-15%, обусловленные курсами обмена валют вашего банка с центральным банком</p>
         <p class="booking-section-title">Для отпуска вашей мечты </p>
         <p class="booking-section-title-2">В нашем отеле</p>
         <div class="brand-swiper-wrapper">

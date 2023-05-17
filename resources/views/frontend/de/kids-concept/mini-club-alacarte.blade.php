@@ -69,7 +69,7 @@
     </div>
     <div class="restaurantText">
         <h1>MINI CLUB A’LA CARTE</h1>
-        <p>Port Nature Mini Club A’la Carte macht alles für Ihre Kinder, wie gesundes und leckeres Essen, Sicherheitsbereich und qualifiziertes Personal. <br><br> <b>Genießen Sie Ihren Urlaub</b></p>
+        <p>Port Nature Luxury Mini Club A'la Carte bietet alles für Ihre Kinder: gesundes und schmackhaftes Essen und gut ausgestattetes Personal. <br><br> <b>Genießen Sie Ihren Urlaub</b></p>
     </div>
 </div>
 

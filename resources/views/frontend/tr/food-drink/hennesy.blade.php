@@ -72,7 +72,7 @@
     <figure>
         <img src="{{ asset('assets/frontend/images/hennesy/hennesyLogo.png') }}" alt="hennesy"/>
     </figure>
-    <p>Kendine özgü bir yoğunluğa sahip zamansız bir seçim. Yeni meşe fıçılarda olgunlaştırılan Hennessy V.S, iddialı, mis kokulu, ve aldatıcı karakteri ile benzersiz bir şekilde Hennessy'dir.</p>
+    <p>Hennessy, kendine özgü yoğunluğuyla zamansız bir seçim sunuyor. Bu iddialı ve vurucu karakteriyle mis kokulu, yeni meşe fıçılarda olgunlaştırılmış bir içki olan Hennessy benzersiz bir tat deneyimi sunarak, kalitesiyle kendini kanıtlamıştır.</p>
 </div>
 
 <div class="container">
@@ -94,8 +94,9 @@
                     <h2>
                         Her yudumda iki asırlık mükemmellik. Mirası yaşayın.
                     </h2>
-                    <p>Port Nature’daki Hennessy, Hennessy'nin 200 yıllık bilgi birikimini ifade eden dengeli bir konyaktır. Doğanın bilinmezliklerinin meyvesi olan bu eşsiz karışım, konyak zanaatının unsurlarını ehlileştirir. Onu tatmanın hazzıyla uyandırılan duygu, sürekli olarak kişiliğinin yeni yönlerini ortaya çıkarır.</p>
-                    <p>Olağanüstü tutarlılık ve canlılığa sahip bir konyak olan Hennessy, 200 yıldır devam eden başarıyı sağlayan Hennessy usta harmancılarının tüm hünerlerini aktarıyor.</p>
+                    <p>Port Nature'daki Hennessy, Hennessy'nin 200 yıllık bilgi birikimini yansıtan bir konyaktır. Bu eşsiz karışım, doğanın bilinmezliklerinin meyvesidir ve konyak zanaatının unsurlarını ustalıkla bir araya getirir. 
+                    </p>
+                    <p>Hennessy'nin olağanüstü tutarlılığı ve canlılığı, usta harmancıların tüm hünerlerini 200 yıldır devam eden başarıya aktarması sayesindedir. Port Nature'daki Hennessy, bu zanaatın mükemmeliyetine şahitlik eder ve her bir yudumuyla sizi ayrıcalıklı bir deneyime davet eder.</p>
                     <div class="hours">
                         <img class="hennesySvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
                         <span>10:00 - 18:00</span>

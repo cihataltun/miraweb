@@ -34,7 +34,7 @@
         <img class="spaSvg" src="{{ asset('assets/frontend/images/clock.svg') }}" alt="clock"/>
         <span>09:00 - 19:00</span>
     </div>
-    <p>Breite Palette von Dienstleistungen, von Massagen und Gesichtsbehandlungen bis hin zu Hydrotherapie und Aromatherapie, und sind entworfen, um eine luxuriöse und ruhige Atmosphäre für die Gäste zu schaffen.</p>
+    <p>Unsere SPAs sind beeindruckend in ihrer Fähigkeit, zu entspannen, Stress abzubauen und Heilung zu fördern. Wir haben eine Atmosphäre von Luxus und Ruhe geschaffen, um unseren Gästen eine breite Palette von Dienstleistungen anzubieten, von der Massage bis zur Hydrotherapie, von der Hydrotherapie bis zur Aromatherapie.</p>
 </div>
 
 
@@ -145,7 +145,7 @@
         <article>
             <h3>Innenpool</h3>
             <div class="spaMoreButton">
-                <a href="{{ route('de-indoor-pool') }}">Mehr Uber</a>
+                <a href="{{ route('de-indoor-pool') }}">Mehr erfahren</a>
             </div>
         </article>
     </a>

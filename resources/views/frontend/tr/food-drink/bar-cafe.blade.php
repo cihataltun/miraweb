@@ -63,7 +63,7 @@
                         <h3>Script Chivas Lounge</h3>
                     </div>
                     <article>
-                        <p>Gerçek Chivas Regal sadece gerçek viski severlere. Chivas 18 Year Old en seçkin viskidir.</p>
+                        <p>Gerçek viski severler için sadece Chivas Regal yeter. 18 yıllık Chivas ise en seçkin viskilerdendir.</p>
                         <div class="moreButton">
                             <a href="{{ route('tr-chivas-lounge') }}">Daha Fazlası</a>
                         </div>
@@ -98,7 +98,7 @@
                     <h3>Irish Pub</h3>
                 </div>
                 <article>
-                    <p>Soğuk  bir günde Irish pub'a girmiş gibi hissedeceksiniz, özel alkollerle.</p>
+                    <p>Biraların akışı, dostane ortam ve eşsiz alkoller, sizleri bizim Irish pub'ımıza bekliyor.</p>
                     <div class="moreButton">
                         <a href="{{ route('tr-irish-pub') }}">Daha Fazlası</a>
                     </div>

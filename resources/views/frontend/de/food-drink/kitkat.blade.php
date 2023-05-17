@@ -27,8 +27,8 @@
                 </figure>
             </a>
             <article>
-                <p>Knusprige Waffelmitte und <br>glatte Schokoladencreme.</p>
-                <span>VERSUCHEN SIE SMOOTH <br>KIT KAT</span>
+                <p>Knuspriger Waffelblätter und<br>weicher Schokoladenüberzug.</p>
+                <span>PROBIEREN SIE WEICHEN <br>KIT KAT</span>
             </article>
 
         </div>
@@ -39,8 +39,8 @@
                 </figure>
             </a>
             <article>
-                <p>Knusprige Waffelmitte und <br>glatte Schokoladencreme.</p>
-                <span>VERSUCHEN SIE SMOOTH <br>KIT KAT</span>
+                <p>Knuspriger Waffelblätter und<br>weicher Schokoladenüberzug.</p>
+                <span>PROBIEREN SIE WEICHEN <br>KIT KAT</span>
             </article>
         </div>
         <div class="swiper-slide">
@@ -50,8 +50,8 @@
                 </figure>
             </a>
             <article>
-                <p>Knusprige Waffelmitte und <br>glatte Schokoladencreme.</p>
-                <span>VERSUCHEN SIE SMOOTH <br>KIT KAT</span>
+                <p>Knuspriger Waffelblätter und<br>weicher Schokoladenüberzug.</p>
+                <span>PROBIEREN SIE WEICHEN <br>KIT KAT</span>
             </article>
         </div>
     </div>

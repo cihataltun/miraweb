@@ -72,10 +72,11 @@
             <div class="col-lg-6">
                 <article>
                     <h2>
-                        Kaffee wird geerntet und verarbeitet, das heißt fermentiert, gewaschen und so weiter.
+                        Begleiten Sie die einzigartige Reise von der Bohne bis zur Tasse.
                     </h2>
-                    <p>Auf dem komplexen Weg von der Bohne bis zur Tasse gibt es schnellere Wege als wir, und es gibt sicherlich billigere Wege. Aber es gibt keinen besseren Weg.</p>
-                    <p>Da wir wissen, dass eine einzelne fehlerhafte Bohne eine ganze Charge verderben kann, kontrollieren wir die Qualität bis zur allerletzten – mit bewusster Hingabe, bei jedem Schritt die Details richtig zu machen. Port Nature ist der richtige Ort, um diesen Kaffee zu trinken.</p>
+                    <p>Auf dem komplexen Weg von der Bohne zur Tasse gibt es Möglichkeiten, Dinge schneller und billiger zu erledigen als wir. Aber es gibt keinen besseren Weg!
+                    </p>
+                    <p>Da schon eine einzige fehlerhafte Kaffeebohne die gesamte Charge beschädigen kann, wird die Qualitätskontrolle in jeder Phase sorgfältig durchgeführt und jedes Detail mit bewusster Hingabe korrekt ausgeführt. Port Nature ist der richtige Ort, um diesen sorgfältig zubereiteten Kaffee zu genießen.</p>
                 </article>
             </div>
         </div>

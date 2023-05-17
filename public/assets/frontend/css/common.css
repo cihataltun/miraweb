@@ -151,6 +151,23 @@ body, html {
 .hamburgerMenu {
     display: none;
 }
+.familyRoomDetailHero,.kingSuiteDetailHero,.standardRoomDetailHero,.gardenViewRoomHero,.cornerSeaViewRoomHero,.seaViewRoomHero{
+    background-size: 100vw auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: min(660px,34.375vw );
+}
+.familyRoomDetailHero h1,.kingSuiteDetailHero h1,.standardRoomDetailHero h1,.gardenViewRoomHero h1,.cornerSeaViewRoomHero h1,.seaViewRoomHero h1{
+position: absolute;
+bottom: min(40px, 2vw);
+left: 0;
+right: 0;
+padding: 0px;
+margin: 0 auto;
+font-size: clamp(25px, 2vw,40px);
+max-width: 85vw;
+}
 @media only screen and (max-width: 1350px) and (min-width: 1200px) {
     .menubar {
         gap: 1vw;
@@ -161,6 +178,7 @@ body, html {
     .chivasSlider,.hennesySlider,.barHero,.davidoffSlider,.kitkatSlider,.nespressoSlider,.entertainmentHero,.concertsSlider,.activityHero,.spaHero,.indoorPoolSlider,.meetingHero,.blogHero,.alacarteHero{
         margin-top: 89px!important;
     }
+    
     nav {
         display: none !important;
    }
@@ -415,6 +433,12 @@ body, html {
    }
 }
 @media screen and (max-width: 576px) {
+    .familyRoomDetailHero,.kingSuiteDetailHero,.standardRoomDetailHero,.gardenViewRoomHero,.cornerSeaViewRoomHero,.seaViewRoomHero{
+        background-size: 100vw 90.769vw;
+        background-size: cover;
+        height: 90.769vw;
+    
+    }
     .mobileHeader svg {
         width: 20px;
         height: 20px;

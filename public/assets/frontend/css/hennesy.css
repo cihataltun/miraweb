@@ -70,7 +70,7 @@
 
 .hennesySlider article{
     position: absolute;
-    margin-right: -35%;
+    margin-right: -15%;
     opacity: 0;
     transition: all .4s ease-in-out;
     z-index: 1;
@@ -264,6 +264,9 @@
 .hennesySlider{
     margin-top: 0px;
 }
+.hennesySlider article{
+    margin-right: 0;
+}
 }
 
 @media screen and (max-width: 576px){
@@ -276,6 +279,9 @@
         margin: 0px!important;
         padding: 0px 3vw;
         text-align: center;
+    }
+    .hennesySlider article{
+        transform: scale(.9);
     }
     .hennesyText h2{
         position: relative;
