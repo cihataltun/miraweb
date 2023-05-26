@@ -98,7 +98,7 @@
                                             <input type="text" name="meta_title" class="form-control" placeholder="Meta title giriniz"/>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="">Meta Title</label>
+                                            <label for="">Meta Description</label>
                                             <input type="text" name="meta_description" class="form-control" placeholder="Meta description giriniz"/>
                                         </div>
                                         <div class="form-check mb-3">

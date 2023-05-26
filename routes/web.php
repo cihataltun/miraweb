@@ -159,6 +159,7 @@ Route::get('kafe-nespresso', [App\Http\Controllers\Frontend\Russian\FoodDrinkCon
 Route::get('razvlecheniya', [App\Http\Controllers\Frontend\Russian\EntertainmentController::class, 'index'])->name('ru-entertainment');
 Route::get('meropriyatiya', [App\Http\Controllers\Frontend\Russian\EntertainmentController::class, 'activity'])->name('ru-activity');
 Route::get('concerti', [App\Http\Controllers\Frontend\Russian\EntertainmentController::class, 'concert'])->name('ru-concert');
+Route::get('concertsbuilding', [App\Http\Controllers\Frontend\Russian\EntertainmentController::class, 'concertsbuilding'])->name('ru-concertsbuilding');
 
 Route::get('kontakti', [App\Http\Controllers\Frontend\Russian\ContactController::class, 'index'])->name('ru-contacts');
 Route::post('kontakti', [App\Http\Controllers\Frontend\Russian\ContactController::class, 'submit'])->name('ru-contacts-submit');

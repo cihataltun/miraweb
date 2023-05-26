@@ -38,9 +38,10 @@
                             Eğlenceyi Yakalayın
                         </p>
                     </div>
-<div class="turkish-1-addendum-wrapper"><p class="turkish-1-addendum">*Bu sayfadaki kampanyalar kısmından koşulları inceleyebilirsiniz</p>
-<p class="offers-addendum-left couple-addendum-left"> Dipnot: Misafirlerimiz kampanyaların sadece bir tanesinden faydalanabilir. </p></div>
-
+                    <div class="turkish-1-addendum-wrapper">
+                        <p class="turkish-1-addendum">*Bu sayfadaki kampanyalar kısmından koşulları inceleyebilirsiniz</p>
+                        <p class="offers-addendum-left couple-addendum-left"> Dipnot: Misafirlerimiz kampanyaların sadece bir tanesinden faydalanabilir. </p>
+                    </div>
                 </div>
             </div>
             <div class="swiper-slide">

@@ -45,7 +45,6 @@
                                             <thead class="table-light">
                                                 <tr>
                                                     <th>ID</th>
-                                                    {{-- <th>Teklif Görseli</th> --}}
                                                     <th>Top Title</th>
                                                     <th>Title</th>
                                                     <th>Sub Title</th>
@@ -59,9 +58,6 @@
                                                 @foreach ($offers as $offer)
                                                 <tr data-id="1">
                                                     <td data-field="id" style="width: 80px">{{ $offer->id }}</td>
-                                                    {{-- <td data-field="slider_image">
-                                                        <img src="{{ asset('assets/admin/images/offers/'.$offer->slider_image) }}" width="150px" height="100px" alt="Img">
-                                                    </td> --}}
                                                     <td data-field="top_title">{{ $offer->top_title }}</td>
                                                     <td data-field="title">{{ $offer->title }}</td>
                                                     <td data-field="sub_title">{{ $offer->sub_title }}</td>

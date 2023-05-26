@@ -20,7 +20,7 @@ class OfferController extends Controller
 
         $offer_content = Offer::where('status', 1)->first();
         $sliderImages = json_decode($offer_content->slider_images, true);
-        // dd($offer_content);
+        // dd($sliderImages);
         return view('frontend.en.offers.special-offers', compact('offer_content', 'sliderImages'));
     }
     public function antalyaOffers() {

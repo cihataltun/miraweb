@@ -19,4 +19,8 @@ class EntertainmentController extends Controller
 
         return view('frontend.ru.entertainment.concert');
     }
+    public function concertsbuilding() {
+
+        return view('frontend.ru.entertainment.concertsbuilding');
+    }
 }
