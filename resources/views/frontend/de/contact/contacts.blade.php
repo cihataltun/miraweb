@@ -1,6 +1,6 @@
 @extends('frontend.de.layouts.master')
 
-@section('title', 'Kontakte - PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'Kontakte - Miramare Hotels - Official Website')
 
 @section('header-lang')
 

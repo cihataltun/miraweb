@@ -1,6 +1,6 @@
 @extends('frontend.tr.layouts.master')
 
-@section('title', 'KVKK - PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'KVKK - Miramare Hotels - Official Website')
 
 @section('header-lang')
 
@@ -25,7 +25,7 @@
                <div class="kvkk-title ">Kişisel Verilere İlişkin Aydınlatma Metni</div>
                <div class="kvkk-subtitle text-center">Veri Sorumlusu: Aras İnşaat Ticaret Turizm A.Ş</div>
                <div class="kvkk-content py-4">
-                   <p>Biz, Port Nature Luxury Resort Hotel & Spa olarak; müşterilerimiz, tüketicilerimiz ve çalışanlarımız dâhil Şirketimiz ile ilişkili şahısların uhdemizde bulunan kişisel verilerinin Türkiye Cumhuriyeti Anayasası ve insan haklarına ilişkin ülkemizin tarafı olduğu uluslararası sözleşmeler ile 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) başta olmak üzere ilgili mevzuat çerçevesinde; güvence altına alınması ve işlenmesi konusuna hassasiyetle yaklaşmaktayız.<br />
+                   <p>Biz, Miramare Hotels - Official Website olarak; müşterilerimiz, tüketicilerimiz ve çalışanlarımız dâhil Şirketimiz ile ilişkili şahısların uhdemizde bulunan kişisel verilerinin Türkiye Cumhuriyeti Anayasası ve insan haklarına ilişkin ülkemizin tarafı olduğu uluslararası sözleşmeler ile 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) başta olmak üzere ilgili mevzuat çerçevesinde; güvence altına alınması ve işlenmesi konusuna hassasiyetle yaklaşmaktayız.<br />
 </p><p>Bu çerçevede, KVKK kapsamında Veri Sorumlusu sıfatıyla sizleri aydınlatmak istiyoruz. Şirketimiz ile tüketici, abone, müşteri, tedarikçi, çalışan ve sair ilişkiler çerçevesinde paylaştığınız kişisel verileriniz, KVKK’ya uygun şekilde, hukuk ve dürüstlük kuralının öngördüğü biçimde, tamamen veya kısmen işlenme amaçları ile bağlantılı, sınırlı ve ölçülü, doğru ve güncel olarak, belirli açık ve meşru amaçlar ile işlenebilir, kaydedilebilir, depolanabilir, muhafaza edilebilir; iş ortakları, bayileri, tedarikçileri, alt yüklenicileri, ifa yardımcıları, ilgili denetleyici kurumlar, resmi kurumlar olmak ve bunlarla sınırlı olmamak<br />
 </p><p>üzere, yurtiçi-yurtdışındaki ilgili üçüncü kişilere aktarılabilir; buralarda depolanabilir, güncellenebilir, periyodik olarak kontrol edilebilir, yeniden düzenlenebilir, sınıflandırılabilir. Veri işleyen sıfatı ile şirketimizce tarafınıza bilgilendirme ve tanıtım e-postaları ve/veya sms atabilir, telefon araması yapılabilir yahut bu hizmet üçüncü kişilerden alınmak suretiyle ifa<br />
 </p><p>edilebilir.<br />
@@ -60,7 +60,7 @@
 </p><p>7) İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,<br />
 </p><p>8) Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme.<br />
 </p><p>9) Eksik veya yanlış verilerin düzeltilmesi ile kişisel verilerinizin silinmesi veya yok edilmesini talep ettiğinizde, bu durumun kişisel verilerinizin aktarıldığı üçüncü kişilere bildirilmesini isteme.<br />
-</p><p>Bu kapsamda olası yazılı taleplerinizi Boğazkent Mahallesi 36.Sokak No:4 PK:07500 Port Nature Luxury Resort Hotel & SPA BELEK / ANTALYA adresine ıslak imzalı olarak veya kvkk@portnature.com.tr elektronik posta adresimize gönderebilirsiniz.</p>
+</p><p>Bu kapsamda olası yazılı taleplerinizi Boğazkent Mahallesi 36.Sokak No:4 PK:07500 Miramare Hotels - Official Website BELEK / ANTALYA adresine ıslak imzalı olarak veya kvkk@portnature.com.tr elektronik posta adresimize gönderebilirsiniz.</p>
                 <div class="text-center">
                    <a target="_blank"
                       href="{{ asset('/uploads/data_policy/1_1598628189_veri-sahibi-basvuru-formu.pdf') }}"

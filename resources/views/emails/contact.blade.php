@@ -1,6 +1,6 @@
 <!-- contact.blade.php -->
 @component('mail::message')
-# Yeni İletişim Talebi Portnature 
+# Yeni İletişim Talebi Miramare Hotels
 
 **Name:** {{ $data['name'] }}
 

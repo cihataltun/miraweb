@@ -41,7 +41,6 @@ class OfferController extends Controller
             'meta_description' => 'nullable|string',
             'status' => 'nullable'
         ]);
-        
 
         function saveSliderImages($request)
         {
@@ -119,7 +118,6 @@ class OfferController extends Controller
 
     public function update(Request $request, $offer_id)
     {
-        $offer = Offer::find($offer_id);
 
         $request->validate([
             'top_title' => 'required|string|max:200',
@@ -139,64 +137,89 @@ class OfferController extends Controller
             'status' => 'nullable'
         ]);   
         
-        if ($request->hasFile('slider_images')) {
-            $old_image_path = public_path('assets/admin/images/offers/'.$offer->slider_images);
-            foreach ($request->file('slider_images') as $image) {
-                $new_sliders = uniqid() . '.' . $image->extension();
-                $image->move(public_path('assets/admin/images/offers/'), $new_sliders);
-                $offer->slider_images = $new_sliders;
-            }
-            if (file_exists($old_image_path)) {
-                unlink($old_image_path);
-            }
-        } 
-        else {
-            $offer->slider_images = $offer->slider_images;
-        }
-        if ($request->hasFile('slider_images_mobile')) {
-            $old_image_path = public_path('assets/admin/images/offers/'.$offer->slider_images_mobile);
-            foreach ($request->file('slider_images_mobile') as $mobile_image) {
-                $new_mobile_sliders = uniqid() . '.' . $mobile_image->extension();
-                $mobile_image->move(public_path('assets/admin/images/offers/'), $new_mobile_sliders);
-                $offer->slider_images_mobile = $new_mobile_sliders;
-            }
-            if (file_exists($old_image_path)) {
-                unlink($old_image_path);
-            }
-        } 
-        else {
-            $offer->slider_images_mobile = $offer->slider_images_mobile;
-        }
-    
-        if ($request->hasFile('opportunity_image')) {
-            $old_image_path = public_path('assets/admin/images/offers/'.$offer->opportunity_image);
-            $opportunity_image = $request->file('opportunity_image');
-            $new_slider = uniqid() . '.' . $request->opportunity_image->extension();
-            $opportunity_image->move(public_path('assets/admin/images/offers/'), $new_slider);
-            $offer->opportunity_image = $new_slider;
-            if (file_exists($old_image_path)) {
-                unlink($old_image_path);
-            }
-        } else {
-            $offer->opportunity_image = $offer->opportunity_image; // Mevcut değeri koru
-        }
+        function updateSliderImages($request, $offerId)
+        {
+            $offer = Offer::findOrFail($offerId); // Güncellenmek istenen teklifi bulun
         
-
-            $offer->top_title = $request->top_title;
-            $offer->title = $request->title;
-            $offer->sub_title = $request->sub_title;
-            $offer->bottom_desc_left = $request->bottom_desc_left;
-            $offer->bottom_desc_center = $request->bottom_desc_center;
-            $offer->bottom_desc_right = $request->bottom_desc_right;
-            $offer->opportunity_title = $request->opportunity_title;
-            $offer->opportunity_slug = Str::slug($request->opportunity_slug);
-            $offer->seo_description = $request->seo_description;
-            $offer->meta_title = $request->meta_title;
-            $offer->meta_description = $request->meta_description;
-            $offer->created_by = Auth::user()->name;
-            $offer->status = $request->status == true ? '1' : '0';
-            $offer->update();
-
+            // Mevcut dosya yollarını al
+            $sliderImages = json_decode($offer->slider_images, true);
+            $sliderImagesMobile = json_decode($offer->slider_images_mobile, true);
+        
+            // Eski dosya yollarını sil
+            if (!empty($sliderImages['slider_images'])) {
+                foreach ($sliderImages['slider_images'] as $image) {
+                    $imagePath = public_path('assets/admin/images/offers/') . $image;
+                    if (file_exists($imagePath)) {
+                        unlink($imagePath);
+                    }
+                }
+            }
+        
+            if (!empty($sliderImagesMobile['slider_images_mobile'])) {
+                foreach ($sliderImagesMobile['slider_images_mobile'] as $image) {
+                    $imagePath = public_path('assets/admin/images/offers/') . $image;
+                    if (file_exists($imagePath)) {
+                        unlink($imagePath);
+                    }
+                }
+            }
+        
+            // Eski opportunity_image dosyasını sil
+            if (!empty($offer->opportunity_image)) {
+                $opportunityImagePath = public_path('assets/admin/images/offers/') . $offer->opportunity_image;
+                if (file_exists($opportunityImagePath)) {
+                    unlink($opportunityImagePath);
+                }
+            }
+        
+            // Yeni dosya yollarını ekle
+            $newSliderImages = [];
+            $newSliderImagesMobile = [];
+            $newOpportunityImage = null;
+        
+            if ($request->hasFile('slider_images')) {
+                foreach ($request->file('slider_images') as $image) {
+                    $imageName = uniqid() . '.' . $image->extension();
+                    $image->move(public_path('assets/admin/images/offers/'), $imageName);
+                    $newSliderImages[] = $imageName;
+                }
+            }
+        
+            if ($request->hasFile('slider_images_mobile')) {
+                foreach ($request->file('slider_images_mobile') as $image) {
+                    $imageName = uniqid() . '.' . $image->extension();
+                    $image->move(public_path('assets/admin/images/offers/'), $imageName);
+                    $newSliderImagesMobile[] = $imageName;
+                }
+            }
+        
+            if ($request->hasFile('opportunity_image')) {
+                $image = $request->file('opportunity_image');
+                $imageName = uniqid() . '.' . $image->extension();
+                $image->move(public_path('assets/admin/images/offers/'), $imageName);
+                $newOpportunityImage = $imageName;
+            }        
+            $data = [
+                'top_title' => $request->top_title,
+                'title' => $request->title,
+                'sub_title' => $request->sub_title,
+                'bottom_desc_left' => $request->bottom_desc_left,
+                'bottom_desc_center' => $request->bottom_desc_center,
+                'bottom_desc_right' => $request->bottom_desc_right,
+                'opportunity_title' => $request->opportunity_title,
+                'opportunity_slug' => $request->opportunity_slug,
+                'seo_description' => $request->seo_description,
+                'meta_title' => $request->meta_title,
+                'meta_description' => $request->meta_description,
+                'created_by' => Auth::user()->name,
+                'status' => $request->status == true ? '1' : '0',
+                'slider_images' => json_encode($newSliderImages),
+                'slider_images_mobile' => json_encode($newSliderImagesMobile),
+                'opportunity_image' => $newOpportunityImage
+            ];
+        
+            $offer->update($data); // Teklifi güncelle
+        }
 
         return redirect('admin/offer-list')->with('message', 'Değişiklikler başarıyla kaydedildi.');
     }

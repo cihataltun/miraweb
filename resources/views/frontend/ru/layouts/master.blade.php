@@ -15,7 +15,7 @@
     <!-- Analystic End -->
 
     <!-- Page Title -->
-    <title>@yield('title', 'PORT Nature Luxury Resort Hotel & Spa')</title>
+    <title>@yield('title', 'Miramare Hotels - Official Website')</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/swiper-bundle.min.css') }}"/>

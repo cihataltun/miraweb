@@ -1,6 +1,6 @@
 @extends('frontend.en.layouts.master')
 
-@section('title', 'Data Policy - PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'Data Policy - Miramare Hotels - Official Website')
 
 @section('header-lang')
 
@@ -25,7 +25,7 @@
              <div class="kvkk-title ">Disclosure Statement on Protection of Personal Data</div>
              <div class="kvkk-subtitle text-center">Data Controller: Aras Insaat Ticaret Turizm A.S.</div>
              <div class="kvkk-content py-4">
-                <p>We, as Port Nature Luxury Resort Hotel & Spa, approach with precision to the matter of protection and processing personal datas in our responsibility of individuals associated with our Company including our customers, consumers and employees, within the framework of relevant legislation particularly Constitution of Turkey, international conventions on human rights to which our country is a party, Law on the Protection of Personal Data No. 6698 (“LPPD”).<br /></p>
+                <p>We, as Miramare Hotels - Official Website, approach with precision to the matter of protection and processing personal datas in our responsibility of individuals associated with our Company including our customers, consumers and employees, within the framework of relevant legislation particularly Constitution of Turkey, international conventions on human rights to which our country is a party, Law on the Protection of Personal Data No. 6698 (“LPPD”).<br /></p>
                 <p><br /></p>
                 <p>In this context, we would like to enlighten you as Data Controller within the scope of LPPD. Your personal data which you share with our company as consumer, subscriber, customer,<br /></p>
                 <p><br /></p>
@@ -76,7 +76,7 @@
                 <p>7) To object to the emergence of a result against the person by analyzing the processed data exclusively through automated systems,<br /></p>
                 <p>8) To request compensation in case of any damage due to the illegal processing of personal data.<br /></p>
                 <p>9) To request notification of third parties to whom your personal data has been transferred, when you request the correction of missing or incorrect data and the deletion or destruction of your personal data.<br /></p>
-                <p>In this context, you can send your possible written requests to “Boğazkent Mahallesi 36.Sokak No: 4 PK: 07500 Port Nature Luxury Resort Hotel & SPA BELEK / ANTALYA” with wet signature or to our e-mail address “kvkk@portnature.com.tr”.<br /></p>
+                <p>In this context, you can send your possible written requests to “Boğazkent Mahallesi 36.Sokak No: 4 PK: 07500 Miramare Hotels - Official Website BELEK / ANTALYA” with wet signature or to our e-mail address “kvkk@portnature.com.tr”.<br /></p>
                 <p><br /></p>
                 <p><br></p>
                 <div class="text-center">

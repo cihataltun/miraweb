@@ -15,10 +15,10 @@
         .menubar .nav-item .nav-link {
     text-transform: uppercase; }
     </style>
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon-16x16.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/mira-favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/mira-favicon-32x32.png') }}">
     <!-- Page Title -->
-    <title>@yield('title', 'PORT Nature Luxury Resort Hotel & Spa')</title>
+    <title>@yield('title', 'Miramare Hotels - Official Website')</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/swiper-bundle.min.css') }}"/>
@@ -33,10 +33,7 @@
     @yield('css-imports')
 
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/flatpickr.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/lc_lightbox.min.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/floating-menu.css') }}"/>
     {{-- Common CSS File --}}
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/common.css') }}"/>  
     <!-- Additional imports -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/blog.css') }}"/>  
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/contact.css') }}"/>  
@@ -50,7 +47,7 @@
             facebookPixel: '990955817632355',
             hideAfterClick: true,
             position: 'right',
-            policyLink: 'https://portnature.com.tr/data-policy'
+            policyLink: 'https://miramarehotels.com/data-policy'
         });
     </script>
 
@@ -89,7 +86,6 @@
 <script src="{{ asset('assets/frontend/libs/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('assets/frontend/libs/js/swiper-bundle.min.js') }}"></script>
 <script src="{{ asset('assets/frontend/libs/js/flatpickr.min.js') }}"></script>
-<script src="{{ asset('assets/frontend/js/common.js') }}"></script>
 
 @yield('javascript-imports')
 

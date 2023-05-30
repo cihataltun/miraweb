@@ -1,6 +1,6 @@
 @extends('frontend.ru.layouts.master')
 
-@section('title', 'Контакты - PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'Контакты - Miramare Hotels - Official Website')
 
 @section('header-lang')
 

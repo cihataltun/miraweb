@@ -5,19 +5,19 @@
             <div class="navbar-brand-box">
                 <a href="{{ asset('/admin/dashboard') }}" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" alt="logo-sm" height="22">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" alt="logo-sm" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" alt="logo-dark" height="50">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" alt="logo-dark" height="50">
                     </span>
                 </a>
 
                 <a href="{{ asset('/admin/dashboard') }}" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" alt="logo-sm-light" height="22">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" alt="logo-sm-light" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" alt="portnature" style="background-color: #eff3f6; width:160px;">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" alt="miramare" style="background-color: #eff3f6; width:160px;">
                     </span>
                 </a>
             </div>

@@ -1,6 +1,6 @@
 @extends('frontend.de.layouts.master')
 
-@section('title', 'PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'Miramare Hotels - Official Website')
 
 @section('header-lang')
 
@@ -183,7 +183,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Port Nature Luxury Resort Hotel & Spa</h2>
+                <h2>Miramare Hotels - Official Website</h2>
             </div>
         </div>
         <div class="row">

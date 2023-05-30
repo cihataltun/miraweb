@@ -31,35 +31,35 @@ Route::get('/', [HomePageController::class, 'index'])->name('homepage');
 Route::get('en', [HomePageController::class, 'index'])->name('homepage');
 // BLOG PAGES
 Route::get('blog-page', [BlogController::class, 'index'])->name('blog');
-Route::get('belek-hotel', [BlogController::class, 'belekHotel'])->name('belek-hotel');
-Route::get('belek-resort', [BlogController::class, 'belekResort'])->name('belek-resort');
-Route::get('belek-deluxe', [BlogController::class, 'belekDeluxe'])->name('belek-deluxe');
-Route::get('belek-holiday', [BlogController::class, 'belekHoliday'])->name('belek-holiday');
+// Route::get('belek-hotel', [BlogController::class, 'belekHotel'])->name('belek-hotel');
+// Route::get('belek-resort', [BlogController::class, 'belekResort'])->name('belek-resort');
+// Route::get('belek-deluxe', [BlogController::class, 'belekDeluxe'])->name('belek-deluxe');
+// Route::get('belek-holiday', [BlogController::class, 'belekHoliday'])->name('belek-holiday');
 
-Route::get('bogazkent-hotel', [BlogController::class, 'bogazkentHotel'])->name('bogazkent-hotel');
-Route::get('bogazkent-resort', [BlogController::class, 'bogazkentResort'])->name('bogazkent-resort');
-Route::get('bogazkent-deluxe', [BlogController::class, 'bogazkentDeluxe'])->name('bogazkent-deluxe');
-Route::get('bogazkent-holiday', [BlogController::class, 'bogazkentHoliday'])->name('bogazkent-holiday');
+// Route::get('bogazkent-hotel', [BlogController::class, 'bogazkentHotel'])->name('bogazkent-hotel');
+// Route::get('bogazkent-resort', [BlogController::class, 'bogazkentResort'])->name('bogazkent-resort');
+// Route::get('bogazkent-deluxe', [BlogController::class, 'bogazkentDeluxe'])->name('bogazkent-deluxe');
+// Route::get('bogazkent-holiday', [BlogController::class, 'bogazkentHoliday'])->name('bogazkent-holiday');
 
-Route::get('kadriye-hotel', [BlogController::class, 'kadriyeHotel'])->name('kadriye-hotel');
-Route::get('kadriye-resort', [BlogController::class, 'kadriyeResort'])->name('kadriye-resort');
-Route::get('kadriye-deluxe', [BlogController::class, 'kadriyeDeluxe'])->name('kadriye-deluxe');
-Route::get('kadriye-holiday', [BlogController::class, 'kadriyeHoliday'])->name('kadriye-holiday');
+// Route::get('kadriye-hotel', [BlogController::class, 'kadriyeHotel'])->name('kadriye-hotel');
+// Route::get('kadriye-resort', [BlogController::class, 'kadriyeResort'])->name('kadriye-resort');
+// Route::get('kadriye-deluxe', [BlogController::class, 'kadriyeDeluxe'])->name('kadriye-deluxe');
+// Route::get('kadriye-holiday', [BlogController::class, 'kadriyeHoliday'])->name('kadriye-holiday');
 
-Route::get('belek-beach-hotel', [BlogController::class, 'belekBeachHotel'])->name('belek-beach-hotel');
-Route::get('belek-beach-resort', [BlogController::class, 'belekBeachResort'])->name('belek-beach-resort');
-Route::get('belek-beach-holiday', [BlogController::class, 'belekBeachHoliday'])->name('belek-beach-holiday');
-Route::get('belek-beach-deluxe', [BlogController::class, 'belekBeachDeluxe'])->name('belek-beach-deluxe');
+// Route::get('belek-beach-hotel', [BlogController::class, 'belekBeachHotel'])->name('belek-beach-hotel');
+// Route::get('belek-beach-resort', [BlogController::class, 'belekBeachResort'])->name('belek-beach-resort');
+// Route::get('belek-beach-holiday', [BlogController::class, 'belekBeachHoliday'])->name('belek-beach-holiday');
+// Route::get('belek-beach-deluxe', [BlogController::class, 'belekBeachDeluxe'])->name('belek-beach-deluxe');
 
-Route::get('belek-best-hotel', [BlogController::class, 'belekBestHotel'])->name('belek-best-hotel');
-Route::get('belek-best-resort', [BlogController::class, 'belekBestResort'])->name('belek-best-resort');
-Route::get('belek-best-holiday', [BlogController::class, 'belekBestHoliday'])->name('belek-best-holiday');
-Route::get('belek-best-deluxe', [BlogController::class, 'belekBestDeluxe'])->name('belek-best-deluxe');
+// Route::get('belek-best-hotel', [BlogController::class, 'belekBestHotel'])->name('belek-best-hotel');
+// Route::get('belek-best-resort', [BlogController::class, 'belekBestResort'])->name('belek-best-resort');
+// Route::get('belek-best-holiday', [BlogController::class, 'belekBestHoliday'])->name('belek-best-holiday');
+// Route::get('belek-best-deluxe', [BlogController::class, 'belekBestDeluxe'])->name('belek-best-deluxe');
 
-Route::get('kadriye-best-hotel', [BlogController::class, 'kadriyeBestHotel'])->name('kadriye-best-hotel');
-Route::get('kadriye-best-resort', [BlogController::class, 'kadriyeBestResort'])->name('kadriye-best-resort');
-Route::get('kadriye-best-holiday', [BlogController::class, 'kadriyeBestHoliday'])->name('kadriye-best-holiday');
-Route::get('kadriye-best-deluxe', [BlogController::class, 'kadriyeBestDeluxe'])->name('kadriye-best-deluxe');
+// Route::get('kadriye-best-hotel', [BlogController::class, 'kadriyeBestHotel'])->name('kadriye-best-hotel');
+// Route::get('kadriye-best-resort', [BlogController::class, 'kadriyeBestResort'])->name('kadriye-best-resort');
+// Route::get('kadriye-best-holiday', [BlogController::class, 'kadriyeBestHoliday'])->name('kadriye-best-holiday');
+// Route::get('kadriye-best-deluxe', [BlogController::class, 'kadriyeBestDeluxe'])->name('kadriye-best-deluxe');
 //BLOG PAGES END
 
 Route::get('rooms', [AccommodationController::class, 'index'])->name('accommodation');

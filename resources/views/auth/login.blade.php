@@ -10,8 +10,8 @@
             <div class="text-center mt-4">
                 <div class="mb-3">
                     <a href="{{ route('homepage') }}" class="auth-logo">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" height="60" class="logo-dark mx-auto" alt="">
-                        <img src="{{ asset('assets/admin/images/portnature_logo.png') }}" height="60" class="logo-light mx-auto" alt="">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" height="70" class="logo-dark mx-auto" alt="">
+                        <img src="{{ asset('assets/admin/images/black-logo.png') }}" height="70" class="logo-light mx-auto" alt="">
                     </a>
                 </div>
             </div>

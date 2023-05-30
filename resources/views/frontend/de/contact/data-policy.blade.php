@@ -1,6 +1,6 @@
 @extends('frontend.de.layouts.master')
 
-@section('title', 'DATEN POLITIK - PORT Nature Luxury Resort Hotel & Spa')
+@section('title', 'DATEN POLITIK - Miramare Hotels - Official Website')
 
 @section('header-lang')
 
@@ -25,7 +25,7 @@
                <div class="kvkk-title ">Offenlegungstext zu personenbezogenen Daten</div>
                <div class="kvkk-subtitle text-center">Datenverantwortlicher: Aras Baugewerbe Handel Tourismus Aktiengesellschaft</div>
                <div class="kvkk-content py-4">
-                   <p>Wir, als Port Nature Luxury Resort Hotel & Spa; gehen sorgfältig auf das Thema der Sicherung und Verarbeitung der personenbezogenen Daten von Personen im Rahmen der einschlägigen Rechtsvorschriften insbesondere der Verfassung der Republik der Türkei, der internationalen Abkommen über Menschenrechte, für die unser Land Abkommenspartner ist, und des Gesetzes zum Schutz personenbezogener Daten (KVKK – Kişisel Verilerin Korunması Kanunu) mit der Nummer 6698 ein, die mit unserem Unternehmen in Verbindung stehen einschließlich unserer Kunden, Verbraucher und Mitarbeiter.<br />
+                   <p>Wir, als Miramare Hotels - Official Website; gehen sorgfältig auf das Thema der Sicherung und Verarbeitung der personenbezogenen Daten von Personen im Rahmen der einschlägigen Rechtsvorschriften insbesondere der Verfassung der Republik der Türkei, der internationalen Abkommen über Menschenrechte, für die unser Land Abkommenspartner ist, und des Gesetzes zum Schutz personenbezogener Daten (KVKK – Kişisel Verilerin Korunması Kanunu) mit der Nummer 6698 ein, die mit unserem Unternehmen in Verbindung stehen einschließlich unserer Kunden, Verbraucher und Mitarbeiter.<br />
 </p><p><br />
 </p><p>In diesem Zusammenhang möchten wir Sie als Datenverantwortlicher über Gesetz zum Schutz<br />
 </p><p><br />

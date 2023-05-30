@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon-16x16.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon-32x32.png') }}">
     <!-- Page Title -->
-    <title>@yield('title', 'PORT Nature Luxury Resort Hotel & Spa')</title>
+    <title>@yield('title', 'Miramare Hotels - Official Website')</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/swiper-bundle.min.css') }}"/>

@@ -26,7 +26,7 @@ class AdminMiddleware
             }
         }
         else {
-            return redirect('/pn-admin')->with('status', 'Lütfen Giriş Yapınız');
+            return redirect('/mm-admin')->with('status', 'Lütfen Giriş Yapınız');
         }
     }
 }

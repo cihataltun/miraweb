@@ -7,7 +7,7 @@
     <meta content="DGTLFACE IT TEAM" name="author" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title')</title>
+    <title>@yield('title', 'Miramare Hotels - Official Website')</title>
     <!-- Fonts -->
     <!-- Bootstrap Css -->
     <link href="{{ asset('assets/admin/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
@@ -58,10 +58,6 @@
     <script src="{{ asset('assets/admin/libs/metismenu/metisMenu.min.js') }}"></script>
     <script src="{{ asset('assets/admin/libs/simplebar/simplebar.min.js') }}"></script>
     <script src="{{ asset('assets/admin/libs/node-waves/waves.min.js') }}"></script>    
-    <!-- apexcharts -->
-    {{-- <script src="{{ asset('assets/admin/libs/apexcharts/apexcharts.min.js') }}"></script> --}}
-    {{-- <script src="{{ asset('assets/admin/js/pages/dashboard.init.js') }}"></script> --}}
-    <!-- jquery.vectormap map -->
     <script src="{{ asset('assets/admin/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js') }}"></script>
     <script src="{{ asset('assets/admin/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js') }}"></script>
     <!-- Required datatable js -->
