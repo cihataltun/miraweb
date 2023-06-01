@@ -463,3 +463,50 @@ var swiperHomeTop = new Swiper('.heroTopSwiper', {
   }
 
 });
+
+//Go to sidebar hotels link on double click
+
+//Detect touch events
+jQuery(function($) {
+  $('#dropdownMenuButton1').click(function() {
+      return false;
+  }).dblclick(function() {
+    console.log('double clicked')
+      window.location = this.href;
+      return false;
+  });
+});
+
+function sidebarDropdown(){
+  if(window.matchMedia("(pointer: coarse)").matches) {
+
+    if ($('.sidebar-hotels-dropdown').hasClass('show2')){
+      $('.sidebar-hotels-dropdown').removeClass('show2')
+      $('.sidebar-hotels-dropdown-list').removeClass('show2');
+
+      $('#dropdownMenuButton1').removeClass('show')
+
+
+      $('.sidebar-hotels-dropdown-list').css('height', '0px')
+      $('.sidebar-hotels-dropdown-list').css('padding-top', '0px!important')
+  
+
+    }
+    else{
+      $('.sidebar-hotels-dropdown').addClass('show2');
+      $('.sidebar-hotels-dropdown-list').addClass('show2');
+
+      $('#dropdownMenuButton1').addClass('show2')
+
+
+
+
+
+      $('.sidebar-hotels-dropdown-list').css('height', '105px')
+      $('.sidebar-hotels-dropdown-list').css('padding-top', '35px!important')
+      $('.sidebar-hotels-dropdown:hover .sidebar-hotels-dropdown-list li:first-child').css('padding-bottom','20px')
+
+    }
+  }
+
+}

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Frontend\Turkish;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Mail\ContactForm;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -37,5 +37,4 @@ class ContactController extends Controller
 
         return view('frontend.tr.contact.data-policy');
     }
-
 }

@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Frontend\Russian;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Mail\ContactForm;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -13,13 +13,9 @@ class ContactController extends Controller
 
         return view('frontend.ru.contact.contacts');
     }
-    public function data_policy() {
-
-        return view('frontend.ru.contact.data-policy');
-    }
-
+    
     public function submit(Request $request) {
-
+        
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
@@ -31,9 +27,14 @@ class ContactController extends Controller
             'email' => $request->input('email'),
             'message' => $request->input('message')
         ];
-
+        
         Mail::to('callcenter@portnature.com.tr')->send(new ContactForm($data));
-
+        
         return redirect('kontakti')->with('success', 'Ваше сообщение было отправлено. Спасибо!');
+    }
+
+    public function data_policy() {
+
+        return view('frontend.ru.contact.data-policy');
     }
 }

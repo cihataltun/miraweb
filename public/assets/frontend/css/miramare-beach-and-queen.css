@@ -1,0 +1,895 @@
+
+
+.row {
+    max-width: 100vw;
+    --bs-gutter-x: 0px !important
+}
+
+/* TEXTS */
+a {
+    text-decoration: none !important;
+    font-family: 'Montserrat', 'sans-serif';
+
+}
+
+p {
+    margin: 0px !important;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+
+
+.p-16 {
+    font-size: 16px
+}
+
+.p-15 {
+    font-size: 15px
+}
+
+
+
+
+/* HERO IMAGE */
+
+.hero-image{
+    width: 100vw;
+    height: auto;
+}
+
+
+
+/* HOTEL INTRO SECTION */
+.hotel-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-intro-wrapper{
+    padding: 6.927vw 0px;
+    width: 55.052vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.823vw;
+    justify-content: center;
+    align-items: center;
+}
+.intro-title{
+font-family: 'Montserrat';
+font-size: var(--fortyFive);
+font-weight: 500;
+line-height: calc(var(--fortyFive) + .781vw);
+letter-spacing: 0em;
+text-align: center;
+
+}
+.hotel-intro-hr{
+    width: 100%;
+    height: 1px;
+    color: rgba(23, 0, 0, 0.5);
+}
+.intro-text-1{
+font-weight: 700;
+color: #170000;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.intro-text-1,.rooms-sub-title{
+    font-size: var(--intro1TextFontSize);
+    line-height: calc(var(--intro1TextFontSize) + .364vw);
+
+
+}
+.intro-text-2{
+    padding: 0px 4.74vw;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    letter-spacing: 0em;
+    text-align: center;
+     
+}
+.intro-text-2, .rooms-text,.booking-text{
+    font-size: var(--eighteen);
+    line-height: calc(var(--eighteen) + .364vw);
+
+}
+
+
+        
+@media screen and (max-width:769px) {
+    
+
+
+    .hotel-intro-wrapper{
+        width: 60vw;
+    }
+
+ 
+
+}
+@media screen and (max-width:600px) {
+    .hotel-intro-wrapper{
+        width: 70vw;
+    }
+
+   
+}
+
+/* Carousel Section */
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 20px!important;
+    height: 20px!important;
+    transition: all .2s ease-in-out ;
+}
+.carousel-control-next{
+    right: -3%!important;
+}
+.carousel-control-prev{
+    left: -3%!important;
+}
+#roomsCarousel{
+    width: min(41.667vw, 800px);
+    height: auto;
+    padding-bottom: 1.563vw;
+}
+.carousel-indicators{
+    margin: 0px!important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 100%!important;
+    margin: 0px!important;
+    background-color: rgb(166, 166, 166)!important;
+    height: 4px;
+    border: none!important;
+}
+.carousel-item .carousel-control-next-icon, .carousel-item .carousel-control-prev-icon{
+    opacity: 0!important;
+}
+.carousel-item.active .carousel-control-next-icon, .carousel-item.active .carousel-control-prev-icon{
+    opacity: 1!important;
+}
+.carousel-caption{
+    opacity: 0;
+    right: 0px!important;
+    left: 0px!important;
+    padding: 0px!important;
+    bottom: 0px!important;
+    width: 100%;
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, .65);
+    justify-content: space-between;
+    align-items: center;
+    display: flex!important;
+    transition: opacity .3s ease-in;
+}
+.carousel-caption p{
+font-family: 'Montserrat';
+color: white;
+font-size: var(--carouselCaption);
+font-weight: 500;
+line-height: calc(var(--carouselCaption) + 1.5vw);
+letter-spacing: 0em;
+text-align: center;
+
+}
+.carouselImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#roomsCarousel:hover .carousel-caption{
+    opacity: 1;
+}
+.carousel-control-next, .carousel-control-prev{
+    position: relative!important;
+}
+.rooms-row{
+    padding: 10.417vw 11.198vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5.208vw;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5.208vw    ;
+}
+.rooms-title{
+font-family: 'Montserrat';
+font-size: var(--fortyFive);
+font-weight: 500;
+color: #170000;
+line-height: var(--fortyFiveLineHeight);
+letter-spacing: 0em;
+text-align: left;
+}
+.rooms-title-mobile, .rooms-sub-title-mobile{
+    display: none;
+}
+.rooms-sub-title{
+font-weight: 700;
+color: #170000;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rooms-sub-title-mobile{
+    color: rgba(117, 117, 117, 1);
+}
+.rooms-text{
+font-weight: 400;
+color: #757575FF;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.darker{
+    color: #2D2D25;
+}
+.rooms-discover-btn{
+font-size: var(--discoverText);
+font-weight: 700;
+line-height: calc(var(--discoverText) + .5vw);
+overflow: hidden;
+position: relative;
+letter-spacing: 0.05em;
+text-align: center;
+background-color: transparent;
+    border: 1px solid #170000;
+padding: 0.625vw 2.24vw;
+}
+.btn-text{
+    position: relative;
+    z-index: 10;
+    color: #170000;
+    transition: all 0.4s;
+}
+.rooms-discover-btn::before {
+    content: "";
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background-color: #170000;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    top: 0px;
+    left: -100%;
+}
+.rooms-discover-btn:hover::before {
+    left: 0%;
+}
+.rooms-discover-btn:hover .btn-text {
+    color: #f5f5f5;
+
+}
+.rooms-block{
+    width: 100vw;
+    height: auto;
+    gap: 1.823vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+@media screen and (max-width:1200px) {
+  
+    .carousel-control-next, .carousel-control-prev{
+        top: calc(100% - 3.073vw - 15px )!important;
+    }
+  
+}
+@media screen and (max-width:769px) {
+    .carousel-control-next, .carousel-control-prev{
+        top: calc(100% - 2vw - 25px)!important
+    }
+    #roomsCarousel,.rooms-block{
+        width: 100%;
+    }
+    .rooms-row{
+        flex-direction: column;
+    }
+
+    .rooms-discover-btn {
+    line-height: calc(var(--discoverText) + 1.5vw);}
+ 
+
+}
+@media screen and (max-width:480px) {
+    .carousel-caption p{
+        font-size:7.69vw;
+        line-height: 9vw;
+    }
+    .carouselImage{
+        height: 100vw;
+    }
+    .rooms-section .w-100{
+        height: 100vw;
+        object-fit: cover;
+        object-position:  center center;
+       }
+       #roomsCarousel{
+        padding-bottom: 5vw;
+       }
+       .rooms-block{
+        padding: 0px 5vw;
+        align-items: center;
+        gap: 5vw;
+       }
+       .rooms-title,.rooms-sub-title{
+        display: none;
+       }
+       .rooms-title-mobile, .rooms-sub-title-mobile{
+        display: block;
+    }
+    .rooms-title-mobile{
+        position: relative;
+        text-align: center;
+    }
+    .rooms-title-mobile::after{
+        width: 82.564vw;
+        position: relative;
+        content: '';
+        display: block;
+        margin-top:6.41vw ;
+        background-color: rgba(23, 0, 0, 0.2);
+        height: 1px;
+    }
+       .rooms-discover-btn{
+        font-size: 4vw;
+        line-height: 5vw;
+        padding: 3vw 12.2vw;
+       }
+       .rooms-text{
+        font-size: 3.85vw;
+        line-height: 5vw;
+       }
+       .rooms-section .carousel-indicators{
+        padding:0px 5vw;
+       }
+       .rooms-row{
+        padding: 10.417vw 0px;
+        gap: 6.41vw;
+       }
+    
+       .carousel-caption{
+        opacity: 1;
+       }
+      
+       .swiper-title{
+        line-height: normal;
+       }
+    
+}
+/* ONLINE BOOKING SECTION*/
+.online-booking{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 39.063vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.online-booking-queen{
+    background-image: url(../images/miramareQueen/online-booking.webp);
+
+}
+.online-booking-beach{
+    background-image: url(../images/miramareBeach/online-booking.webp);
+
+}
+
+
+.online-booking::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position:absolute;
+    z-index: 11;
+    background: linear-gradient(270deg, transparent 0%, rgba(0,0,0,.7) 100%);
+}
+.online-booking-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 11.146vw;
+    z-index: 12;
+    width: 30vw;
+    gap: 1.042vw;
+}
+.online-booking-btn {
+    border-radius: 0px;
+    padding: var(--solidButtonPadding);
+    width: fit-content;
+    position: relative;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+.online-booking-btn {
+    border-image: repeating-linear-gradient(135deg, #ffffff 0 10px, #ffffff 0 20px, #ffffff 0 30px) 8;
+    -webkit-mask: conic-gradient(from 180deg at top 8px right 8px, #ffffff 90deg, #ffffff 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat, conic-gradient(at bottom 8px left 8px, #ffffff 90deg, #ffffff 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#ffffff 0 0) padding-box no-repeat;
+}
+
+.online-booking-btn:hover {
+    background-color: transparent;
+    -webkit-transition: background-color 5s linear;
+    -ms-transition: background-color 5s linear;
+    transition: background-color 5s linear;
+    --_i: 100%;
+    color: #CC333F;
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+.online-booking-btn:hover .online-booking-txt {
+    color: #ffffff;
+}
+
+.online-booking-txt {
+    font-size: var(--solidButtonFontSize);
+    color: #170000;
+margin-bottom: 0px!important;
+    font-weight: 700;
+    line-height: var(--solidButtonLineHeight);
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+.booking-title{
+font-family: 'Montserrat';
+font-size: clamp(40px, 3.646vw, 60px);
+font-weight: 500;
+line-height:clamp(48.44px,4.427vw,72.66px) ;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding-bottom: 1.042vw;
+
+}
+.booking-text{
+font-weight: 500;
+color: #F5F5F5;
+font-size: clamp(15px, 0.938vw, 18px);
+line-height: clamp(20px,1.406vw,27px);
+letter-spacing: 0em;
+text-align: left;
+
+}
+.booking-svg{
+    display: none;
+}
+@media screen and (max-width:1400px) {
+    .online-booking-info{
+        width: 40vw;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .online-booking-info{
+        width: 70vw;
+    }
+    .online-booking{
+        height: 60vw;
+    }
+
+  }
+
+  @media screen and (max-width:769px) {
+    
+
+    .online-booking{
+        height: 60vw;
+    }
+
+
+}
+@media  screen and (max-width:600px) {
+    .online-booking{
+        height: 90vw;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .online-booking::after{
+        background: linear-gradient(180deg, transparent 0%,  rgba(0,0,0,.7) 100%);
+       }
+       .online-booking{
+        height: 192.308vw;
+        background-position: 82% 0%;
+        align-items: flex-end;
+       }
+       .online-booking-info{
+        width: 89.744vw;
+        margin-left: 5vw;
+        gap: 5vw;
+        margin-bottom: 5vw;
+        align-items: center;
+       }
+       .booking-title{
+        padding-bottom: 3.85vw;
+       }
+       .booking-text,.booking-title{
+        width: 100%!important;
+        text-align: center;
+       }
+      
+      .booking-svg{
+        display: block;
+        position: absolute;
+        top: 15%;
+        left: 45%;
+      }
+}
+/* PANORAMA SWIPER */
+.swiper-section{
+    display: flex;
+    width: 100%;
+
+}
+.panoramaSwiper {
+    width: 81.875vw;
+    max-width: 1185.55px;
+    max-height:565.63px ;
+    margin-left: min(26px,1.354vw );
+    position: relative;
+    cursor: grab;
+  }
+.panoramaSwiper:active{
+    cursor: grabbing;
+}
+  .cursor {
+    width: 127px;
+    height: 72px;
+    
+    border-radius: 100%;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+.show-cursor{
+    display: block;
+}
+
+#cursor-img{
+    width: 127px;
+    height: auto;
+    object-fit: contain;
+	-webkit-transition:width 300ms linear;
+	-moz-transition:300ms linear;
+	-o-transition:300ms linear;
+	-ms-transition:300ms linear;
+	transition:width 300ms linear;
+}
+.cursor-smaller{
+    width: 84.6px!important;
+    transition: all .4s ease-in-out;
+    height: 48px!important;
+}
+  .visit-btn-txt {
+    font-size: var(--twentytwo);
+    font-weight: 700;
+    line-height: calc(var(--twentytwo) + .5);
+    color: #F5F5F5;
+    padding: var(--buttonsPadding)!important;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.visit-btn {
+    position: absolute;
+    border: 1px solid #F5F5F5;
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+    display: none;
+    overflow: hidden;
+    z-index: 6;
+    bottom: 5%;
+
+
+}
+.visit-btn::before{
+    content: "";
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    top: 0px;
+    left: -100%;
+}
+.visit-btn:hover::before{
+    left: 0%;
+}
+.visit-btn:hover .visit-btn-txt{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;   
+    position: relative;
+    z-index: 22;
+    color: rgba(0, 0, 0, 0.9);
+}
+  .main-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  height: 39.063vw!important;
+  margin-right: min(26px,1.354vw );
+  max-width: 400px;
+  max-height: 563px;
+  width: min(530px, 27.604vw);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: flex-start;
+  }
+  .custom-pagination{
+    font-family: 'Cormorant';
+font-size: min(7.813vw, 71px);
+font-weight: 400;
+letter-spacing: 0em;
+width: fit-content!important;
+color: rgba(23, 0, 0, 0.5);
+text-align: center;
+
+  }
+  .panorama-prev,.panorama-next{
+    right: 0px!important;
+    position: relative!important;
+    left: 0px!important;
+    bottom: 1vw!important;
+    top: unset!important;
+    color: #17000080!important;
+  }
+  .panorama-prev::after,.panorama-next::after{
+    font-size: max(1.563vw, 15px)!important;
+  }
+  .swiper-left{
+    height: 39.2vw;
+    width: 13.125vw  ;
+    max-width: 252px;
+    min-width: 142px;
+    position: relative;
+    max-height: 567px;
+    margin-top:  -2px;
+    background-color: #F5F5F5;
+    z-index: 12;
+    display: flex;
+    position: relative;
+    border-left: solid  3.646vw white;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .main-slide img{
+    height: inherit;
+    height: 100%;
+    width: 100%;
+    max-width: 398px;
+    object-fit: cover ;
+  }
+  .swiper-inner{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    max-height: 563px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0px;
+    overflow-y: hidden;
+    left: 0px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 65%, rgba(0,0,0,.7) 100%);
+
+  }
+  .swiper-title{
+font-family: 'Montserrat';
+font-size: var(--fortyFive);
+font-weight: 400;
+line-height: calc(var(--fortyFive) + 0.9vw);
+letter-spacing: 0em;
+margin-bottom: 2vw!important;
+color: #ffffff;
+text-align: center;
+margin-bottom: 1.198vw;
+
+  }
+  .swiper-slide:hover .swiper-title{
+    margin-bottom: 0vw!important;
+    margin-top: 3vw!important;
+
+  }
+  .swiper-bold{
+    font-size: var(--swiperTextBold);
+font-weight: 700;
+color: rgba(245, 245, 245, 1);
+width: 60%;
+line-height:calc(var(--swiperTextBold) + .7vw);
+letter-spacing: 0em;
+text-align: center;
+padding-top: 2.604vw;
+
+  }
+  .swiper-text{
+font-size: var(--swiperText);
+font-weight: 400;
+width: calc(20.833vw - 0.573vw);
+max-width: 350px;
+color: #F5F5F5;
+line-height:min(calc(var(--swiperText) + .7vw)), 15px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  @keyframes swiper-content-in {
+    from {
+        transform: translateY(-100%);
+         opacity: 0; }
+
+    to { 
+    opacity: 1;}
+  }
+  @keyframes swiper-hr-in{
+    0% {
+        visibility: hidden;
+    opacity: 0!important; 
+color: transparent;
+transform: translateY(-100px);}
+
+    100% { 
+        visibility: visible;
+        color: rgba(245, 245, 245, 1);
+        transform: translateY(0px);
+    }
+  }
+  
+  .swiper-hr{
+    height: 1px;
+    color: rgba(245, 245, 245, 1);
+    width: 85%;
+
+  }
+  .swiper-hr,.swiper-text,.swiper-bold,.visit-btn{
+    display: none;
+  }
+  .main-slide:hover .swiper-title{
+    animation:swiper-content-in .6s ease-in-out;
+  }
+
+  .main-slide:hover .swiper-hr,.main-slide:hover .swiper-text,
+  .main-slide:hover .swiper-bold,.main-slide:hover .visit-btn{
+    display: block;
+    animation:swiper-content-in .6s ease-in-out ;
+  }
+  .main-slide:hover .swiper-hr{
+    animation: swiper-hr-in .6s ease-in-out;
+  }
+  .main-slide:hover .swiper-inner{
+    align-items: center;
+    justify-content: flex-start ;
+    background: linear-gradient(180deg, rgba(0,0,0,.7) 65%, rgba(0,0,0,.7) 100%);
+
+  }
+  @media screen and (max-width:1200px) {
+
+  
+ 
+
+    .swiper-left{
+        height: 58.9vw!important;
+    }
+    .swiper-text{
+        width: 80%;
+    }
+    .swiper-bold{
+        width: 70%;
+    }
+    .main-slide{
+        height: 58.126vw!important;
+    }
+
+    }
+
+
+    @media screen and (max-width:769px) {
+
+  
+    .swiper-left{
+        height: 85.7vw!important;
+    }
+    .swiper-text{
+        width: 80%;
+    }
+    .swiper-bold{
+        width: 70%;
+    }
+    .main-slide{
+        height: 85.126vw!important;
+    }
+ 
+    }
+
+
+@media screen and (max-width:480px) {
+
+    .swiper-left{
+        padding: 0px 5vw;
+
+    }
+    .panorama-next,.panorama-prev{
+        bottom: 0px!important;
+        margin: auto 0 !important;
+    }
+  
+    .panoramaSwiper{
+        width: 100vw;
+        margin-left: 0px;
+
+    }
+   .cursor,.cursor-img{
+display: none;
+   
+   }
+ 
+    .main-slide{
+        height: 117.18vw!important;
+        width: 89.744vw;
+        margin-right: 0px;
+        max-width: unset;
+    }
+    .swiper-inner{
+    width: 100%;
+    max-width: 398px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    }
+    .main-slide:hover .swiper-inner{
+        justify-content: flex-start;
+        padding-top: 15vw;
+    }
+    .swiper-left{
+        height: 77px!important;
+        width: 100%;
+        max-width: 100vw;
+        border: none;
+    }
+    .swiper-text{
+        width: 80%;
+    }
+    .swiper-bold{
+        width: 70%;
+    }
+    .swiper-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .custom-pagination{
+    font-size: 20.513vw;
+    
+      }
+
+}

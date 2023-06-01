@@ -1,0 +1,323 @@
+html,
+body {
+    margin: 0px;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    padding: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: transparent !important;
+
+}
+
+:root {
+    --twentythree: clamp(15px, 1.2vw, 23px);
+    --twentythreeLineHeight: calc(var(--twentythree) + .5vw);
+    --fifty: clamp(40px, 3.125vw, 50px);
+    --fiftyLineHeight: calc(var(--fifty) + .6vw);
+    --swiperText: clamp(12px, 0.938vw, 13px);
+    --swiperTextBold: clamp(13px, 1.042vw, 17px);
+    --twentytwo: clamp(13px, 0.833vw, 22px);
+    --sixty: clamp(45px, 3.125vw, 60px);
+    --sixtySmall: clamp(30px, 3.125vw, 60px);
+
+    --sixtyTitle: clamp(35px, 3.125vw, 60px);
+    --fortyFiveLineHeight: calc(var(--fortyFive) + .5vw);
+    --buttonsPadding: calc(var(--twentytwo) * .80) calc(var(--twentytwo) * 2.3) !important;
+    --eighteen: clamp(11px, 0.938vw, 18px);
+    --eighteenLineHeight: calc(var(--eighteen) + .5vw);
+    --intro1TextFontSize: clamp(12px, 1.406vw, 22px);
+    --twentytwoSmaller: clamp(13px, 0.733vw, 22px);
+    --carouselCaption: clamp(20px, 1.563vw, 30px);
+    --servicesDetail: clamp(9px, 0.781vw, 15px);
+    --servicesDetailLineHeight: calc(var(--servicesDetail) + .5vw);
+    --swiperTitle: clamp(30px, 3.646vw, 52px);
+    --descFontSize: clamp(10px, 0.938vw, 18px);
+    --discoverText: clamp(10px, 0.83vw, 20px);
+    --hoverTopText: clamp(15px, 1.042vw, 20px);
+    --seventy: clamp(30px, 4.646vw    ,70px);
+    --pageTreeFontSize: max(0.833vw, 11px);
+    --featuresFontSize: clamp(11px, 1.198vw, 18px);
+    --solidButtonFontSize: clamp(11px, 0.938vw, 18px);
+    --solidButtonLineHeight: calc(var(--solidButtonFontSize) + .5vw);
+    --solidButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonFontSize: clamp(11px, 0.833vw, 16px);
+    --discoverButtonLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    --sixteen: clamp(11px, 0.833vw, 16px);
+    --sixteenLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    scroll-behavior: smooth;
+
+
+}
+/* OPTIONS SECTION */
+.options-row {
+    gap: 30px;
+}
+
+
+.options-title-text {
+    font-size: var(--fortyFive);
+    font-weight: 500;
+    margin-bottom: 0px;
+    line-height: var(--fortyFiveLineHeight);
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+    padding-bottom: 5.41vw;
+
+}
+
+.options-col-title {
+    font-family: 'Montserrat';
+    font-size: var(--carouselCaption);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    line-height: calc(var(--carouselCaption) + .5vw);
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.options-col-upper {
+    display: flex;
+    position: absolute;
+    z-index: 7;
+    padding-bottom: 1.302vw;
+    width: 100%;
+    height: fit-content;
+    top: clamp(20px, 2vw, 40px);
+    left: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.options-col-upper:after {
+    content : "";
+    position: absolute;
+    left    : 10%;
+    z-index: 15;
+    bottom  : 0;
+    height  : 1px;
+    width   : 80%;  /* or 100px */
+    border-bottom:1px solid rgba(255, 255, 255, .3);
+  }
+.options-col-lower {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all .4s ease-in-out;
+    left: 0px;
+    display: flex;
+    z-index: 8;
+    gap: 1.823vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.options-desc {
+
+    font-family: 'Montserrat';
+    font-size: var(--discoverText);
+    font-weight: 600;
+    z-index: 8;
+    opacity: 0;
+    color: rgba(245, 245, 245, 1);
+    line-height: calc(var(--discoverText) + .5vw);
+    letter-spacing: 0em;
+    text-align: center;
+    width: 80%;
+
+}
+
+.options-col:hover .options-col-lower {
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.options-col:hover .options-desc {
+    opacity: 1;
+}
+
+.options-col::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0px;
+    z-index: 6;
+    left: 0px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.options-background {
+    width: 100%;
+    height: auto;
+    transition: all .4s ease-in-out;
+    object-fit: cover;
+    z-index: 5;
+}
+.options-link-wrapper{
+    width: fit-content;
+    position: relative ;
+    height: fit-content;
+    display: flex;
+}
+
+.options-col {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+.options-section .swiper-slide{
+    display: block;
+}
+.options-section {
+    padding: clamp(50px,4.6vw,90px) 0px 0px 0px;
+}
+
+#optionsSwiper {
+    width: 71.2vw;
+    max-width: 1366px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+
+.discover-btn {
+    border-radius: 0px;
+    padding: var(--discoverButtonPadding);
+    width: fit-content;
+    bottom: 2vw;
+    left: 3vw;
+    z-index: 8;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: white;
+    border-image: repeating-linear-gradient(135deg, white 0 10px, white 0 20px, white 0 30px) 8;
+    -webkit-mask: conic-gradient(from 180deg at top 8px right 8px, white 90deg, white 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat, conic-gradient(at bottom 8px left 8px, white 90deg, white 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat, linear-gradient(white 0 0) padding-box no-repeat;
+
+
+}
+
+.discover-btn-wrapper {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    bottom: clamp(20px, 2vw, 40px);
+    left: 0%;
+
+}
+
+.miramare-logo-accommodation {
+    width: 2.604vw;
+    height: auto;
+    min-width: 20px;
+    max-width: 50px;
+}
+
+.discover-btn:hover {
+    background-color: transparent;
+    -webkit-transition: background-color 5s linear;
+    -ms-transition: background-color 5s linear;
+    transition: background-color 5s linear;
+    --_i: 100%;
+    transition: .3s, -webkit-mask-size .3s .3s;
+
+}
+
+.options-hover-background {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transition: all .4s ease-in-out;
+    z-index: 5;
+}
+
+.options-col:hover .options-background {
+    opacity: 0;
+}
+
+.options-col:hover .options-hover-background {
+    opacity: 1;
+}
+
+.discover-btn:hover .discover-btn-txt {
+    color: white;
+}
+
+.discover-btn-txt {
+    font-size: var(--discoverButtonFontSize);
+    color: #170000;
+
+    font-weight: 700;
+    line-height: var(--discoverButtonLineHeight);
+    letter-spacing: 0.05em;
+    text-align: center;
+
+}
+
+.options-col:hover::after {
+    height: 100%;
+    background: rgba(45, 45, 37, .3);
+}
+
+@media screen and (max-width:1024px) {
+    #optionsSwiper {
+        width: 80vw !important;
+        margin-left: 10vw;
+    }
+    
+}
+@media screen and (max-width:1024px){
+    #optionsSwiper {
+        width: 90vw !important;
+        margin-left: 5vw;
+    }
+
+}
+@media screen and (max-width:768.5px) {
+
+    #optionsSwiper .swiper-slide{
+        width: 70vw;
+        padding-right: 3.85vw;
+    }
+    #optionsSwiper {
+        width: 100vw !important;
+        margin-left: 0vw;
+    }
+}
+@media screen and (max-width:480px) {
+    .swiper-accom-text-desc{
+        font-size: 3.59vw;
+        line-height: 5.64vw;
+    }
+    .options-section{
+        padding: 10vw 0px;
+    }
+    #optionsSwiper .swiper-slide{
+        width: 82.308vw;
+    }
+    .options-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .options-title-text{
+        font-size: min(23px, 5.9vw);
+        max-width: 89.744vw;
+        line-height: 9vw;
+    }
+}

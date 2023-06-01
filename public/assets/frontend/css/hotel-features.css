@@ -1,0 +1,135 @@
+
+/* HOTEL FEATURES SECTION */
+.features-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.swiper-scrollbar,
+.swiper-scrollbar-horizontal {
+    opacity: 1 !important;
+}
+
+.swiper-features {
+    margin-bottom: 4vw;
+    background-color: rgba(245, 245, 245, 1);
+
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    position: relative !important;
+    bottom: auto !important;
+
+}
+
+.swiper-scrollbar-horizontal {
+    background: #e2e2e2 !important;
+}
+
+.swiper-scrollbar-drag {
+    background: rgba(23, 0, 0, 0.3) !important;
+}
+
+.features-slide a {
+    padding: max(1.406vw, 13px) 1vw;
+    font-size: var(--featuresFontSize);
+    color: rgba(23, 0, 0, 0.5);
+    font-weight: 600;
+    line-height: 1.406vw;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.features-slide:hover a {
+    color: rgba(23, 0, 0, 1) !important;
+    transition: color .4s ease-in-out;
+}
+
+.features-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: #170000;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.features-wrapper-desktop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+
+    align-items: center;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.features-div {
+    display: none;
+}
+
+.features-desktop {
+    width: 88.125vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.646vw;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.features-desktop a {
+    font-size: var(--featuresFontSize);
+    color: rgba(23, 0, 0, 0.5);
+    font-weight: 600;
+    line-height: 1.406vw;
+    letter-spacing: 0em;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    max-height: 80px;
+    height: 4.167vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-desktop a:hover {
+    color: #170000;
+}
+@media screen and (max-width:863px) {
+    .features-div {
+        display: block;
+    }
+
+    .features-desktop {
+        display: none;
+    }
+
+    .features-wrapper-desktop {
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:768.5px) {
+
+        #optionsSwiper .swiper-slide{
+            width: 70vw;
+            padding-right: 3.85vw;
+        }
+        #optionsSwiper {
+            width: 100vw !important;
+            margin-left: 0vw;
+        }
+    .features-slide {
+        min-height: 30px;
+    }
+
+    .swiper-features {
+        height: 100%;
+    }
+
+    
+}

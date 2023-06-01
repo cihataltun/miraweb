@@ -1,0 +1,1645 @@
+html,
+body {
+    margin: 0px;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    padding: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: transparent !important;
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --twentythree: clamp(15px, 1.2vw, 23px);
+    --twentythreeLineHeight: calc(var(--twentythree) + .5vw);
+    --fifty: clamp(40px, 3.125vw, 50px);
+    --fiftyLineHeight: calc(var(--fifty) + .6vw);
+    --swiperText: clamp(12px, 0.938vw, 13px);
+    --swiperTextBold: clamp(13px, 1.042vw, 17px);
+    --twentytwo: clamp(13px, 0.833vw, 22px);
+    --sixty: clamp(45px, 3.125vw, 60px);
+    --sixtySmall: clamp(30px, 3.125vw, 60px);
+
+    --sixtyTitle: clamp(35px, 3.125vw, 60px);
+    --fortyFiveLineHeight: calc(var(--fortyFive) + .5vw);
+    --buttonsPadding: calc(var(--twentytwo) * .80) calc(var(--twentytwo) * 2.3) !important;
+    --eighteen: clamp(11px, 0.938vw, 18px);
+    --eighteenLineHeight: calc(var(--eighteen) + .5vw);
+    --intro1TextFontSize: clamp(12px, 1.406vw, 22px);
+    --twentytwoSmaller: clamp(13px, 0.733vw, 22px);
+    --carouselCaption: clamp(25px, 2.083vw, 40px);
+    --servicesDetail: clamp(9px, 0.781vw, 15px);
+    --servicesDetailLineHeight: calc(var(--servicesDetail) + .5vw);
+    --swiperTitle: clamp(30px, 3.646vw, 52px);
+    --descFontSize: clamp(10px, 0.938vw, 18px);
+    --discoverText: clamp(10px, 0.83vw, 20px);
+    --hoverTopText: clamp(15px, 1.042vw, 20px);
+    --seventy: clamp(30px, 4.646vw    ,70px);
+    --pageTreeFontSize: max(0.833vw, 11px);
+    --featuresFontSize: clamp(11px, 1.198vw, 18px);
+    --solidButtonFontSize: clamp(11px, 0.938vw, 18px);
+    --solidButtonLineHeight: calc(var(--solidButtonFontSize) + .5vw);
+    --solidButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonFontSize: clamp(11px, 0.833vw, 16px);
+    --discoverButtonLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    --sixteen: clamp(11px, 0.833vw, 16px);
+    --sixteenLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    scroll-behavior: smooth;
+
+
+}
+
+.row {
+    max-width: 100vw;
+    --bs-gutter-x: 0px !important
+}
+
+/* TEXTS */
+.hotels-display-heading,
+.hotels-display-item-title,
+.options-title-text,
+.video-title,
+.contact-us-title,
+.form-title {
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    margin: 0px !important;
+}
+
+
+.p-16 {
+    font-size: 16px
+}
+
+.p-15 {
+    font-size: 15px
+}
+
+
+/* PAGE TREE */
+
+.page-tree-line {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 0.781vw;
+    flex-wrap: wrap;
+    margin-left: 3.594vw;
+}
+
+.page-tree-item {
+    color: #757575FF;
+    font-size: var(--pageTreeFontSize);
+    font-weight: 400;
+    line-height: calc(var(--pageTreeFontSize) + .5vw);
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* BEACH ROOMS DELUXE MAIN CONTENT*/
+/* HOMEPAGE HERO SECTION */
+
+
+.reservation-form {
+    display: flex;
+    gap: 0.833vw;
+    width: auto;
+    height: fit-content;
+    position: relative;
+    transform: scale(.9);
+    z-index: 16;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ROOMS HERO SECTION */
+.premium-sender{
+    position: absolute;
+    top: 0px;
+    right: 6.406vw;
+    display: flex;
+    justify-content: center;
+    z-index: 15;
+    overflow: hidden;
+    align-items: center;
+    background-color: transparent;
+    width: 150px;
+    height: 175px;
+
+
+}
+.platinum-figure{
+    margin: 0px;
+    padding: 0px;
+}
+.platinum-figure:before {
+    content: '';
+    width: 100%;
+    height: 200%;
+    z-index: 12;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0.5;
+    filter: blur;
+    background: linear-gradient(to left, transparent 0%, #fff 40%, #fff 60%, transparent 100%);
+    transform: translate(-100%, -25%) rotate(-30deg);
+    animation: blick 3s infinite;
+  }
+  
+  @keyframes blick {
+    0% {
+      transform: translate(-100%, -25%) rotate(30deg);
+    }
+    50% {
+      transform: translate(100%, -25%) rotate(30deg);
+    }
+    100% {
+      transform: translate(100%, -25%) rotate(30deg);
+    }
+  }
+.premium-bg{
+    width: 150px;
+    height: auto;
+    position: relative;
+    z-index: 11;
+}
+.premium-icon{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    margin: 0 auto;
+}
+#heroSwiperWrapper{
+    position: relative;
+    z-index: 10;
+}
+.hero-wrapper {
+    width: 100vw;
+    margin-top: 100px;
+    position: relative;
+    height: calc(100vh - 100px);
+
+}
+.premium-text{
+    display: flex;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+font-size: var(--sixteen);
+font-weight: 700;
+line-height: var(--sixteenLineHeight);
+letter-spacing: 0em;
+color: white;
+text-align: left;
+z-index:15;
+
+}
+.premium-text span{
+    font-size: 12px;
+    line-height: 14px;
+}
+.hero-icons-block {
+    margin-top: 1.875vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    gap: clamp(20px ,2.865vw    ,55px);
+}
+.hero-icons-text{
+font-family: 'Montserrat';
+font-size: var(--discoverButtonFontSize);
+font-weight: 700;
+line-height: var(--discoverButtonLineHeight);
+letter-spacing: 0em;
+text-align: left;
+color:rgba(245, 245, 245, 1);
+
+}
+
+#heroSwiperWrapper .swiper-slide::after{
+    width: 100%;
+    content: '';
+    height: 100%;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.104) 43.23%, rgba(0, 0, 0, 0.28) 100%);
+    left: 0px;
+    position: absolute;
+    z-index: 13;
+}
+.hero-section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.terrace-and-jacuzzi-hero,.garden-and-jacuzzi-hero,.garden-hero{
+    object-position:  15% 100%;
+}
+.hero-heading {
+    font-family: 'Montserrat';
+    font-size: var(--fortyFive);
+    font-weight: 500;
+    padding-bottom: 1.875vw;
+
+    line-height: var(--fortyFiveLineHeight);
+    letter-spacing: 0em;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+.hero-heading::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    bottom: 0px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .3);
+}
+.hero-icons{
+    display: flex;
+    flex-direction: column;
+    gap: min(31px, 1.615vw);
+    justify-content: center;
+    align-items: center;
+}
+.hero-block {
+    position: absolute;
+    width: fit-content;
+    top: 0px;
+    bottom: 0px;
+    height: fit-content;
+    margin: auto 0;
+    right: min(12.292vw, 236px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    z-index: 14;
+}
+
+
+
+/* RESERVATION SECTION */
+
+#hotelSelectionDropdown,
+#nightSelectionDropdown,
+#childSelectionDropdown,
+#adultSelectionDropdown {
+    border-radius: 0px;
+    background-color: white;
+    width: 100%;
+    height: 44px;
+    display: flex !important;
+    justify-content: flex-start;
+    font-weight: 600;
+    line-height: 1.016vw;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.drop-icon {
+    margin-left: auto;
+}
+
+#hotelSelectionDropdown p,
+#nightSelectionDropdown p {
+    margin-left: 0.573vw !important;
+    margin-right: 2.604vw !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-icons {
+    height: 1.146vw;
+    min-height: 20px;
+    width: auto;
+}
+
+.dropdown-toggle {
+    border: none !important;
+}
+
+#hotelSelectionDropdown,
+#nightSelectionDropdown,
+.dateInputDiv,
+.people-selection {
+    border: 1px solid rgb(206, 206, 206) !important;
+}
+
+
+.night-selection-dropdown-menu,
+.hotel-selection-dropdown-menu,
+.adult-selection-dropdown-menu,
+.child-selection-dropdown-menu {
+    border-radius: 0px !important;
+    transform: translate(0px, 0px) !important;
+    opacity: 0;
+    width: calc(100% + 2px);
+    min-width: 100% !important;
+    transition: all .5s;
+    margin: -1px 0px 0px -1px !important;
+    border: 1px solid #D9D9D9;
+}
+
+.hotel-selection-dropdown-menu.show,
+.night-selection-dropdown-menu,
+.adult-selection-dropdown-menu,
+.child-selection-dropdown-menu {
+    opacity: 1;
+}
+
+.night-selection-dropdown-menu {
+    text-align: right !important;
+}
+
+
+#hotelSelectionDropdown:focus,
+#nightSelectionDropdown:focus,
+#childSelectionDropdown:focus,
+#adultSelectionDropdown:focus,
+.booking-btn:focus {
+    box-shadow: none !important;
+}
+
+.hotel-selection-dropdown-menu li .dropdown-item {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hotel-dropdown-p {
+    margin-left: 10px !important;
+
+    font-size: var(--twentytwoSmaller);
+    font-weight: 600;
+
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#adultCount,
+#childCount {
+    margin: 0px 0.781vw 0px 0.521vw !important;
+    width: 0.521vw;
+}
+
+/* Flatpickr date picker */
+.flatpickr-day.selected,
+.flatpickr-day.startRange {
+    border-radius: 50% 0% 0% 50% !important;
+    background: #170000 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.flatpickr-day.endRange {
+    border-radius: 0% 50% 50% 0% !important;
+    background: #170000 !important;
+    color: white !important;
+    border: none !important;
+
+}
+
+.flatpickr-day.startRange::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    left: 10%;
+    top: 10%;
+}
+
+.flatpickr-day.inRange {
+    background: #170000 !important;
+    color: white !important;
+    -webkit-box-shadow: -5px 0 0 #170000, 5px 0 0 #170000 !important;
+    box-shadow: -5px 0 0 #170000, 5px 0 0 #170000 !important;
+    border: none !important;
+
+}
+
+.flatpickr-day.selected.startRange+.endRange:not(:nth-child(7n+1)),
+.flatpickr-day.startRange.startRange+.endRange:not(:nth-child(7n+1)) {
+    box-shadow: -9px 0 0 #170000 !important;
+}
+
+
+.flatpickr-weekday {
+    font-weight: 400 !important;
+    font-size: 11px !important;
+}
+
+.flatpickr-day {
+    font-size: 11px !important;
+    color: #757575FF !important;
+}
+
+.flatpickr-weekdays {
+    border-bottom: .5px solid #D9D9D9;
+}
+
+.flatpickr-current-month {
+    left: 0% !important;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months,
+.numInput {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+
+}
+
+.people-item p,
+.night-item p {
+    pointer-events: none;
+}
+
+.span.flatpickr-weekday {
+    color: #757575FF !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+}
+
+.flatpickr-input {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.dateInputDiv {
+    height: 44px;
+    display: flex;
+    background-color: white;
+    color: #170000;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 13px;
+}
+.dateInputDiv .reservation-titles{
+    width: min(187px, 9.74vw);
+}
+.reservation-form div {
+    width: 100%;
+}
+
+.dateInputDiv p {
+    margin-right: 40px;
+}
+
+.dropdown-text {
+    font-size: var(--twentytwoSmaller);
+    font-weight: 600;
+    line-height: 1.042vw;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+.people-selection {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.child-svg,
+.adult-svg {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.people-item {
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: var(--twentytwo);
+}
+
+.dropdown-item {
+    height: 44px;
+}
+
+/* MOBILE ICON EFFECT */
+.reservation-section-mobile {
+    display: none;
+    background-color: #170000;
+    flex-direction: row;
+    width: 100vw;
+    color: #f5f5f5;
+    justify-content: space-between;
+    position: relative;
+    z-index: 15;
+    height: 10.19vh;
+    padding: 0px 5.128vw !important;
+    align-items: center;
+}
+
+.reservation-contact {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hover-fx {
+    font-size: min(5.128vw, 18px);
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: #170000;
+    transition: 300ms;
+}
+
+.reservation-text {
+    font-size: var(--twentythree);
+    line-height: var(--twentythreeLineHeight);
+
+}
+
+.hover-fx:hover,
+.hover-fx:hover .res-icon {
+    color: white !important;
+}
+
+.night-item {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-titles {
+    font-size: var(--twentytwoSmaller);
+    font-weight: 700;
+    line-height: calc(var(--twentytwo) + 0.3vw);
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: black;
+
+}
+
+.reservation-wrapper {
+    justify-content: center;
+    align-items: center;
+    padding-top: min(50px, 2.604vw);
+    transition: all .4s ease-in-out;
+    display: flex;
+    width: 100vw;
+}
+
+.booking-btn {
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0px !important;
+    background-color: #170000 !important;
+    color: white;
+    border: 1px solid transparent;
+    border-image: repeating-linear-gradient(135deg, #170000 0px, #170000 10px, #170000 0px, #170000 20px, #170000 0px, #170000 30px) 8 / 1 / 0 stretch;
+    -webkit-mask: conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat, conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#000 0 0) padding-box no-repeat;
+    padding: calc(var(--twentytwo)) calc(var(--twentytwo)*2);
+    box-shadow: none !important;
+}
+
+.booking-btn:hover {
+    background-color: transparent !important;
+    --_i: 100%;
+    transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+.booking-btn .reservation-titles {
+    color: #f5f5f5;
+}
+
+.booking-btn:hover .reservation-titles {
+    color: #170000;
+}
+
+
+.hide-svg {
+    display: none !important;
+}
+
+
+.rooms-reservation-button-div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.677vw;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.people {
+    height: 1.7vw;
+    min-height: 30px;
+    align-self: flex-end;
+}
+
+.dropdown-child {
+    height: 1.5vw;
+    align-self: flex-end;
+    min-height: 25px;
+}
+
+/* SWIPER */
+.rooms-main-swiper-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: min(7.031vw, 50px) 0px 0px 3.646vw;
+    overflow: hidden;
+    gap: min(26px, 1.354vw);
+}
+
+#mainSwiperPrev,
+#mainSwiperNext {
+    position: relative !important;
+    width: 1.042vw !important;
+    margin: 0px !important;
+    height: 1.615vw;
+    top: 0 ;
+    margin: auto 0;
+    left: 0px;
+
+    color: rgba(23, 0, 0, 0.5) !important;
+}
+
+#mainSwiperPrev::after,
+#mainSwiperNext::after {
+    font-size: max(1.563vw, 15px) !important;
+}
+
+.custom-pagination {
+    font-family: 'Cormorant';
+    font-size: var(--seventy);
+    font-weight: 400;
+    color: rgba(23, 0, 0, 0.5);
+    letter-spacing: 0em;
+    width: fit-content !important;
+    text-align: center;
+
+}
+
+.swiper-accom-title {
+    font-family: 'Montserrat';
+    font-size: var(--carouselCaption);
+    font-weight: 500;
+    line-height: calc(var(--carouselCaption) + .5vw);
+    letter-spacing: 0em;
+    text-align: center;
+    color: #170000
+}
+
+.swiper-accom-text-desc {
+    font-family: 'Montserrat';
+    font-size: var(--eighteen);
+    font-weight: 500;
+    line-height: var(--eighteenLineHeight);
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575FF;
+
+}
+.swiper-accom-text-mobile{
+    display: none!important;
+}
+.rooms-main-slide img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: center center;
+}
+.swiper-container-main .swiper-slide{
+    padding-right: min(26px,1.354vw);
+    width: min(923px,48.073vw )!important;
+}
+.swiper-accom-text {
+    width: 80%;
+    padding-top: min(100px, 5.208vw);
+    max-width: 492px;
+    display: flex;
+    gap: min(40px, 2.083vw);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+}
+
+
+
+.swiper-container-main {
+    position: relative;
+    z-index: 13;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.swiper-special-navigation {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 1.042vw;
+}
+.swiper-special-navigation::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    height: 1px;
+    background-color:rgba(23, 0, 0, 0.12) ;
+    width: 92%;
+}
+.swiper-special-navigation-wrapper {
+    width: 32.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    max-width: 624px;
+    gap: 3vw;
+    min-width: 300px;
+    z-index: 14;
+    background-color: #f5f5f5;
+}
+
+/* ROOM FEATURES SECTION  */
+.room-features-title {
+    font-family: 'Montserrat';
+    font-size: var(--fortyFive);
+    font-weight: 500;
+    line-height: var(--fortyFiveLineHeight);
+    color: #170000;
+    letter-spacing: 0em;
+    padding: min(100px, 5.208vw) 0px min(50px,2.604vw ) 0px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(23, 0, 0, 0.12);
+
+}
+.room-features-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: min(100px, 5.208vw);
+    flex-direction: column;
+}
+.room-features-left {
+    position: relative;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: min(30px, 1.563vw);
+    cursor: pointer;
+}
+.room-features-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: min(200px, 10vw);
+    height: fit-content;
+    justify-content: flex-start;
+    padding: min(2.813vw, 54px) 0px 0 0px;
+    align-items: flex-start;
+}
+.features-open-details {
+    font-family: 'Montserrat';
+    font-size: var(--eighteen);
+    font-weight: 600;
+    line-height: var(--eighteenLineHeight);
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2D2D25;
+
+}
+
+.features-see-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+.family-superior-features .features-see-more{
+    left: min(133px,6.927vw);
+}
+
+.features-modal-close {
+    color: #170000;
+    align-self: flex-end;
+    background-color: transparent;
+    transform: scale(1.2);
+    border: none;
+  }
+.modal-mobile-img{
+    display: none;
+}
+#features-modal-content{
+    max-width: 1380px;
+    width:71.875vw !important;
+    padding: 0px!important;
+    height: 41.979vw;
+    max-height: 806px;
+}
+.features-modal-title{
+font-family: 'Montserrat';
+font-size: var(--carouselCaption);
+font-weight: 500;
+line-height: calc(var(--carouselCation)+ .5vw);
+letter-spacing: 0em;
+text-align: center;
+
+}
+.features-modal-details-img{
+    max-width: 1250px;
+    width: 60.104vw;
+    height: auto;
+}
+#features-modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#features-modal-dialog{
+    margin: 0px!important;
+    padding: 0px!important;
+    max-height: 100vh!important;
+    max-width: 100vw!important;
+    height: 100vh!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-hr{
+    width: 100%;
+    margin-top: min(50px, 2.604vw);
+    height: 1px;
+    background-color: rgba(23, 0, 0, 0.12);
+}
+.room-img {
+    max-width: 554px;
+    width: 28.854vw;
+    height: auto;
+    max-height: 350px;
+}
+.garden-and-jacuzzi-room-img{
+    max-width: 443px;
+    width: 23.073vw;
+}
+
+.room-features-list-text{
+    font-family: 'Montserrat';
+font-size: var(--sixteen);
+font-weight: 500;
+line-height: var(--sixteenLineHeight);
+letter-spacing: 0em;
+color:rgba(45, 45, 37, 1) ;
+text-align: left;
+
+}
+.zoom-svg{
+    transition: all .4s ease-in-out;
+    cursor: pointer ;
+}
+.zoom-svg:hover{
+    transform: scale(1.2);
+}
+.room-features-list li{
+    display: flex;
+    padding: clamp(10px,1.042vw,20px ) 0px;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.room-features-right{
+    display: flex;
+    gap: 5vw;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.swiper-features-icons{
+    max-width: 700px;
+    position: relative;
+    width: 33vw;
+    overflow: hidden;
+}
+.room-features-list{
+    padding: 0px 20px!important;
+}
+.swiper-features-icons-wrapper .swiper-slide-prev{
+    transition: opacity .4s ease-in-out;
+}
+.swiper-features-icons-wrapper .swiper-slide-prev{
+    opacity: 0!important;
+}
+#iconSwiperPrev,
+#iconSwiperNext {
+    width: 1.042vw !important;
+    height: 1.615vw;
+
+    color: rgba(23, 0, 0, 0.5) !important;
+}
+#iconSwiperPrev{
+    left: -3vw;
+}
+#iconSwiperNext{
+    right: -2vw;
+}
+#iconSwiperPrev::after,
+#iconSwiperNext::after {
+    font-size: max(1.563vw, 15px) !important;
+}
+
+/* ONLINE BOOKING SECTION */
+.service-package-section {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: 25% 100%;
+    background-size: cover;
+    height: 39.063vw;
+    margin-top: min(170px, 8.854vw);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service-package-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: min(193px, 10.052vw) 0px min(193px, 10.052vw) min(277px, 14.427vw);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.service-package-section::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 11;
+    background: linear-gradient(270deg, transparent 0%, rgba(0, 0, 0, .7) 100%);
+}
+
+.service-package-title {
+    font-family: 'Montserrat';
+    font-size: var(--fortyFive);
+    font-weight: 500;
+    line-height: var(--fortyFiveLineHeight);
+    letter-spacing: 0em;
+    align-self: flex-start;
+    color: white;
+    position: relative;
+    padding-left: 4vw;
+    z-index: 13;
+    padding-bottom: min(50px, 2.604vw);
+
+}
+
+.service-package-svg {
+    margin-right: min(30px, 1.563vw);
+}
+
+.service-package-lists {
+    display: flex;
+    flex-direction: row;
+    gap: min(3.542vw, 68px);
+    position: relative;
+    z-index: 13;
+    max-width: 951px;
+    width: 49.531vw;
+
+}
+
+.service-package-lists li {
+    font-family: 'Montserrat';
+    justify-content: flex-start;
+    margin-bottom: min(25px, 1.302vw);
+    align-items: center;
+    font-size: var(--eighteen);
+    font-weight: 600;
+    line-height: var(--eighteenLineHeight);
+    white-space: nowrap;
+    color: rgba(245, 245, 245, 1);
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.service-package-lists li span {
+    font-size: var(--servicesDetail);
+    font-weight: 500;
+    line-height: var(--servicesDetailLineHeight);
+
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width:1920px) {
+
+    .swiper-gap {
+        right: 325px;
+    }
+
+    .deluxe-navigation-holder {
+        bottom: 250px;
+    }
+
+
+}
+
+@media screen and (max-width:1400px) {
+    .service-package-info {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .room-features-list li .svg{
+        width: auto!important;
+        transform: scale(.8);
+    }
+ 
+    .swiper-features-icons{
+        width: 45vw;
+    }
+    .hero-block{
+        width: 100vw;
+        right: 0px;
+    }
+ 
+    .modal-content {
+        width: 60vw !important;
+        min-width: 600px;
+        padding: 5vw;
+    }
+    #features-modal-content{
+    height: fit-content;
+        width: 90vw!important;
+    }
+    .features-modal-details-img {
+        max-width: 1250px;
+        width: 85.104vw;
+        height: auto;
+
+    }
+    .service-package-wrapper{
+        padding: 0px;
+        width: fit-content;
+    }
+    .service-package-lists{
+        width: auto;
+        max-width: 1500px;
+    }
+    .service-package-info {
+        width: 70vw;
+    }
+
+    #heroSwiperWrapper .swiper-slide::after{
+        width: 100%;
+        content: '';
+        height: 100%;
+        top: 0px;
+        background: rgba(0, 0, 0, 0.21);
+        left: 0px;
+        position: absolute;
+        z-index: 13;
+    }
+
+    
+
+
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .conditional {
+        display: none;
+    }
+    .hero-icons .svg{
+        transform: scale(.9);
+    }
+
+    #childSelectionDropdown,
+    #adultSelectionDropdown {
+        min-width: 0px;
+    }
+
+
+    .child-svg,
+    .adult-svg,
+    #childCount,
+    #adultCount {
+        margin: 0px 1vw 0px 0px !important;
+    }
+
+    #adultCount,
+    #childCount {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:979px) {
+
+    .hotels-display-wrapper {
+        width: 50vw;
+        margin-left: 25vw;
+    }
+
+}
+
+
+@media screen and (max-width:768.5px) {
+
+    .swiper-container-main .swiper-slide{
+        width: 100%!important;
+        padding-right: 0px;
+    }
+    .rooms-main-swiper-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:max(7.031vw, 50px) 0px 0px 0px ;
+        gap: 0px
+    }
+    .swiper-accom-text{
+        padding: 0px 0px 3vw 0px;
+        order: 1;
+        width:90%;
+        max-width: unset;
+    }
+
+
+    .swiper-container-main{
+        order: 2;
+    }
+
+    .swiper-special-navigation-wrapper{
+        max-width: unset;
+width: 100vw;
+order: 3;
+
+    }
+
+    .room-features-wrapper{
+        align-items: center;
+    }
+    .room-features-list-text{
+        text-align: center;
+    }
+    .room-features-left{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .room-features-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .features-see-more{
+        left: 26vw;
+        top:47vw;
+    }
+    .family-superior-features .features-see-more{
+        top: 64vw;
+        left: 30vw;
+    }
+    .room-img{
+        max-width: 80vw;
+        height: auto;
+        max-height: unset;
+        width: 100%;
+    }
+    #mainSwiperPrev{
+        left: 5vw;
+        right: auto!important;
+    }
+    #mainSwiperNext{
+        right: 5vw;
+        left: auto!important;
+    }
+    .room-features-list li{
+        flex-direction: column;
+        width: fit-content;
+        justify-content: flex-start;
+        max-width:10vw ;
+        flex-wrap: wrap;
+        align-items: center;
+    }  
+    .room-features-wrapper{
+        flex-direction: column;
+        padding-top: 10vw;
+    }
+    .swiper-features-icons{
+        width: 80vw;
+    }
+   .swiper-container-main{
+    height: 70.5vw;
+    width: 100vw;
+   }
+    .reservation-section-mobile {
+        display: none;
+
+    }
+
+    .hero-icons .svg{
+        transform: scale(.8);
+    }
+
+
+
+    .modal-content {
+        width: 70vw !important;
+        min-width: 450px;
+        padding: 5vw;
+    }
+
+
+    .reservation-wrapper {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .booking-nav {
+        padding: min(4.103vw, 12px) min(11.538vw, 34px);
+
+    }
+
+    .book-btn-txt {
+        font-size: clamp(14px, 4.615vw, 18px);
+        line-height: 22px;
+    }
+
+    .reservation-form {
+        display: none;
+    }
+
+    .hotels-display {
+        flex-direction: column;
+        padding: 0px
+    }
+
+
+ 
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    .reservation-form p {
+        font-size: 13px !important;
+    }
+    .hero-block{
+        width: 100%;
+    }
+    .visit-btn{
+        padding: 1vw 5.052vw;
+    }
+    .modal-desktop-img{
+        display: none;
+    }
+    .modal-mobile-img{
+        display: block;
+    }
+    .features-modal-details-img{
+        max-height: 80%;
+        max-width: 50vw;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    #features-modal-body{
+        overflow: hidden;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .hotels-display-wrapper {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .zoom-svg{
+        transform: scale(.8);
+    }
+    .hotel-div img {
+        height: 116.923vw;
+    }
+
+    
+    .hero-icons .svg{
+        transform: scale(.6);
+    }
+
+
+    .service-package-section{
+        height: 80vw;
+    }
+    .service-package-lists{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .service-package-title{
+        padding-left: 18vw;
+    }
+    .service-package-wrapper{
+        align-items: center;
+        justify-content: center;
+    }.service-package-svg{
+        transform: scale(.7);
+    }
+    .service-package{
+        display: flex;
+        justify-content: center;
+        padding-left: 10vw;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    .service-package li{
+        width: 40%;
+    }
+  
+
+    
+
+    .hover-fx {
+        font-size: min(5.128vw, 18px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 45px;
+        max-width: 45px;
+        cursor: pointer;
+        width: 13vw;
+        height: 13vw;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+        color: #fff;
+        background-color: #170000;
+        transition: 300ms;
+        border: 2px solid white;
+    }
+
+    .reservation-text {
+        display: none;
+    }
+
+    .hover-fx:after {
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        content: '';
+        box-sizing: content-box;
+        box-shadow: 0 0 0 3px #fff;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: 300ms;
+    }
+
+    .hover-fx:hover {
+        background-color: #fff;
+        color: #170000;
+        box-shadow: inset 0px 0px 0 2px #170000;
+    }
+
+    .hover-fx:hover .res-icon {
+        color: #170000 !important;
+    }
+
+    .reservation-contact {
+        gap: 0vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .hero-heading::after{
+        display: none;
+    }
+.heroSwiperPrev,.heroSwiperNext{
+    display: none!important;
+}
+    #heroSwiperWrapper .swiper-slide::after{
+    width: 100%;
+    content: '';
+    height: 100%;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    left: 0px;
+    position: absolute;
+    z-index: 13;
+}
+
+   
+    .swiper-accom-text-mobile{
+        display: flex!important;
+    }
+ 
+    .swiper-accom-text{
+        width: 100%;
+        align-items: center;
+        gap: 7.69vw;
+        padding: 10.26vw 5.13vw 5.13vw 5.13vw;
+    }
+    .swiper-accom-title,.room-features-title{
+        font-size: min(30px, 7.69vw);
+        line-height: min(35px, 9vw);
+    }
+    
+    .custom-pagination{
+        font-size: 20vw;
+        line-height: 24vw;
+    }
+    .rooms-main-swiper-section{
+        padding: 0px;
+    }
+    .swiper-special-navigation-wrapper .swiper-accom-text{
+        display: none;
+    }
+    .service-package-section::after {
+        background: rgba(0, 0, 0, 0.609);
+    }
+    .hero-wrapper{
+        height: calc(100vh - 100px);
+
+        position: relative;
+    }
+    .room-features-list li{
+        width: 20vw;
+        max-width: 1000px;
+    }
+    .room-features-list{
+        flex-wrap: wrap;
+    }
+    .page-tree-line{
+        margin-top: 3vw;
+    }
+    .features-see-more{
+        left: 27vw;
+    }
+    .swiper-container-main{
+        height: 151.026vw;
+        width: 100vw;
+       }
+       .swiper-accom-text-desc{
+        line-height: calc(var(--eighteenLineHeight) + 1.5vw)
+       }
+       .room-features-wrapper{
+        gap: 15vw;
+        padding-top: 20vw;
+       }
+    .hero-section-img{
+        object-fit: cover;
+        width: 100%;
+
+        height: 100%;
+    }
+    .hero-icons{
+        width: 40%;
+    }
+    .hero-block{
+        top: 40vw;
+    }
+    .hero-icons-block{
+        flex-wrap: wrap;
+    }
+    #features-modal-body{
+        height: fit-content;
+        justify-content: flex-start;
+    }
+    #features-modal-content{
+        width: 100vw!important;
+        height: 100vh;
+        max-height: unset;
+        max-width: unset;
+        min-width: 0px
+    }
+    .service-package{
+        flex-direction: column;
+        gap: 3vw;
+        padding-left: 0px;
+    }
+    .service-package-section{
+        height: fit-content;
+        padding: 30vw 0px;
+        align-items: flex-start;
+    }
+    .service-package-wrapper{
+        align-items: flex-start;
+    }
+    .service-package-svg{
+        max-width: 10vw;
+    }
+    .service-package-title{
+        display: flex;
+        gap: 3vw;
+        padding-left: 1.4em;
+        align-self: flex-start;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+    .features-modal-details-img{
+        height:auto ;
+        max-height: 80%;
+        width:auto;
+        max-width: 85%;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .room-features-list li{
+        width: 30vw;
+    }
+ 
+    .features-see-more{
+        left: 25vw;
+    }
+}
