@@ -21,15 +21,27 @@
          <div class="swiper-container heroTopSwiper">
             <div class="swiper-wrapper">
                <div class="swiper-slide">
-                  <img src="{{ asset('assets/frontend/images/homepage/hero-1.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-1.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                      />
                </div>
                <div class="swiper-slide">
-                  <img src="{{ asset('assets/frontend/images/homepage/hero-2.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-2.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                      />
                </div>
                <div class="swiper-slide">
-                  <img src="{{ asset('assets/frontend/images/homepage/hero-3.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-3.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                     loading="lazy"/>
+               </div>
+               <div class="swiper-slide">
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-4.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                     loading="lazy"/>
+               </div>
+               <div class="swiper-slide">
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-5.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
+                     loading="lazy"/>
+               </div>
+               <div class="swiper-slide">
+                  <img src="{{ asset('assets/frontend/images/homepage/homepage-6.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                      loading="lazy"/>
                </div>
             </div>
@@ -340,13 +352,8 @@
 <!-- CONTACT US SECTION END -->
 @endsection
 @section('javascript-imports')
-<script src="{{ asset('assets/frontend/libs/js/jquery-magnific-popup.js')  }}"></script>
-<script src="{{ asset('assets/frontend/libs/js/jquery.validate.min.js')  }}"></script>
 <script src="{{ asset('assets/frontend/js/homepage.js')  }}"></script>
 @endsection
 @section('css-imports')
 <link rel="stylesheet" href="{{ asset('assets/frontend/css/homepage.css') }}"/>
-<link rel="stylesheet" href="{{ asset('assets/frontend/css/contact-section.css') }}"/>
-<link rel="stylesheet" href="{{ asset('assets/frontend/css/magnific-popup.css') }}"/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 @endsection

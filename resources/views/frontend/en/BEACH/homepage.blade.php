@@ -9,28 +9,28 @@
             <div class="swiper-container heroTopSwiper">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <img src="./assets/images/miramareBeach/beach-1.webp" class="d-block homeHeroSwiperImg " alt="..."
+                     <img src="{{ asset('assets/frontend/images/miramareBeach/beach-1.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                         />
                   </div>
                   <div class="swiper-slide">
-                     <img src="./assets/images/miramareBeach/beach-2.webp" class="d-block homeHeroSwiperImg " alt="..."
+                     <img src="{{ asset('assets/frontend/images/miramareBeach/beach-2.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                         />
                   </div>
                   <div class="swiper-slide">
-                     <img src="./assets/images/miramareBeach/beach-3.webp" class="d-block homeHeroSwiperImg " alt="..."
+                     <img src="{{ asset('assets/frontend/images/miramareBeach/beach-3.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                         loading="lazy"    />
                   </div>
                   <div class="swiper-slide">
-                     <img src="./assets/images/miramareBeach/beach-4.webp" class="d-block homeHeroSwiperImg " alt="..."
+                     <img src="{{ asset('assets/frontend/images/miramareBeach/beach-4.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                         loading="lazy"    />
                   </div>
                   <div class="swiper-slide">
-                     <img src="./assets/images/miramareBeach/beach-5.webp" class="d-block homeHeroSwiperImg " alt="..."
+                     <img src="{{ asset('assets/frontend/images/miramareBeach/beach-5.webp') }}" class="d-block homeHeroSwiperImg " alt="..."
                         loading="lazy"    />
                   </div>
                </div>
-               <div class="swiper-button-prev heroSwiperPrev"><img src="./assets/images/homepage/hero-swiper-prev.svg" alt="swiperleft"></div>
-               <div class="swiper-button-next heroSwiperNext"><img src="./assets/images/homepage/hero-swiper-next.svg" alt="swiperright"></div>
+               <div class="swiper-button-prev heroSwiperPrev"><img src="{{ asset('assets/frontend/images/homepage/hero-swiper-prev.svg') }}" alt="swiperleft"></div>
+               <div class="swiper-button-next heroSwiperNext"><img src="{{ asset('assets/frontend/images/homepage/hero-swiper-next.svg') }}" alt="swiperright"></div>
             </div>
          </div>
          <!-- RESERVATION FORM START -->
@@ -39,7 +39,7 @@
                <div class="dropdown">
                   <button class="btn dropdown-toggle" type="button" id="hotelSelectionDropdown"
                      data-bs-toggle="dropdown" aria-expanded="false">
-                     <img class="dropdown-icons" src="./assets/images/bookingSection/hotel-orange.png">
+                     <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/hotel-orange.png') }}">
                      <p class=" p-16 reservation-titles " id="hotelSelectionTitle">Choose Hotel</p>
                      <svg class="drop-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -52,19 +52,19 @@
                      aria-labelledby="hotelSelectionDropdown">
                      <li class="hotel-item">
                         <a class="dropdown-item" href="#">
-                           <img class="dropdown-icons" src="./assets/images/bookingSection/dropdown-hotels-1.png">
+                           <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/dropdown-hotels-1.png') }}">
                            <p class=" p-15 hotel-dropdown-p  ">Miramare Hotels</p>
                         </a>
                      </li>
                      <li class="hotel-item">
                         <a class="dropdown-item" href="#">
-                           <img class="dropdown-icons" src="./assets/images/bookingSection/dropdown-hotels-2.png">
+                           <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/dropdown-hotels-2.png') }}">
                            <p class=" p-15 hotel-dropdown-p ">Miramare Queen Hotel</p>
                         </a>
                      </li>
                      <li class="hotel-item">
                         <a class="dropdown-item" href="#">
-                           <img class="dropdown-icons" src="./assets/images/bookingSection/dropdown-hotels-2.png">
+                           <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/dropdown-hotels-2.png') }}">
                            <p class=" p-15 hotel-dropdown-p ">Miramare Beach Hotel</p>
                         </a>
                      </li>
@@ -72,7 +72,7 @@
                </div>
                <!-- DATE SELECTION SECTION -->
                <div class=" dateInputDiv " name="daterange" id="calendarRange">
-                  <img class="dropdown-icons" src="./assets/images/bookingSection/calendar.png">
+                  <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/calendar.png') }}">
                   <p class=" p-16 reservation-titles"><span id="check-in-span ">Check In</span> — 
                      <span id="check-out-span "><span class="conditional "> Check  </span> Out</span>
                   </p>
@@ -86,7 +86,7 @@
                <div class="dropdown" >
                   <button class="btn dropdown-toggle" type="button" id="nightSelectionDropdown"
                      data-bs-toggle="noToggle" aria-expanded="false">
-                     <img class="dropdown-icons" src="./assets/images/bookingSection/nights.png">
+                     <img class="dropdown-icons" src="{{ asset('assets/frontend/images/bookingSection/nights.png') }}">
                      <p class=" p-16 reservation-titles " id="num-of-nights">Nights</p>
                      <svg class="drop-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -110,7 +110,7 @@
                   <div class="dropdown">
                      <button class="btn dropdown-toggle" type="button" id="adultSelectionDropdown"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="dropdown-icons people" src="./assets/images/bookingSection/adult.png">
+                        <img class="dropdown-icons people" src="{{ asset('assets/frontend/images/bookingSection/adult.png') }}">
                         <p id="adultCount" class="reservation-titles"></p>
                         <svg class="drop-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@
                   <div class="dropdown">
                      <button class="btn dropdown-toggle" type="button" id="childSelectionDropdown"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="dropdown-icons  dropdown-child" src="./assets/images/bookingSection/children.png">
+                        <img class="dropdown-icons  dropdown-child" src="{{ asset('assets/frontend/images/bookingSection/children.png') }}">
                         <p id="childCount" class="reservation-titles"></p>
                         <svg class="drop-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
@@ -269,11 +269,11 @@
       <!-- Swiper -->
       <div class="swiper-container panoramaSwiper" id="swiperSectionId">
          <div class="cursor">
-            <img id="cursor-img" src="./assets/images/miramareBeach/custom-cursor.png">
+            <img id="cursor-img" src="{{ asset('assets/frontend/images/miramareBeach/custom-cursor.png') }}">
          </div>
          <div class="swiper-wrapper">
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-1.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-1.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Our Offers</p>
                   <hr class="swiper-hr">
@@ -284,7 +284,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-2.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-2.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Kids</p>
                   <hr class="swiper-hr">
@@ -296,7 +296,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-3.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-3.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Flavours</p>
                   <hr class="swiper-hr">
@@ -308,7 +308,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-4.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-4.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Entertainment</p>
                   <hr class="swiper-hr">
@@ -320,7 +320,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-5.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-5.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Spa & Wellness</p>
                   <hr class="swiper-hr">
@@ -332,7 +332,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-6.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-6.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Comfort Zone</p>
                   <hr class="swiper-hr">
@@ -344,7 +344,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-7.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-7.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Beach & Pool</p>
                   <hr class="swiper-hr">
@@ -356,7 +356,7 @@
                </div>
             </div>
             <div class="swiper-slide main-slide">
-               <img  class="swiper-main-image"src="./assets/images/miramareBeach/beach-swiper-8.webp">
+               <img  class="swiper-main-image"src="{{ asset('assets/frontend/images/miramareBeach/beach-swiper-8.webp') }}">
                <div class="swiper-inner">
                   <p class="swiper-title">Honeymoon</p>
                   <hr class="swiper-hr">
@@ -387,7 +387,7 @@
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <img class="carouselImage" src="./assets/images/miramareBeach/deluxe.webp" alt="First slide">
+                     <img class="carouselImage" src="{{ asset('assets/frontend/images/miramareBeach/deluxe.webp') }}" alt="First slide">
                      <div class="carousel-caption ">
                         <button class="carousel-control-prev" type="button" data-bs-target="#roomsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -399,7 +399,7 @@
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <img class="carouselImage" src="./assets/images/miramareBeach/suite.webp" alt="Second slide">
+                     <img class="carouselImage" src="{{ asset('assets/frontend/images/miramareBeach/suite.webp') }}" alt="Second slide">
                      <div class="carousel-caption ">
                         <button class="carousel-control-prev" type="button" data-bs-target="#roomsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -411,7 +411,7 @@
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <img class="carouselImage" src="./assets/images/miramareBeach/superior.webp" alt="Third slide">
+                     <img class="carouselImage" src="{{ asset('assets/frontend/images/miramareBeach/superior.webp') }}" alt="Third slide">
                      <div class="carousel-caption ">
                         <button class="carousel-control-prev" type="button" data-bs-target="#roomsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -423,7 +423,7 @@
                      </div>
                   </div>
                   <div class="carousel-item">
-                     <img class="carouselImage" src="./assets/images/miramareBeach/family-superior.webp" alt="Third slide">
+                     <img class="carouselImage" src="{{ asset('assets/frontend/images/miramareBeach/family-superior.webp') }}" alt="Third slide">
                      <div class="carousel-caption ">
                         <button class="carousel-control-prev" type="button" data-bs-target="#roomsCarousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -498,10 +498,10 @@
                </div>
             </div>
             <div class=" contact-item img-item-1">
-               <img class="contact-img-1" src="./assets/images/contactSection/contact-us-1.webp">
+               <img class="contact-img-1" src="{{ asset('assets/frontend/images/contactSection/contact-us-1.webp') }}">
             </div>
             <div class=" contact-item img-item-2">
-               <img class="contact-img-2" src="./assets/images/contactSection/contact-us-2.webp">
+               <img class="contact-img-2" src="{{ asset('assets/frontend/images/contactSection/contact-us-2.webp') }}">
             </div>
          </div>
       </div>
@@ -517,15 +517,10 @@
 </section>
 <!-- CONTACT US SECTION END -->
 @endsection
+@endsection
 @section('javascript-imports')
-
 <script src="{{ asset('assets/frontend/js/homepage.js') }}"></script>
-<script src="{{ asset('assets/frontend/libs/js/flatpickr.js') }}"></script>
-
 @endsection
 @section('css-imports')
-<link rel="stylesheet" href="{{ asset('assets/frontend/css/contact-section.css') }}"/>
-<link rel="stylesheet" href="{{ asset('assets/frontend/css/magnific-popup.css') }}"/>
-<link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/flatpickr.min.css') }}">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('assets/frontend/css/homepage.css') }}"/>
 @endsection

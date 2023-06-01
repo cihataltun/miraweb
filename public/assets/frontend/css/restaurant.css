@@ -1,0 +1,613 @@
+html,
+body {
+    margin: 0px;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    padding: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: transparent !important;
+
+}
+
+:root {
+    --twentythree: clamp(15px, 1.2vw, 23px);
+    --twentythreeLineHeight: calc(var(--twentythree) + .5vw);
+    --fifty: clamp(40px, 3.125vw, 50px);
+    --fiftyLineHeight: calc(var(--fifty) + .6vw);
+    --swiperText: clamp(12px, 0.938vw, 13px);
+    --swiperTextBold: clamp(13px, 1.042vw, 17px);
+    --twentytwo: clamp(13px, 0.833vw, 22px);
+    --twentyFive: clamp(18px, 1.302vw, 25px);
+    --twentyFiveLineHeight: calc((var(--twentyFive)) + .5vw) --sixty: clamp(45px, 3.125vw, 60px);
+    --sixtyTitle: clamp(35px, 3.125vw, 60px);
+    --fortyFiveLineHeight: calc(var(--fortyFive) + .5vw);
+    --forty: clamp(24px, 2.083vw, 40px);
+    --fortyLineHeight: calc((var(--forty))+ .5vw);
+    --buttonsPadding: calc(var(--twentytwo) * .80) calc(var(--twentytwo) * 2.3) !important;
+    --eighteen: clamp(11px, 0.938vw, 18px);
+    --eighteenLineHeight: calc(var(--eighteen) + .5vw);
+    --intro1TextFontSize: clamp(12px, 1.406vw, 22px);
+    --twentytwoSmaller: clamp(13px, 0.733vw, 22px);
+    --carouselCaption: clamp(25px, 2.083vw, 40px);
+    --servicesDetail: clamp(9px, 0.781vw, 15px);
+    --servicesDetailLineHeight: calc(var(--servicesDetail) + .5vw);
+    --swiperTitle: clamp(30px, 3.646vw, 52px);
+    --descFontSize: clamp(10px, 0.938vw, 18px);
+    --discoverText: clamp(10px, 0.83vw, 20px);
+    --hoverTopText: clamp(15px, 1.042vw, 20px);
+    --seventy: clamp(30px, 4.646vw, 70px);
+    --pageTreeFontSize: max(0.833vw, 11px);
+    --featuresFontSize: clamp(11px, 1.198vw, 18px);
+    --solidButtonFontSize: clamp(11px, 0.938vw, 18px);
+    --solidButtonLineHeight: calc(var(--solidButtonFontSize) + .5vw);
+    --solidButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3) !important;
+    --discoverButtonFontSize: clamp(11px, 0.833vw, 16px);
+    --discoverButtonLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    --sixteen: clamp(11px, 0.833vw, 16px);
+    --sixteenLineHeight: calc(var(--discoverButtonFontSize) + .5vw);
+    scroll-behavior: smooth;
+
+
+}
+
+.row {
+    max-width: 100vw;
+    --bs-gutter-x: 0px !important
+}
+
+/* TEXTS */
+.hotels-display-heading,
+.hotels-display-item-title,
+.options-title-text,
+.video-title,
+.contact-us-title,
+.form-title {
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    margin: 0px !important;
+}
+
+
+.p-16 {
+    font-size: 16px
+}
+
+.p-15 {
+    font-size: 15px
+}
+
+
+
+
+/*360 SECTION */
+
+#panorama-360-view {
+    width: 100vw;
+    height: 40vh;
+}
+
+/* RESTAURANT HERO SECTION */
+
+.hero-wrapper {
+    margin-top: 100px;
+    position: relative;
+    height: calc(100vh - 100px);
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+
+.heroTopSwiper .swiper-slide::after {
+    width: 100%;
+    content: '';
+    height: 100%;
+    top: 0px;
+    background-color: #2d2d2532;
+    left: 0px;
+    position: absolute;
+    z-index: 13;
+}
+
+
+
+
+.hero-heading {
+    font-family: 'Montserrat';
+    font-size: var(--sixtyTitle);
+    font-weight: 500;
+    text-shadow: 0px 0px 5px black;
+    line-height: var(--fortyFiveLineHeight);
+    letter-spacing: 0em;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.swiper-container-main .swiper-slide {
+    padding-right: min(26px, 1.354vw);
+    width: min(923px, 48.073vw) !important;
+}
+
+.restaurant-hero-block {
+    position: absolute;
+    width: fit-content;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    height: fit-content;
+    z-index: 14;
+}
+
+.meal-times-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: min(30px, 1.563vw);
+}
+
+.meal-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: min(0.781vw, 15px);
+}
+
+.meal-title {
+    font-family: 'Montserrat';
+    font-size: var(--twentyFive);
+    font-weight: 600;
+    line-height: var(--twentyFiveLineHeight);
+    color: white;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.meal-time-hour {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.857);
+    align-items: center;
+    padding: 0px min(2.865vw, 55px) min(12px, 0.625vw) min(2.865vw, 55px);
+}
+
+.meal-time-hour p {
+    font-family: 'Montserrat';
+    font-size: var(--forty);
+    color: #2D2D25;
+    font-weight: 400;
+    line-height: var(--fortyLineHeight);
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+/* SWIPER */
+.restaurant-swiper-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: min(4.167vw, 83px) 0px 0px 0px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-swiper-wrapper {
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    padding-left: 3.646vw;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: max(26px, 1.354vw);
+}
+
+#mainSwiperPrev,
+#mainSwiperNext {
+    position: relative !important;
+    width: 1.042vw !important;
+    margin: 0px !important;
+    height: 1.615vw;
+    top: auto !important;
+
+    color: rgba(23, 0, 0, 0.5) !important;
+}
+
+#mainSwiperPrev::after,
+#mainSwiperNext::after {
+    font-size: max(1.563vw, 15px) !important;
+}
+
+.custom-pagination {
+    font-family: 'Cormorant';
+    font-size: var(--seventy);
+    font-weight: 400;
+    color: rgba(23, 0, 0, 0.5);
+    letter-spacing: 0em;
+    width: fit-content !important;
+    text-align: center;
+
+}
+
+
+.swiper-restaurant-text {
+    font-family: 'Montserrat';
+    font-size: var(--eighteen);
+    font-weight: 500;
+    line-height: var(--eighteenLineHeight);
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575FF;
+
+}
+
+.restaurant-swiper-title {
+    font-size: var(--fortyFive);
+    line-height: var(--fortyFiveLineHeight);
+    font-family: Montserrat;
+    font-weight: 500;
+    position: relative;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #170000;
+
+}
+
+.restaurant-swiper-title::after {
+    width: 100vw;
+    height: 1px;
+    left: 3.646vw;
+    margin-top: min(53px, 2.7vw);
+    margin-bottom: min(25px, 1.3vw);
+    content: '';
+    background-color: rgba(23, 0, 0, 0.2);
+    position: relative;
+    display: block;
+}
+
+.restaurant-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.restaurant-description {
+    width: 80%;
+    padding-top: min(100px, 5.208vw);
+    max-width: 492px;
+    display: flex;
+    gap: min(40px, 2.083vw);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+}
+
+
+
+.swiper-container-main {
+    position: relative;
+    z-index: 13;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.restaurant-navigation-holder {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 1.042vw;
+}
+
+.restaurant-navigation-holder::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 4%;
+    height: 1px;
+    background-color: rgba(23, 0, 0, 0.12);
+    width: 92%;
+}
+
+.restaurant-left {
+    width: 26.359vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    gap: 3vw;
+    z-index: 14;
+    background-color: #f5f5f5;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width:1920px) {
+
+    .swiper-gap {
+        right: 325px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .restaurant-hero-block {
+        width: 100vw;
+        right: 0px;
+    }
+
+
+    .hero-wrapper::after {
+        width: 100%;
+        content: '';
+        height: 100%;
+        top: 0px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0) 100%);
+        left: 0px;
+        position: absolute;
+        z-index: 13;
+    }
+
+
+
+
+    #optionsSwiper {
+        width: 80vw !important;
+        margin-left: 10vw;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .conditional {
+        display: none;
+    }
+
+    #optionsSwiper {
+        width: 90vw !important;
+        margin-left: 5vw;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:768.5px) {
+    .swiper-container-main .swiper-slide {
+        width: 100% !important;
+        padding-right: 0px;
+    }
+
+    .restaurant-description {
+        max-width: unset;
+        width: 90%;
+    }
+
+    #mainSwiperNext,
+    #mainSwiperPrev {
+        left: auto;
+        right: auto;
+    }
+
+    #mainSwiperPrev {
+        left: 5vw;
+    }
+
+    #mainSwiperNext {
+        right: 5vw;
+    }
+
+    .restaurant-swiper-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0px;
+        padding: min(4.167vw, 83px) 0px 0px 0px;
+    }
+
+    .restaurant-left {
+        max-width: 100vw;
+        width: 100vw;
+
+    }
+
+    .room-features-wrapper {
+        align-items: center;
+    }
+
+    .room-features-list-text {
+        text-align: center;
+    }
+
+    .room-features-left {
+        height: 55vw;
+        width: 70vw;
+    }
+
+    .room-features-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .features-see-more {
+        left: 30vw;
+        top: 47vw;
+    }
+
+    .room-img {
+        max-width: 1000px;
+        width: 60vw;
+    }
+
+    .swiper-container-main {
+        height: 70.5vw;
+        width: 100vw;
+    }
+
+    .reservation-section-mobile {
+        display: none;
+
+    }
+
+    .swiper-restaurant-description {
+        width: calc(100% - 10vw);
+        max-width: 1000px;
+    }
+
+    .hero-icons .svg {
+        transform: scale(.8);
+    }
+
+    #optionsSwiper {
+        width: 100vw !important;
+        margin-left: 0vw;
+    }
+
+
+
+
+
+
+
+    .restaurant-swiper-title::after{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:600px) {
+
+
+
+
+
+
+
+
+
+
+    .hero-wrapper {
+        height: calc(100vh - 100px);
+        position: relative;
+    }
+
+
+
+    .meal-times-wrapper {
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .restaurant-hero-block {
+        gap: 13vw;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .restaurant-swiper-title{
+        font-size: 7.69vw;
+        line-height: 9vw;
+    }
+    .restaurant-swiper-section{
+        padding-top: 10vw;
+    }
+    .restaurant-swiper-wrapper{
+        padding-top: 10vw;
+    }
+
+    #mainSwiperNext::after, #mainSwiperPrev::after{
+        font-size: 21px!important;
+    }
+
+    .restaurant-left {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .custom-pagination {
+        font-size: 20vw;
+        line-height: 23vw;
+    }
+
+    #mainSwiperNext {
+        right: 15vw;
+    }
+
+    #mainSwiperPrev {
+        left: 15vw;
+    }
+
+    .page-tree-line {
+        margin-top: 3vw;
+    }
+
+    .swiper-container-main {
+        height: 100.5vw;
+        width: 100vw;
+    }
+
+    .swiper-restaurant-text {
+        line-height: calc(var(--eighteenLineHeight) + 1.5vw)
+    }
+
+
+    .restaurant-hero-block {
+        top: 40vw;
+    }
+
+    .restaurant-description {
+        padding: min(40px, 10vw) 0px ;
+    }
+.heroSwiperNext,.heroSwiperPrev{
+    display: none!important;
+}
+
+}

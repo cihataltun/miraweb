@@ -9,42 +9,39 @@ body {
 }
 
 
-:root {
+:root{
+    --twenty:clamp(18px, 1.2vw, 20px);
+    --twentyLineHeight:calc(var(--twenty) + .5vw);
     --twentythree:clamp(15px, 1.2vw, 23px);
     --twentythreeLineHeight:calc(var(--twentythree) + .5vw);
+    --twentytwo: clamp(16px,0.833vw ,22px);
+    --twentytwoSmaller: clamp(13px,0.833vw ,22px);
+    --fortyFive: clamp(30px,2.344vw, 45px);
+    --forty:clamp(24px,2.083vw, 40px);
+    --fortyLineHeight:calc((var(--forty))+ .5vw);
+    --fortyFiveLineHeight:calc(var(--fortyFive) + .781vw);
     --fifty:clamp(40px, 3.125vw,50px);
     --fiftyLineHeight:calc(var(--fifty) + .6vw);
-    --swiperText:clamp(12px,0.938vw, 13px);
-    --swiperTextBold:clamp(13px,1.042vw, 17px);
-    --twentytwo: clamp(13px,0.833vw ,22px);
+    --eighteen: clamp(14px, 0.938vw, 18px) ;
+    --eighteenLineHeight: calc(var(--eighteen) + .5vw);
+    --thirty:clamp(23px,1.563vw, 30px);
+    --thirtyLineHeight: calc((var(--thirty))+ .5vw);
     --buttonsPadding: calc(var(--twentytwo) * .80) calc(var(--twentytwo) * 2.3)!important;
-    --eighteen: clamp(11px, 0.938vw, 18px) ;
-    --intro1TextFontSize: clamp(14px, 1.406vw, 22px) ; 
-    scroll-behavior: smooth;
-    --carouselCaption:clamp(25px,2.083vw, 40px);
-    --swiperTitle:clamp(30px,3.646vw,52px);
-    --descFontSize: clamp(10px, 0.938vw, 18px);
-    --discoverText:clamp(10px,0.83vw, 20px);
-    --sixty: max(3.646vw, 30px);
-    --pageTreeFontSize:max(0.833vw, 11px);
-    --featuresFontSize:clamp(11px, 1.198vw, 18px);
     --solidButtonFontSize: clamp(11px, 0.938vw, 18px) ;
     --solidButtonLineHeight: calc(var(--solidButtonFontSize) + .5vw);
     --solidButtonPadding: calc(var(--solidButtonFontSize) * .80) calc(var(--solidButtonFontSize) * 2.3)!important;
-
-  }
-
-
-
+    --fifteen: clamp(11px,0.781vw,15px );
+    --fifteenLineHeight: calc(var(--fifteen) + 0.5vw)
+    
+}
 
 /* PAGE TREE */
 
 .page-tree-line{
-    height: 1.406vw;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-    gap: 0.781vw;
+    gap: 15px;
     margin-left: 3.594vw;
 }
 .page-tree-item{
@@ -184,3 +181,42 @@ text-align: center;
                 height: 100%;
             }
         }
+
+.hero-heading, .hero-icons,.hero-icons svg,.hero-icons-text,.heroTopSwiper .homeHeroSwiperImg{
+    user-select: none;
+    -webkit-user-select: none;
+}
+.heroTopSwiper {
+    cursor: grab;
+}
+
+@media screen and (max-width:480px) {
+    .page-tree{
+        height: 25px;
+        position: relative;
+        width: 100vw;
+        max-width: 100vw;
+        flex-direction: row-reverse;
+        overflow: scroll;
+        display: flex;
+    }
+.page-tree-line{
+    gap: 10px;
+    width: fit-content;
+    align-items: center;
+    right: 5.13vw;
+    flex-wrap: nowrap;
+    top: 0;
+    bottom: 0;
+
+     margin: auto 0;
+     overflow: scroll;
+     position: absolute;
+}
+.page-tree::-webkit-scrollbar{
+    display: none;
+}
+.page-tree-item{
+    white-space: nowrap;
+}
+}

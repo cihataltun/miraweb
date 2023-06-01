@@ -9,14 +9,7 @@ var swiperHomeTop = new Swiper('.heroTopSwiper', {
       nextEl: '.heroSwiperNext',
       prevEl: '.heroSwiperPrev',
   },
-  breakpoints: {
 
-      576: {
-          autoplay: {
-              delay: 20000
-          },
-      }
-  }
 
 });
 

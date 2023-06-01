@@ -133,3 +133,8 @@
 
     
 }
+@media screen and (max-width:480px) {
+    .swiper-features{
+        margin-bottom: 5vw;
+    }
+}

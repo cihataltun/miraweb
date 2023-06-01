@@ -63,7 +63,7 @@ p{
     position: absolute;
     width: 35.104vw;
     top: 0px;
-    right: -100%;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,9 +74,7 @@ p{
     z-index: 14;
 }
 
-.hero-wrapper:hover .hero-block {
-    right: 0px
-}
+
 .visit-btn-txt {
     
     font-size: var(--twentytwo);
@@ -998,6 +996,19 @@ width: 80%;
 @media screen and (max-width:768.5px) {
 
 
+    #mainSwiperNext,
+    #mainSwiperPrev {
+        left: auto;
+        right: auto;
+    }
+
+    #mainSwiperPrev {
+        left: 5vw;
+    }
+
+    #mainSwiperNext {
+        right: 5vw;
+    }
     .deluxe-navigation-holder{
         padding: 0px 5vw;
         height: 77px;
@@ -1204,9 +1215,20 @@ width: 80%;
 
 }
 @media screen and (max-width:480px) {
+    #mainSwiperNext::after, #mainSwiperPrev::after{
+        font-size: 21px!important;
+    }
+
+    #mainSwiperPrev {
+        left: 15vw;
+    }
+
+    #mainSwiperNext {
+        right: 15vw;
+    }
 
     .deluxe-swiper-title{
-        padding: 7vw;
+        padding: 10vw 7vw 7vw 7vw;
         font-size: min(7.69vw, 30px);
 
     }

@@ -86,7 +86,7 @@ color: white;
     position: absolute;
     width: 35.104vw;
     top: 0px;
-    right: -100%;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,9 +96,7 @@ color: white;
     background-color: #2d2d258a;
     z-index: 14;
 }
-.hero-wrapper:hover .hero-block{
-    right: 0px
-}
+
 .visit-btn-txt {
     
     font-size: var(--twentytwo);
@@ -1100,6 +1098,17 @@ text-align: center;
    
 }
 @media screen and (max-width:480px){
+    #mainSwiperNext::after, #mainSwiperPrev::after{
+        font-size: 21px!important;
+    }
+
+    #mainSwiperPrev {
+        left: 15vw;
+    }
+
+    #mainSwiperNext {
+        right: 15vw;
+    }
     .scroll-mobile-title{
         font-size: var(--fortyFive);
 font-family: Montserrat;

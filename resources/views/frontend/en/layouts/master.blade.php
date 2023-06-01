@@ -6,16 +6,17 @@
     <meta name="author" content="DGTLFACE IT TEAM">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-	<link rel="icon" href="" sizes="192x192">
+	<link rel="icon" href="{{ asset('assets/frontend/images/url-icon.webp') }}" sizes="192x192">
 	<!-- Importing Styles -->
-	<link rel="stylesheet" href="{{ asset('assets/frontend/css/homepage.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/frontend/css/contact-section.css') }}">
+	<link rel="stylesheet" href="{{ asset('assets/frontend/css/miramare-beach-and-queen.css') }}">
+	<link rel="stylesheet" href="{{ asset('assets/frontend/css/heroWithBooking.css') }}">
 	<!-- Bootstrap Styles -->
 	<link rel='stylesheet' href='{{ asset('assets/admin/css/bootstrap.min.css') }}'>
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	<!-- Swiper.js Styles -->
 	<link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/swiper-bundle.min.css') }}">
@@ -23,6 +24,7 @@
 	<link rel="stylesheet" href="{{ asset('assets/frontend/libs/css/flatpickr.min.css') }}">
 	<!-- Magnific Popup Styles-->
 	<link rel="stylesheet" href="{{ asset('assets/frontend/css/magnific-popup.css') }}">
+	<link rel="stylesheet" href="{{ asset('assets/frontend/css/common.css') }}">
 
 
     @yield('css-imports')
@@ -41,12 +43,8 @@
         });
     </script>
 
-
 </head>
-
 <body>
-
-
 
     @include('frontend.en.layouts.header')
 
@@ -56,21 +54,22 @@
 
 
     <!--  JAVASCRIPTS  -->
-    <script src="{{ asset('assets/frontend/libs/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/libs/js/jquery.validate.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/libs/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/libs/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/common.js') }}"></script>
     <script src="{{ asset('assets/frontend/libs/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/js/miramare-beach-and-queen.js') }}"></script>
+    <script src="{{ asset('assets/frontend/libs/js/bootstrap.bundle.min.js') }}"></script>
+    
     <script src="{{ asset('assets/frontend/libs/js/jquery-magnific-popup.js') }}"></script>
-
-
+    <script src="{{ asset('assets/frontend/libs/js/flatpickr.js') }}"></script>
+    
     @yield('javascript-imports')
-
+    
+    <script src="{{ asset('assets/frontend/libs/js/jquery.min.js') }}"></script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/491b371f01.js" crossorigin="anonymous"></script>
     <script src="{{ asset('assets/frontend/js/floating-menu.js') }}"></script>
 
-    <script type='text/javascript'>
+    {{-- <script type='text/javascript'>
         // Form submission handler
         document.getElementById("contactForm2").addEventListener("submit", function(event) {
             // Check if all required fields are filled out
@@ -83,7 +82,7 @@
                 document.getElementById("alert").classList.remove("d-none");
             }
         });
-    </script>
+    </script> --}}
 
     <!-- ChatBox Script  -->
     <script>
@@ -117,7 +116,6 @@
         })();
             </script>
     <!-- ChatBox Script END -->
-
 
 </body>
 </html>
